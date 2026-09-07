@@ -1,0 +1,24 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtuální prostředí
+.venv/
+venv/
+env/
+
+# Systémové soubory
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+*.swp
+
+# Výstupní soubory (přegenerovávají se automaticky)
+# POZOR: public/epg_data.json NEVYLUČUJEME – musí být v gitu!
+# Netlify ho nasazuje jako statický soubor.

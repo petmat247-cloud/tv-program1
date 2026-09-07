@@ -1,0 +1,138 @@
+{
+  "generated_at": "2026-09-07T15:29:11Z",
+  "source": "https://epg.lat/files/cz.xml.gz",
+  "channels": [
+    {
+      "id": "tv-nova",
+      "name": "TV Nova",
+      "programmes": [
+        {
+          "title": "Vijesti u 17:00",
+          "start": "2026-09-07T15:00:00Z",
+          "stop": "2026-09-07T15:35:00Z",
+          "start_local": "2026-09-07T17:00:00+0200",
+          "stop_local": "2026-09-07T17:35:00+0200",
+          "description": "Pregled najvažnijih informacija iz zemlje i svijeta.",
+          "category": null
+        },
+        {
+          "title": "Odpolední Sportovní noviny",
+          "start": "2026-09-07T15:20:00Z",
+          "stop": "2026-09-07T15:30:00Z",
+          "start_local": "2026-09-07T17:20:00+0200",
+          "stop_local": "2026-09-07T17:30:00+0200",
+          "description": "Sportovní zpravodajství, které nabízí souhrn nejdůležitějších událostí doma i ve světě.",
+          "category": null
+        },
+        {
+          "title": "Na lovu VI",
+          "start": "2026-09-07T15:30:00Z",
+          "stop": "2026-09-07T16:30:00Z",
+          "start_local": "2026-09-07T17:30:00+0200",
+          "stop_local": "2026-09-07T18:30:00+0200",
+          "description": "Světově úspěšný televizní kvíz, ve kterém si můžete porovnat své znalosti s nejlepšími kvízovými mozky Česka! Tým soutěžících se pod taktovkou Ondřeje Sokola snaží uprchnout lovci a vyhrát peníze.",
+          "category": null
+        }
+      ]
+    },
+    {
+      "id": "ct1",
+      "name": "ČT1",
+      "programmes": [
+        {
+          "title": "AZ-kvíz",
+          "start": "2026-09-07T15:15:00Z",
+          "stop": "2026-09-07T15:40:00Z",
+          "start_local": "2026-09-07T17:15:00+0200",
+          "stop_local": "2026-09-07T17:40:00+0200",
+          "description": "Soutěž pro každého.",
+          "category": null
+        },
+        {
+          "title": "Černé ovce",
+          "start": "2026-09-07T15:40:00Z",
+          "stop": "2026-09-07T16:00:00Z",
+          "start_local": "2026-09-07T17:40:00+0200",
+          "stop_local": "2026-09-07T18:00:00+0200",
+          "description": "Nebojte se bojovat za svá práva - pomůžeme vám! Reportáže, testy, rady.",
+          "category": null
+        },
+        {
+          "title": "Události v regionech",
+          "start": "2026-09-07T16:00:00Z",
+          "stop": "2026-09-07T16:25:00Z",
+          "start_local": "2026-09-07T18:00:00+0200",
+          "stop_local": "2026-09-07T18:25:00+0200",
+          "description": "Hlavní regionální zpravodajská relace České televize. Souhrn nejdůležitějších událostí v krajích České republiky.",
+          "category": null
+        }
+      ]
+    },
+    {
+      "id": "ct2",
+      "name": "ČT2",
+      "programmes": [
+        {
+          "title": "Divocí psi v zemi lvů",
+          "start": "2026-09-07T14:45:00Z",
+          "stop": "2026-09-07T15:35:00Z",
+          "start_local": "2026-09-07T16:45:00+0200",
+          "stop_local": "2026-09-07T17:35:00+0200",
+          "description": "(Dogs in The Land of Lions) Fenu Puzzles čeká výchova dvou generací štěňat psů hyenových. Během dospívání je provází po území v zimbabwské rezervaci, kde žijí a seznamuje je s ostatními obyvateli. Musí z nich vychovat především úspěšné lovce. Bude jí velká rodina nápomocna, když ji lvi zaženou do úzkých? Rakouský koprodukční dokument. K nejnáročnějším rolím v přírodě patří bezesporu mateřství. Některé druhy sdílí domov s těmi nejnebezpečnějšími nepřáteli. Naši matku, fenu Puzzles, čeká výchova dvou generací štěňat psů hyenových. Během dospívání je provází po území, kde žijí a seznamuje s ostatními obyvateli. Musí z nich vychovat nebojácné členy smečky. A hlavně úspěšné lovce. Bude jí velká rodina nápomocna, když ji lvi zaženou do úzkých? Životní příběh jedné velké rodiny psů hyenových právě začíná. Fenu Puzzles... čeká výchova dvou generací štěňat psů hyenových. Během dospívání je provází po území v zimbabwské rezer vaci, kde žijí a seznamuje je s ostatními obyvateli. Musí z nich vychovat především úspěšné lovce. Bude jí velká rodina nápomocna, když ji lvi zaženou do úzkých? Rakouský koprodukční dokument.",
+          "category": null
+        },
+        {
+          "title": "Hledání ztracených světů",
+          "start": "2026-09-07T15:35:00Z",
+          "stop": "2026-09-07T16:05:00Z",
+          "start_local": "2026-09-07T17:35:00+0200",
+          "stop_local": "2026-09-07T18:05:00+0200",
+          "description": "Střední Jáva Roman Zach si plní klukovský sen – vyráží na ostrov Jáva objevovat tradiční indonéskou kulturu. Vyzkouší si práci rikši, barvení látek a výrobu gongu. Připravil J. D. Novák.",
+          "category": null
+        },
+        {
+          "title": "S kuchařem kolem světa",
+          "start": "2026-09-07T16:05:00Z",
+          "stop": "2026-09-07T17:00:00Z",
+          "start_local": "2026-09-07T18:05:00+0200",
+          "stop_local": "2026-09-07T19:00:00+0200",
+          "description": "(Globe Cooker) Nový Zéland Okouzlující gurmán Fred Chesneau se domluví v jakémkoli místě naší zeměkoule plné chutí a vůní! Francouzský cyklus. Na Novém Zélandu žije prý kolem 60 milionů ovcí. Proto Fred cítí povinnost začít svou pouť právě u nich a nechá se zaměstnat jako pastevec. Je to ovšem pěkná dřina - zlaté vaření. I když uvařit oběd pro všechny zaměstnance farmy také není zrovna jednoduché. Člověk si nevybere. Jisté je jen jedno - po dobře vykonané práci oběd chutná dvojnásob. Protože Nový Zéland tvoří ostrovy, nemůže Fred vynechat rybáře. Naučí se lovit a vařit slávky i ryby, ale dostane se také na sladké recepty - dezert... zvaný Pavlova si přisvojují sice i v Austrálii, ale to nic nemění na tom, že je božský. Okouzl ující gurmán Fred Chesneau se domluví v jakémkoli místě naší zeměkoule plné chutí a vůní! Francouzský cyklus.",
+          "category": null
+        }
+      ]
+    },
+    {
+      "id": "prima",
+      "name": "Prima",
+      "programmes": [
+        {
+          "title": "Ano, šéfe",
+          "start": "2026-09-07T14:40:00Z",
+          "stop": "2026-09-07T15:55:00Z",
+          "start_local": "2026-09-07T16:40:00+0200",
+          "stop_local": "2026-09-07T17:55:00+0200",
+          "description": "Vodáci Šéf se vypravil za vodáky, do hospůdky U Hastrmana ve Vyšším Brodě. Tady začíná plavba Vltavou a vodáci jsou pěkně divocí, vlaku, který je sem vozí, se říká „vlak hrůzy\". Majitel hospůdky František Sípal s vodou vyrostl, jeho praděd i děd byli voraři.Vodáci Šéf se vypravil za vodáky, do hospůdky U Hastrmana ve Vyšším Brodě. Tady začíná plavba Vltavou a vodáci jsou pěkně divocí, vlaku, který je sem vozí, se říká „vlak hrůzy\". Majitel hospůdky František Sípal s vodou... vyrostl, jeho praděd i děd byli voraři. (2014).",
+          "category": null
+        },
+        {
+          "title": "Prostřeno",
+          "start": "2026-09-07T15:55:00Z",
+          "stop": "2026-09-07T16:52:00Z",
+          "start_local": "2026-09-07T17:55:00+0200",
+          "stop_local": "2026-09-07T18:52:00+0200",
+          "description": "Nová pravidla oblíbené kulinářské show mění zažité pořádky. Pětice amatérských kuchařů se opět utká o titul hostitele týdne, tentokrát však čistě gastronomické umění stačit nebude. Bodování se nově rozděluje do dvou kategorií – vedle menu soutěžící hodnotí také atmosféru, kterou hostitel dokáže vytvořit. Sledujte premiérové díly plné kulinářského umění, osobitých povah a nečekaných setkání.",
+          "category": null
+        },
+        {
+          "title": "Počasí",
+          "start": "2026-09-07T16:52:00Z",
+          "stop": "2026-09-07T16:55:00Z",
+          "start_local": "2026-09-07T18:52:00+0200",
+          "stop_local": "2026-09-07T18:55:00+0200",
+          "description": null,
+          "category": null
+        }
+      ]
+    }
+  ]
+}

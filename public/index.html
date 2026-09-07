@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="cs" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TV program pro Nova, ČT1, ČT2 a Prima — přehledně a zdarma">
+  <meta name="theme-color" content="#0d0d16">
+  <title>TV Program</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📺</text></svg>">
+  <style>
+/* ── RESET ────────────────────────────────────────────────────────────── */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+button{font:inherit;cursor:pointer;border:none;background:none}
+img{display:block;max-width:100%}
+a{color:inherit}
+
+/* ── TOKENS ───────────────────────────────────────────────────────────── */
+:root {
+  /* Dark (default) */
+  --bg:         #0d0d16;
+  --surface:    #13131e;
+  --card:       #1a1a28;
+  --card-hi:    #202032;
+  --border:     #28283c;
+  --border-hi:  #383855;
+  --txt:        #e2e2f0;
+  --txt-2:      #8888aa;
+  --txt-3:      #44445a;
+  --shadow:     0 2px 12px rgba(0,0,0,.5);
+  --shadow-lg:  0 8px 40px rgba(0,0,0,.6);
+  --radius:     14px;
+  --radius-s:   8px;
+  --header-h:   140px;
+  /* Channel */
+  --nova:       #f97316;
+  --ct1:        #3b82f6;
+  --ct2:        #06b6d4;
+  --prima:      #a855f7;
+  /* UI */
+  --accent:     #6366f1;
+  --live:       #22c55e;
+  --transition: .18s ease;
+}
+[data-theme="light"] {
+  --bg:        #f0f0f8;
+  --surface:   #ffffff;
+  --card:      #ffffff;
+  --card-hi:   #f5f5ff;
+  --border:    #e0e0ec;
+  --border-hi: #c8c8e0;
+  --txt:       #18182c;
+  --txt-2:     #505070;
+  --txt-3:     #a0a0bc;
+  --shadow:    0 2px 12px rgba(0,0,0,.07);
+  --shadow-lg: 0 8px 40px rgba(0,0,0,.1);
+}
+
+/* ── BASE ─────────────────────────────────────────────────────────────── */
+html {
+  background:var(--bg);
+  color:var(--txt);
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;
+  font-size:16px;
+  line-height:1.5;
+  scroll-behavior:smooth;
+}
+body { min-height:100dvh; background:var(--bg); }
+
+/* ── HEADER ───────────────────────────────────────────────────────────── */
+.hdr {
+  position:sticky; top:0; z-index:200;
+  background:var(--surface);
+  border-bottom:1px solid var(--border);
+  backdrop-filter:blur(16px);
+  -webkit-backdrop-filter:blur(16px);
+}
+.hdr-inner { max-width:1360px; margin:0 auto; padding:0 16px; }
+
+/* Top row */
+.hdr-top {
+  display:flex; align-items:center; justify-content:space-between;
+  gap:12px; padding:12px 0;
+}
+.brand {
+  display:flex; align-items:center; gap:8px;
+  font-size:1.1rem; font-weight:800; letter-spacing:-.02em;
+  color:var(--txt); white-space:nowrap;
+}
+.brand-icon { font-size:1.25rem; }
+.brand-name { display:none; }
+@media(min-width:480px){ .brand-name{display:inline} }
+
+.hdr-right { display:flex; align-items:center; gap:10px; }
+.live-dot {
+  width:7px; height:7px; border-radius:50%;
+  background:var(--live); animation:pulse 2s infinite;
+}
+.hdr-meta {
+  font-size:.78rem; color:var(--txt-2);
+  display:flex; align-items:center; gap:5px;
+}
+.btn-theme {
+  border:1px solid var(--border); border-radius:var(--radius-s);
+  color:var(--txt-2); padding:5px 9px; font-size:.85rem;
+  transition:var(--transition);
+}
+.btn-theme:hover { border-color:var(--border-hi); color:var(--txt); }
+
+/* Clock */
+.clock {
+  font-size:.82rem; font-weight:600;
+  color:var(--txt-2); font-variant-numeric:tabular-nums;
+  letter-spacing:.02em;
+}
+
+/* Day tabs */
+.day-nav {
+  display:flex; gap:6px; padding:8px 0;
+  border-top:1px solid var(--border);
+  overflow-x:auto; scrollbar-width:none;
+}
+.day-nav::-webkit-scrollbar{display:none}
+
+.day-btn {
+  flex-shrink:0; border:1px solid var(--border);
+  border-radius:20px; color:var(--txt-2);
+  padding:6px 18px; font-size:.84rem; font-weight:500;
+  transition:var(--transition); white-space:nowrap;
+}
+.day-btn:hover { border-color:var(--border-hi); color:var(--txt); }
+.day-btn.active {
+  background:var(--accent); border-color:var(--accent);
+  color:#fff; font-weight:700;
+}
+
+/* Channel filter */
+.ch-filter {
+  display:flex; gap:6px; padding:8px 0 10px;
+  overflow-x:auto; scrollbar-width:none;
+}
+.ch-filter::-webkit-scrollbar{display:none}
+
+.ch-btn {
+  flex-shrink:0; display:flex; align-items:center; gap:6px;
+  border:1px solid var(--border); border-radius:var(--radius-s);
+  color:var(--txt-2); padding:5px 13px; font-size:.8rem; font-weight:500;
+  transition:var(--transition); white-space:nowrap;
+}
+.ch-btn:hover { border-color:var(--border-hi); color:var(--txt); }
+.ch-btn.active { color:#fff; font-weight:700; }
+.ch-btn[data-ch="all"].active   { background:var(--accent); border-color:var(--accent); }
+.ch-btn[data-ch="tv-nova"].active{ background:var(--nova);   border-color:var(--nova); }
+.ch-btn[data-ch="ct1"].active   { background:var(--ct1);    border-color:var(--ct1); }
+.ch-btn[data-ch="ct2"].active   { background:var(--ct2);    border-color:var(--ct2); }
+.ch-btn[data-ch="prima"].active  { background:var(--prima);  border-color:var(--prima); }
+
+.ch-dot {
+  width:8px; height:8px; border-radius:50%; flex-shrink:0;
+}
+[data-ch="tv-nova"] .ch-dot { background:var(--nova); }
+[data-ch="ct1"]     .ch-dot { background:var(--ct1); }
+[data-ch="ct2"]     .ch-dot { background:var(--ct2); }
+[data-ch="prima"]   .ch-dot { background:var(--prima); }
+
+/* ── MAIN ─────────────────────────────────────────────────────────────── */
+.main {
+  max-width:1360px; margin:0 auto;
+  padding:18px 16px 48px;
+}
+
+.date-label {
+  font-size:.84rem; color:var(--txt-2); font-weight:500;
+  margin-bottom:14px; padding-bottom:10px;
+  border-bottom:1px solid var(--border);
+}
+
+/* ── GRID ─────────────────────────────────────────────────────────────── */
+.grid {
+  display:grid;
+  grid-template-columns:1fr;
+  gap:16px;
+  align-items:start;
+}
+@media(min-width:680px)  { .grid { grid-template-columns:repeat(2,1fr); } }
+@media(min-width:1100px) { .grid { grid-template-columns:repeat(4,1fr); } }
+
+.grid.single { grid-template-columns:1fr; max-width:660px; }
+
+/* ── CHANNEL CARD ─────────────────────────────────────────────────────── */
+.card {
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  overflow:hidden;
+  box-shadow:var(--shadow);
+  display:flex; flex-direction:column;
+}
+@media(min-width:1100px){
+  .card {
+    max-height:calc(100vh - var(--header-h) - 56px);
+    overflow-y:auto;
+    scrollbar-width:thin;
+    scrollbar-color:var(--border) transparent;
+  }
+  .card::-webkit-scrollbar{width:3px}
+  .card::-webkit-scrollbar-track{background:transparent}
+  .card::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px}
+}
+
+/* Card header — sticky within card on desktop */
+.card-head {
+  display:flex; align-items:center; gap:10px;
+  padding:13px 14px;
+  border-bottom:3px solid var(--border);
+  position:sticky; top:0; z-index:10;
+  background:var(--card);
+  flex-shrink:0;
+}
+.card[data-ch="tv-nova"] .card-head { border-bottom-color:var(--nova); }
+.card[data-ch="ct1"]     .card-head { border-bottom-color:var(--ct1); }
+.card[data-ch="ct2"]     .card-head { border-bottom-color:var(--ct2); }
+.card[data-ch="prima"]   .card-head { border-bottom-color:var(--prima); }
+
+.ch-logo-img {
+  width:36px; height:36px;
+  object-fit:contain; border-radius:7px;
+  background:var(--card-hi); flex-shrink:0;
+}
+.ch-badge {
+  width:36px; height:36px; border-radius:7px; flex-shrink:0;
+  display:flex; align-items:center; justify-content:center;
+  font-size:.55rem; font-weight:900; color:#fff;
+  letter-spacing:-.02em; text-transform:uppercase;
+}
+.card[data-ch="tv-nova"] .ch-badge { background:var(--nova); }
+.card[data-ch="ct1"]     .ch-badge { background:var(--ct1); }
+.card[data-ch="ct2"]     .ch-badge { background:var(--ct2); }
+.card[data-ch="prima"]   .ch-badge { background:var(--prima); }
+
+.ch-name { font-size:.95rem; font-weight:700; letter-spacing:-.01em; flex:1; }
+.ch-count {
+  font-size:.72rem; color:var(--txt-3);
+  background:var(--card-hi); padding:2px 8px; border-radius:10px;
+  flex-shrink:0;
+}
+
+/* ── PROGRAMME ────────────────────────────────────────────────────────── */
+.prog-list { flex:1; }
+
+.prog {
+  display:grid;
+  grid-template-columns:78px 1fr;
+  gap:0 11px;
+  padding:9px 14px;
+  border-bottom:1px solid var(--border);
+  position:relative;
+  transition:background var(--transition);
+}
+.prog:last-child { border-bottom:none; }
+.prog:hover { background:var(--card-hi); }
+
+.prog.past { opacity:.4; }
+.prog.live { background:var(--card-hi); opacity:1; }
+
+/* Accent bar left */
+.prog.live::before {
+  content:'';
+  position:absolute; left:0; top:0; bottom:0;
+  width:3px; border-radius:0 2px 2px 0;
+}
+.card[data-ch="tv-nova"] .prog.live::before { background:var(--nova); }
+.card[data-ch="ct1"]     .prog.live::before { background:var(--ct1); }
+.card[data-ch="ct2"]     .prog.live::before { background:var(--ct2); }
+.card[data-ch="prima"]   .prog.live::before { background:var(--prima); }
+
+/* Time col */
+.p-time { display:flex; flex-direction:column; gap:1px; padding-top:2px; }
+.p-start {
+  font-size:.9rem; font-weight:700; color:var(--txt);
+  font-variant-numeric:tabular-nums;
+}
+.p-stop { font-size:.72rem; color:var(--txt-3); font-variant-numeric:tabular-nums; }
+.p-dur  { font-size:.68rem; color:var(--txt-3); margin-top:1px; }
+
+/* Content col */
+.p-content { min-width:0; }
+.p-row { display:flex; align-items:flex-start; gap:7px; flex-wrap:wrap; }
+.p-title {
+  font-size:.87rem; font-weight:600; color:var(--txt);
+  line-height:1.3; flex:1; min-width:0;
+}
+.live-badge {
+  display:inline-flex; align-items:center; gap:4px;
+  font-size:.63rem; font-weight:700; color:var(--live);
+  background:rgba(34,197,94,.1); border:1px solid rgba(34,197,94,.25);
+  padding:2px 7px; border-radius:10px; white-space:nowrap; flex-shrink:0;
+}
+.live-badge::before {
+  content:''; width:5px; height:5px; border-radius:50%;
+  background:var(--live); animation:pulse 1.4s infinite;
+}
+.p-cat {
+  font-size:.67rem; color:var(--txt-3);
+  background:var(--card-hi); padding:1px 7px;
+  border-radius:4px; margin-top:3px; display:inline-block;
+}
+.p-desc {
+  font-size:.76rem; color:var(--txt-2); margin-top:4px;
+  line-height:1.45;
+  display:-webkit-box;
+  -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;
+}
+
+/* Progress bar */
+.p-bar-wrap {
+  height:3px; border-radius:2px;
+  background:var(--border); margin-top:7px; overflow:hidden;
+}
+.p-bar {
+  height:100%; border-radius:2px;
+  transition:width 1s linear;
+}
+.card[data-ch="tv-nova"] .p-bar { background:var(--nova); }
+.card[data-ch="ct1"]     .p-bar { background:var(--ct1); }
+.card[data-ch="ct2"]     .p-bar { background:var(--ct2); }
+.card[data-ch="prima"]   .p-bar { background:var(--prima); }
+
+/* ── EMPTY STATE ──────────────────────────────────────────────────────── */
+.empty {
+  padding:40px 16px; text-align:center;
+  color:var(--txt-3); font-size:.85rem;
+}
+.empty-ico { font-size:2.2rem; margin-bottom:10px; }
+
+/* ── SKELETON ─────────────────────────────────────────────────────────── */
+.skel {
+  background:linear-gradient(90deg,var(--card) 25%,var(--card-hi) 50%,var(--card) 75%);
+  background-size:200% 100%;
+  animation:shimmer 1.6s infinite;
+  border-radius:6px;
+}
+@keyframes shimmer { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
+
+/* ── ERROR ────────────────────────────────────────────────────────────── */
+.err-box {
+  max-width:480px; margin:60px auto;
+  background:var(--card); border:1px solid var(--border);
+  border-radius:var(--radius); padding:40px 28px; text-align:center;
+}
+.err-ico { font-size:2.5rem; margin-bottom:14px; }
+.err-box h2 { font-size:1rem; margin-bottom:8px; }
+.err-box p { font-size:.84rem; color:var(--txt-2); margin-bottom:20px; line-height:1.55; }
+.btn-retry {
+  background:var(--accent); color:#fff; border-radius:var(--radius-s);
+  padding:10px 26px; font-size:.9rem; font-weight:700;
+  transition:opacity var(--transition);
+}
+.btn-retry:hover { opacity:.85; }
+
+/* ── FOOTER ───────────────────────────────────────────────────────────── */
+.footer {
+  text-align:center; padding:20px 16px;
+  font-size:.73rem; color:var(--txt-3);
+  border-top:1px solid var(--border);
+  max-width:1360px; margin:0 auto;
+}
+.footer a { color:var(--txt-2); text-decoration:none; }
+.footer a:hover { text-decoration:underline; }
+
+/* ── ANIMATIONS ───────────────────────────────────────────────────────── */
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.35} }
+
+/* ── SCROLLBAR (global, subtle) ───────────────────────────────────────── */
+::-webkit-scrollbar { width:5px; height:5px; }
+::-webkit-scrollbar-track { background:transparent; }
+::-webkit-scrollbar-thumb { background:var(--border); border-radius:3px; }
+  </style>
+</head>
+<body>
+
+<!-- ── HEADER ──────────────────────────────────────────────────────────────── -->
+<header class="hdr" id="hdr">
+  <div class="hdr-inner">
+
+    <!-- Brand + meta -->
+    <div class="hdr-top">
+      <div class="brand">
+        <span class="brand-icon">📺</span>
+        <span class="brand-name">TV Program</span>
+      </div>
+      <div class="hdr-right">
+        <div class="hdr-meta">
+          <div class="live-dot" title="Data se automaticky aktualizují"></div>
+          <span id="lastUpdated">načítám…</span>
+        </div>
+        <span class="clock" id="clock"></span>
+        <button class="btn-theme" id="themeBtn" title="Přepnout světlý/tmavý režim">
+          <span id="themeIco">☀️</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Day navigation -->
+    <nav class="day-nav" aria-label="Výběr dne">
+      <button class="day-btn" data-offset="-1">Včera</button>
+      <button class="day-btn active" data-offset="0">Dnes</button>
+      <button class="day-btn" data-offset="1">Zítra</button>
+    </nav>
+
+    <!-- Channel filter -->
+    <div class="ch-filter" role="group" aria-label="Filtr stanic">
+      <button class="ch-btn active" data-ch="all">Všechny stanice</button>
+      <button class="ch-btn" data-ch="tv-nova"><span class="ch-dot"></span>TV Nova</button>
+      <button class="ch-btn" data-ch="ct1"><span class="ch-dot"></span>ČT1</button>
+      <button class="ch-btn" data-ch="ct2"><span class="ch-dot"></span>ČT2</button>
+      <button class="ch-btn" data-ch="prima"><span class="ch-dot"></span>Prima</button>
+    </div>
+
+  </div>
+</header>
+
+<!-- ── MAIN ────────────────────────────────────────────────────────────────── -->
+<main class="main" id="main"><!-- filled by JS --></main>
+
+<!-- ── FOOTER ──────────────────────────────────────────────────────────────── -->
+<footer class="footer">
+  Data: <a href="https://epg.lat" target="_blank" rel="noopener">epg.lat</a>
+  &bull; Zdroj: sms.cz / programy-tv.cz
+  &bull; Automatická aktualizace 4&times; denně
+</footer>
+
+<script>
+'use strict';
+
+/* ── Constants ──────────────────────────────────────────────────────────────── */
+const TZ      = 'Europe/Prague';
+const EPG_URL = '/epg_data.json';
+const BADGE   = { 'tv-nova':'NOVA', ct1:'ČT1', ct2:'ČT2', prima:'PRIMA' };
+
+/* ── State ──────────────────────────────────────────────────────────────────── */
+let epg          = null;     // parsed JSON
+let dayOffset    = 0;        // -1 / 0 / 1
+let chFilter     = 'all';
+let scrolledOnce = false;    // auto-scroll to live only once per session
+
+/* ── Time helpers ───────────────────────────────────────────────────────────── */
+const fmtDate = new Intl.DateTimeFormat('en-CA', { timeZone:TZ, year:'numeric', month:'2-digit', day:'2-digit' });
+const fmtTime = new Intl.DateTimeFormat('cs-CZ', { timeZone:TZ, hour:'2-digit', minute:'2-digit' });
+const fmtLong = new Intl.DateTimeFormat('cs-CZ', { timeZone:TZ, weekday:'long', day:'numeric', month:'long', year:'numeric' });
+
+const ymd  = d => fmtDate.format(d);   // "2026-09-07"
+const hm   = d => fmtTime.format(d);   // "17:30"
+const long = d => fmtLong.format(d);   // "pondělí 7. září 2026"
+
+function durMin(a, b) { return Math.round((b - a) / 60000); }
+function fmtDur(m) {
+  if (m <= 0) return '';
+  const h = Math.floor(m / 60), r = m % 60;
+  return h === 0 ? `${r} min` : r === 0 ? `${h} h` : `${h} h ${r} min`;
+}
+
+/* ── Programme helpers ──────────────────────────────────────────────────────── */
+function isLive(p) {
+  const now = Date.now();
+  return new Date(p.start) <= now && now < new Date(p.stop);
+}
+function isPast(p) { return new Date(p.stop) < Date.now(); }
+function progress(p) {
+  const now = Date.now(), s = +new Date(p.start), e = +new Date(p.stop);
+  return Math.min(100, Math.max(0, (now - s) / (e - s) * 100));
+}
+
+function progsForDay(list, offset) {
+  const ref = new Date(Date.now() + offset * 86400000);
+  const target = ymd(ref);
+  return list.filter(p => {
+    const sy = ymd(new Date(p.start)), ey = ymd(new Date(p.stop));
+    return sy === target || (sy < target && ey >= target);
+  });
+}
+
+/* ── Escape HTML ────────────────────────────────────────────────────────────── */
+function esc(s) {
+  return String(s ?? '')
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+/* ── Render single programme ────────────────────────────────────────────────── */
+function renderProg(p, chId) {
+  const live = isLive(p);
+  const past = !live && isPast(p);
+  const s = new Date(p.start), e = new Date(p.stop);
+  const dur = durMin(s, e);
+  const pct = live ? progress(p).toFixed(1) : 0;
+
+  const cls = ['prog', live && 'live', past && 'past'].filter(Boolean).join(' ');
+
+  return `<div class="${cls}" id="p-${chId}-${esc(p.start)}">
+    <div class="p-time">
+      <span class="p-start">${hm(s)}</span>
+      <span class="p-stop">${hm(e)}</span>
+      ${dur > 0 ? `<span class="p-dur">${fmtDur(dur)}</span>` : ''}
+    </div>
+    <div class="p-content">
+      <div class="p-row">
+        <span class="p-title">${esc(p.title)}</span>
+        ${live ? '<span class="live-badge">Právě běží</span>' : ''}
+      </div>
+      ${p.category ? `<span class="p-cat">${esc(p.category)}</span>` : ''}
+      ${p.description ? `<p class="p-desc">${esc(p.description)}</p>` : ''}
+      ${live ? `<div class="p-bar-wrap"><div class="p-bar" style="width:${pct}%"></div></div>` : ''}
+    </div>
+  </div>`;
+}
+
+/* ── Render channel card ────────────────────────────────────────────────────── */
+function renderCard(ch) {
+  const progs = progsForDay(ch.programmes, dayOffset);
+  const badge = BADGE[ch.id] ?? ch.name;
+
+  // Logo with fallback badge
+  const logo = ch.logo
+    ? `<img class="ch-logo-img" src="${esc(ch.logo)}" alt="${esc(ch.name)}"
+           loading="lazy"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
+       ><span class="ch-badge" style="display:none">${esc(badge)}</span>`
+    : `<span class="ch-badge">${esc(badge)}</span>`;
+
+  const body = progs.length
+    ? progs.map(p => renderProg(p, ch.id)).join('')
+    : `<div class="empty"><div class="empty-ico">📭</div>Pro tento den nejsou k dispozici žádná data.</div>`;
+
+  return `<div class="card" data-ch="${esc(ch.id)}" aria-label="${esc(ch.name)}">
+    <div class="card-head">
+      ${logo}
+      <span class="ch-name">${esc(ch.name)}</span>
+      <span class="ch-count">${progs.length}</span>
+    </div>
+    <div class="prog-list">${body}</div>
+  </div>`;
+}
+
+/* ── Skeleton ───────────────────────────────────────────────────────────────── */
+function skeleton() {
+  const rows = Array.from({length:7}, () =>
+    `<div class="prog" style="pointer-events:none">
+       <div class="p-time"><div class="skel" style="width:34px;height:13px;margin-bottom:4px"></div>
+         <div class="skel" style="width:34px;height:10px"></div></div>
+       <div class="p-content">
+         <div class="skel" style="height:13px;width:75%;margin-bottom:5px"></div>
+         <div class="skel" style="height:10px;width:50%"></div>
+       </div></div>`
+  ).join('');
+  const card = `<div class="card" style="pointer-events:none">
+    <div class="card-head">
+      <div class="skel" style="width:36px;height:36px;border-radius:8px;flex-shrink:0"></div>
+      <div class="skel" style="width:80px;height:14px;margin-left:2px"></div>
+    </div>
+    <div class="prog-list">${rows}</div>
+  </div>`;
+  return `<div class="grid">${[card,card,card,card].join('')}</div>`;
+}
+
+/* ── Render ─────────────────────────────────────────────────────────────────── */
+function render() {
+  if (!epg) return;
+
+  const ref  = new Date(Date.now() + dayOffset * 86400000);
+  const cap  = s => s.charAt(0).toUpperCase() + s.slice(1);
+  const chs  = chFilter === 'all' ? epg.channels : epg.channels.filter(c => c.id === chFilter);
+  const grid = chFilter === 'all' ? 'grid' : 'grid single';
+
+  document.getElementById('main').innerHTML =
+    `<p class="date-label">${cap(long(ref))}</p>
+     <div class="${grid}">${chs.map(renderCard).join('')}</div>`;
+
+  // Update header height CSS var for sticky card headers
+  const hdrH = document.getElementById('hdr').offsetHeight;
+  document.documentElement.style.setProperty('--header-h', hdrH + 'px');
+
+  // Auto-scroll to live programme (once, on today view)
+  if (dayOffset === 0 && !scrolledOnce) {
+    requestAnimationFrame(() => {
+      // Desktop: scroll within each card; mobile: scroll page
+      let found = false;
+      document.querySelectorAll('.card').forEach(card => {
+        const live = card.querySelector('.live');
+        if (!live) return;
+        const cardScrollable = card.scrollHeight > card.clientHeight + 20;
+        if (cardScrollable) {
+          // Scroll within the card
+          live.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+        } else if (!found) {
+          live.scrollIntoView({ block: 'center', behavior: 'smooth' });
+          found = true;
+        }
+      });
+      scrolledOnce = true;
+    });
+  }
+}
+
+/* ── Fetch EPG ──────────────────────────────────────────────────────────────── */
+async function fetchEPG(showSkel = true) {
+  if (showSkel) document.getElementById('main').innerHTML = skeleton();
+  try {
+    const res = await fetch(`${EPG_URL}?v=${Date.now()}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
+    epg = await res.json();
+
+    const genAt = new Date(epg.generated_at);
+    document.getElementById('lastUpdated').textContent = `aktualizováno ${hm(genAt)}`;
+
+    render();
+  } catch (err) {
+    console.error('[EPG]', err);
+    document.getElementById('main').innerHTML = `
+      <div class="err-box">
+        <div class="err-ico">⚠️</div>
+        <h2>Nepodařilo se načíst program</h2>
+        <p>Zkontrolujte připojení k internetu nebo zkuste to za chvíli znovu.<br>
+           <small style="opacity:.55">${esc(err.message)}</small></p>
+        <button class="btn-retry" onclick="fetchEPG()">Zkusit znovu</button>
+      </div>`;
+  }
+}
+
+/* ── Clock ──────────────────────────────────────────────────────────────────── */
+function updateClock() {
+  document.getElementById('clock').textContent = hm(new Date());
+}
+updateClock();
+setInterval(updateClock, 10000);
+
+/* ── Auto-refresh ───────────────────────────────────────────────────────────── */
+// Re-render every 60 s → updates live badge + progress bar
+setInterval(() => { if (epg) render(); }, 60000);
+// Full data re-fetch every 20 min
+setInterval(() => fetchEPG(false), 20 * 60 * 1000);
+
+/* ── Event listeners ────────────────────────────────────────────────────────── */
+// Day buttons
+document.querySelectorAll('.day-btn').forEach(btn =>
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.day-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    dayOffset = parseInt(btn.dataset.offset, 10);
+    scrolledOnce = false;
+    render();
+  })
+);
+
+// Channel filter
+document.querySelectorAll('.ch-btn').forEach(btn =>
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.ch-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    chFilter = btn.dataset.ch;
+    render();
+  })
+);
+
+// Theme toggle
+document.getElementById('themeBtn').addEventListener('click', () => {
+  const html = document.documentElement;
+  const dark = html.dataset.theme === 'dark';
+  html.dataset.theme = dark ? 'light' : 'dark';
+  document.getElementById('themeIco').textContent = dark ? '🌙' : '☀️';
+  try { localStorage.setItem('tv-theme', dark ? 'light' : 'dark'); } catch(_){}
+});
+
+// Restore saved theme
+try {
+  const saved = localStorage.getItem('tv-theme');
+  if (saved) {
+    document.documentElement.dataset.theme = saved;
+    document.getElementById('themeIco').textContent = saved === 'dark' ? '☀️' : '🌙';
+  }
+} catch(_){}
+
+/* ── Boot ───────────────────────────────────────────────────────────────────── */
+fetchEPG();
+</script>
+</body>
+</html>

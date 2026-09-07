@@ -1,0 +1,47 @@
+name: Aktualizace TV programu (EPG)
+
+on:
+  # Automatické spuštění – 1× denně ve 5:00 UTC = 7:00 CEST
+  # EPG zdroj (epg.lat) se aktualizuje jednou denně, stahovat vícekrát nemá smysl
+  schedule:
+    - cron: '0 5 * * *'
+
+  # Možnost ručního spuštění přes GitHub UI (záložka Actions)
+  workflow_dispatch:
+
+jobs:
+  update-epg:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # potřeba pro git push
+
+    steps:
+      # 1. Stažení kódu z repozitáře
+      - name: Checkout repozitáře
+        uses: actions/checkout@v4
+
+      # 2. Nastavení Pythonu
+      - name: Nastavení Pythonu 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # 3. Spuštění EPG skriptu
+      - name: Stažení a zpracování EPG dat
+        run: python scripts/fetch_epg.py --output public/epg_data.json --days 7
+
+      # 4. Commit a push, ale pouze pokud se JSON změnil
+      - name: Uložení aktualizovaného JSON do repozitáře
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Zkontrolujeme, zda se soubor změnil
+          if git diff --quiet public/epg_data.json; then
+            echo "EPG data jsou beze změny, přeskakuji commit."
+          else
+            git add public/epg_data.json
+            git commit -m "chore: aktualizace EPG dat [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+            git push
+            echo "EPG data úspěšně aktualizována a odeslána."
+          fi

@@ -1,0 +1,26 @@
+# netlify.toml – konfigurace Netlify pro TV Program web
+
+[build]
+  # Složka, která se nasadí na CDN (obsahuje index.html, epg_data.json, …)
+  publish = "public"
+
+  # Netlify nemusí nic buildovat – soubory připravuje GitHub Actions
+  # command = ""   ← záměrně prázdné
+
+# HTTP hlavičky pro všechny soubory
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options        = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy        = "strict-origin-when-cross-origin"
+
+# Speciální cache hlavičky pro JSON – prohlížeč nesmí cachovat příliš dlouho
+[[headers]]
+  for = "/epg_data.json"
+  [headers.values]
+    Cache-Control = "public, max-age=1800, stale-while-revalidate=3600"
+    # max-age=1800 → 30 minut; poté prohlížeč zkontroluje novou verzi
+
+# Netlify automaticky invaliduje CDN cache po každém nasazení –
+# takže frontend vždy dostane čerstvá data po každém git push.
