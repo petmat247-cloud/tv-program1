@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-09-11T21:34:41Z",
+  "sources": {
+    "ct": "https://www.ceskatelevize.cz/services-old/programme/xml/schedule.php",
+    "xmltv": "https://epg.lat/files/cz.xml.gz"
+  },
+  "channels": [
+    {
+      "id": "tv-nova",
+      "name": "TV Nova",
+      "logo": "https://www.sms.cz/kategorie/televize/bmp/loga/velka/nova.png",
+      "source": "epg.lat",
+      "programmes": []
+    },
+    {
+      "id": "prima",
+      "name": "Prima",
+      "logo": "https://www.sms.cz/kategorie/televize/bmp/loga/velka/prima.png",
+      "source": "epg.lat",
+      "programmes": []
+    },
+    {
+      "id": "seznam-tv",
+      "name": "Televize Seznam",
+      "logo": "https://www.sms.cz/kategorie/televize/bmp/loga/velka/seznamcztv.png",
+      "source": "epg.lat",
+      "programmes": []
+    },
+    {
+      "id": "ct1",
+      "name": "ČT1",
+      "logo": "https://www.sms.cz/kategorie/televize/bmp/loga/velka/ct1.png",
+      "source": "ceskatelevize.cz (oficiální API)",
+      "programmes": []
+    },
+    {
+      "id": "ct2",
+      "name": "ČT2",
+      "logo": "https://www.sms.cz/kategorie/televize/bmp/loga/velka/ct2.png",
+      "source": "ceskatelevize.cz (oficiální API)",
+      "programmes": []
+    },
+    {
+      "id": "ct-sport",
+      "name": "ČT sport",
+      "logo": "https://www.sms.cz/kategorie/televize/bmp/loga/velka/ct4.png",
+      "source": "ceskatelevize.cz (oficiální API)",
+      "programmes": []
+    }
+  ]
+}

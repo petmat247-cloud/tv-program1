@@ -1,12 +1,8 @@
 #!/usr/bin/env python3
 """
-fetch_epg.py — Stahuje TV program z OFICIÁLNÍHO API České televize (ČT1, ČT2, ČT sport)
-               a z epg.lat/cz.xml.gz (TV Nova, Prima).
-
-Zdroje:
-  ČT1, ČT2, ČT sport → https://www.ceskatelevize.cz/services-old/programme/xml/schedule.php
-                        Oficiální, bezplatné, bez API klíče (user=test stačí).
-  Nova, Prima → https://epg.lat/files/cz.xml.gz  (XMLTV/gzip)
+fetch_epg.py — Stahuje TV program z epg.lat/cz.xml.gz (XMLTV/gzip).
+Tato verze stahuje všechny stanice (včetně ČT) z jednoho zdroje,
+aby se obešlo blokování GitHub Actions ze strany oficiálního API ČT.
 """
 
 import gzip
@@ -24,30 +20,23 @@ import urllib.error
 
 XMLTV_URL = "https://epg.lat/files/cz.xml.gz"
 
-
-CT_API_URL = (
-    "https://www.ceskatelevize.cz/services-old/programme/xml/schedule.php"
-    "?user=test&date={date}&channel={channel}&json=1"
-)
-CT_CHANNELS = {
-    "ct1":  {"name": "ČT1",      "id": "ct1",
-             "logo": "https://www.sms.cz/kategorie/televize/bmp/loga/velka/ct1.png"},
-    "ct2":  {"name": "ČT2",      "id": "ct2",
-             "logo": "https://www.sms.cz/kategorie/televize/bmp/loga/velka/ct2.png"},
-    "ct4":  {"name": "ČT sport", "id": "ct4",
-             "logo": "https://www.sms.cz/kategorie/televize/bmp/loga/velka/ct4.png"},
-}
-
-# XMLTV mapování pro Novu a Primu (ČT voláme přes vlastní API)
+# XMLTV mapování pro všechny kanály
 XMLTV_CHANNEL_MAP = {
     "Nova.cz":         "TV Nova",
     "Prima.cz":        "Prima",
     "Seznam.cz.TV.cz": "Televize Seznam",
+    "ČT1.cz":          "ČT1",
+    "ČT2.cz":          "ČT2",
+    "ČT.sport.cz":     "ČT sport",
 }
+
 XMLTV_LOGOS_FALLBACK = {
     "TV Nova":         "https://www.sms.cz/kategorie/televize/bmp/loga/velka/nova.png",
     "Prima":           "https://www.sms.cz/kategorie/televize/bmp/loga/velka/prima.png",
     "Televize Seznam": "https://www.sms.cz/kategorie/televize/bmp/loga/velka/seznamcztv.png",
+    "ČT1":             "https://www.sms.cz/kategorie/televize/bmp/loga/velka/ct1.png",
+    "ČT2":             "https://www.sms.cz/kategorie/televize/bmp/loga/velka/ct2.png",
+    "ČT sport":        "https://www.sms.cz/kategorie/televize/bmp/loga/velka/ct4.png",
 }
 
 CHANNEL_ORDER = ["TV Nova", "Prima", "Televize Seznam", "ČT1", "ČT2", "ČT sport"]
@@ -59,7 +48,6 @@ CHANNEL_SLUGS = {
     "ČT2":             "ct2",
     "ČT sport":        "ct-sport",
 }
-
 
 # ──────────────────────────────────────────────────────────────────────────────
 # Sdílené utility
@@ -78,140 +66,11 @@ def http_get(url: str, timeout: int = 30) -> bytes:
     except Exception as exc:
         raise RuntimeError(f"Chyba při stahování {url}: {exc}") from exc
 
-
-def get_czech_tz(dt_utc: datetime) -> timezone:
-    """CET (UTC+1) nebo CEST (UTC+2) podle DST."""
-    import calendar
-    year = dt_utc.year
-
-    def last_sunday(y, month):
-        last = calendar.monthrange(y, month)[1]
-        d = datetime(y, month, last, 1, 0, 0, tzinfo=timezone.utc)
-        return d - timedelta(days=(d.weekday() + 1) % 7)
-
-    if last_sunday(year, 3) <= dt_utc < last_sunday(year, 10):
-        return timezone(timedelta(hours=2))   # CEST
-    return timezone(timedelta(hours=1))        # CET
-
-
 def utc_iso(dt: datetime) -> str:
     return dt.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
-
 # ──────────────────────────────────────────────────────────────────────────────
-# Zdroj 1: Česká televize – Oficiální API
-# ──────────────────────────────────────────────────────────────────────────────
-
-def fetch_ct_day(channel_id: str, date: datetime) -> list:
-    """
-    Stáhne program jednoho ČT kanálu pro jeden den.
-    Vrací list pořadů ve společném formátu.
-    """
-    date_str = date.strftime("%d.%m.%Y")   # formát API: "07.09.2026"
-    url = CT_API_URL.format(date=date_str, channel=channel_id)
-
-    try:
-        raw = http_get(url)
-        data = json.loads(raw)
-    except RuntimeError as exc:
-        print(f"[WARN] ČT API – {channel_id} {date_str}: {exc}", file=sys.stderr)
-        return []
-    except json.JSONDecodeError as exc:
-        print(f"[WARN] ČT API – neplatný JSON pro {channel_id} {date_str}: {exc}", file=sys.stderr)
-        return []
-
-    porad_list = data.get("porad", [])
-    if not isinstance(porad_list, list):
-        return []
-
-    programmes = []
-    for p in porad_list:
-        cas   = p.get("cas", "")          # "20:10"
-        nazev = (p.get("nazvy") or {}).get("nazev", "").strip()
-        datum = p.get("datum", "")        # "2026-09-07"
-        stopaz = p.get("stopaz", "")      # "054:24"
-        popis = p.get("noticka", "") or ""
-        zanr  = p.get("zanr", "") or ""
-
-        if not (cas and nazev and datum):
-            continue
-
-        try:
-            # Sestavíme start datetime v lokálním čase
-            start_local_naive = datetime.strptime(f"{datum} {cas}", "%Y-%m-%d %H:%M")
-        except ValueError:
-            continue
-
-        # Konvertujeme na UTC
-        # Přibližně zjistíme offset pro tento den
-        approx_utc = start_local_naive.replace(tzinfo=timezone.utc)
-        tz = get_czech_tz(approx_utc)
-        start_dt = start_local_naive.replace(tzinfo=tz)
-        start_utc = start_dt.astimezone(timezone.utc)
-
-        # Délka pořadu ze stopáže – formát je MM:SS (minuty:sekundy), NIKOLI HH:MM!
-        # Příklad: "181:00" = 181 minut (Studio 6, ranní blok), "051:37" = 51 min 37 s
-        stop_utc = start_utc + timedelta(minutes=30)  # fallback
-        if stopaz:
-            try:
-                parts = stopaz.split(":")
-                # parts[0] = minuty, parts[1] = sekundy
-                dur_min = int(parts[0]) + round(int(parts[1]) / 60)
-                if dur_min > 0:
-                    stop_utc = start_utc + timedelta(minutes=dur_min)
-            except (ValueError, IndexError):
-                pass
-
-        if not nazev:
-            continue
-
-        programmes.append({
-            "title":       nazev,
-            "start":       utc_iso(start_utc),
-            "stop":        utc_iso(stop_utc),
-            "description": popis.strip() or None,
-            "category":    zanr.strip() or None,
-        })
-
-    return programmes
-
-
-def fetch_ct_all(days_ahead: int) -> dict:
-    """
-    Stáhne data ČT pro všechny dny (dnes + days_ahead) a oba kanály.
-    Vrací {canon_name: [programmes...]}
-    """
-    now_local = datetime.now(get_czech_tz(datetime.now(timezone.utc)))
-    results = {info["name"]: [] for info in CT_CHANNELS.values()}
-
-    for ch_id, info in CT_CHANNELS.items():
-        all_progs = []
-        for day_offset in range(days_ahead + 1):
-            day = now_local + timedelta(days=day_offset)
-            progs = fetch_ct_day(ch_id, day)
-            all_progs.extend(progs)
-            print(
-                f"[INFO] ČT API – {info['name']} "
-                f"{day.strftime('%d.%m.')}: {len(progs)} pořadů",
-                file=sys.stderr
-            )
-
-        # Deduplikace a seřazení
-        seen = set()
-        unique = []
-        for p in sorted(all_progs, key=lambda x: x["start"]):
-            key = (p["start"], p["title"])
-            if key not in seen:
-                seen.add(key)
-                unique.append(p)
-
-        results[info["name"]] = unique
-
-    return results
-
-
-# ──────────────────────────────────────────────────────────────────────────────
-# Zdroj 2: epg.lat XMLTV — TV Nova a Prima
+# Zpracování XMLTV
 # ──────────────────────────────────────────────────────────────────────────────
 
 def parse_xmltv_time(time_str: str) -> datetime:
@@ -228,25 +87,14 @@ def parse_xmltv_time(time_str: str) -> datetime:
 
 
 def fetch_xmltv(days_ahead: int) -> tuple:
-    """
-    Stáhne a zparsuje XMLTV soubor z epg.lat.
-    Vrací (programmes_dict, icons_dict) jen pro Nova a Prima.
-    """
     wanted = set(XMLTV_CHANNEL_MAP.keys())
 
     print(f"[INFO] Stahuji XMLTV z: {XMLTV_URL}", file=sys.stderr)
     raw  = http_get(XMLTV_URL)
     print(f"[INFO] Staženo {len(raw):,} bajtů, dekomprimuji...", file=sys.stderr)
 
-    try:
-        xml_bytes = gzip.decompress(raw)
-    except Exception as exc:
-        raise RuntimeError(f"Dekomprese XMLTV selhala: {exc}") from exc
-
-    try:
-        root = ET.fromstring(xml_bytes)
-    except ET.ParseError as exc:
-        raise RuntimeError(f"Parsování XML selhalo: {exc}") from exc
+    xml_bytes = gzip.decompress(raw)
+    root = ET.fromstring(xml_bytes)
 
     # Loga kanálů
     icons = {}
@@ -304,101 +152,45 @@ def fetch_xmltv(days_ahead: int) -> tuple:
 # Sestavení výsledného JSON
 # ──────────────────────────────────────────────────────────────────────────────
 
-def build_output(ct_progs: dict, xmltv_progs: dict, xmltv_icons: dict) -> dict:
-    """
-    Sloučí data z obou zdrojů do jednotného výstupního JSON.
-    """
-    # Sloučení Nova aliasů
-    nova_progs = []
-    nova_logo  = None
-    for ch_id, canon in XMLTV_CHANNEL_MAP.items():
-        if canon == "TV Nova":
-            nova_progs.extend(xmltv_progs.get(ch_id, []))
-            if nova_logo is None:
-                nova_logo = xmltv_icons.get(ch_id) or XMLTV_LOGOS_FALLBACK.get("TV Nova")
-
-    # Deduplikace Nova
-    seen = set()
-    nova_unique = []
-    for p in sorted(nova_progs, key=lambda x: x["start"]):
-        k = (p["start"], p["title"])
-        if k not in seen:
-            seen.add(k)
-            nova_unique.append(p)
-
-    # Prima
-    prima_progs = []
-    prima_logo  = None
-    for ch_id, canon in XMLTV_CHANNEL_MAP.items():
-        if canon == "Prima":
-            prima_progs.extend(xmltv_progs.get(ch_id, []))
-            if prima_logo is None:
-                prima_logo = xmltv_icons.get(ch_id) or XMLTV_LOGOS_FALLBACK.get("Prima")
-
-    # Televize Seznam
-    seznam_progs = []
-    seznam_logo  = None
-    for ch_id, canon in XMLTV_CHANNEL_MAP.items():
-        if canon == "Televize Seznam":
-            seznam_progs.extend(xmltv_progs.get(ch_id, []))
-            if seznam_logo is None:
-                seznam_logo = xmltv_icons.get(ch_id) or XMLTV_LOGOS_FALLBACK.get("Televize Seznam")
-
-    # Sestavení kanálů v pořadí: Nova, Prima, Televize Seznam, ČT1, ČT2, ČT sport
-    channels = [
-        {
-            "id":         "tv-nova",
-            "name":       "TV Nova",
-            "logo":       nova_logo,
+def build_output(xmltv_progs: dict, xmltv_icons: dict) -> dict:
+    channels = []
+    
+    for canon_name in CHANNEL_ORDER:
+        ch_progs = []
+        ch_logo = None
+        ch_slug = CHANNEL_SLUGS[canon_name]
+        
+        # Najdeme všechny XMLTV IDs, které patří tomuto kanálu
+        for ch_id, c_name in XMLTV_CHANNEL_MAP.items():
+            if c_name == canon_name:
+                ch_progs.extend(xmltv_progs.get(ch_id, []))
+                if ch_logo is None:
+                    ch_logo = xmltv_icons.get(ch_id) or XMLTV_LOGOS_FALLBACK.get(canon_name)
+                    
+        # Deduplikace
+        seen = set()
+        unique_progs = []
+        for p in sorted(ch_progs, key=lambda x: x["start"]):
+            k = (p["start"], p["title"])
+            if k not in seen:
+                seen.add(k)
+                unique_progs.append(p)
+                
+        channels.append({
+            "id":         ch_slug,
+            "name":       canon_name,
+            "logo":       ch_logo,
             "source":     "epg.lat",
-            "programmes": nova_unique,
-        },
-        {
-            "id":         "prima",
-            "name":       "Prima",
-            "logo":       prima_logo,
-            "source":     "epg.lat",
-            "programmes": prima_progs,
-        },
-        {
-            "id":         "seznam-tv",
-            "name":       "Televize Seznam",
-            "logo":       seznam_logo,
-            "source":     "epg.lat",
-            "programmes": seznam_progs,
-        },
-        {
-            "id":         "ct1",
-            "name":       "ČT1",
-            "logo":       CT_CHANNELS["ct1"]["logo"],
-            "source":     "ceskatelevize.cz (oficiální API)",
-            "programmes": ct_progs.get("ČT1", []),
-        },
-        {
-            "id":         "ct2",
-            "name":       "ČT2",
-            "logo":       CT_CHANNELS["ct2"]["logo"],
-            "source":     "ceskatelevize.cz (oficiální API)",
-            "programmes": ct_progs.get("ČT2", []),
-        },
-        {
-            "id":         "ct-sport",
-            "name":       "ČT sport",
-            "logo":       CT_CHANNELS["ct4"]["logo"],
-            "source":     "ceskatelevize.cz (oficiální API)",
-            "programmes": ct_progs.get("ČT sport", []),
-        },
-    ]
+            "programmes": unique_progs,
+        })
 
     return {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "sources": {
-            "ct": "https://www.ceskatelevize.cz/services-old/programme/xml/schedule.php",
             "xmltv": XMLTV_URL,
         },
         "channels": channels,
     }
-
 
 # ──────────────────────────────────────────────────────────────────────────────
 # Hlavní funkce
@@ -406,36 +198,20 @@ def build_output(ct_progs: dict, xmltv_progs: dict, xmltv_icons: dict) -> dict:
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Stahuje TV program (ČT z ofic. API, Nova/Prima z XMLTV) → JSON."
+        description="Stahuje TV program pro všechny stanice z epg.lat XMLTV → JSON."
     )
     parser.add_argument("--output", "-o", default="epg_data.json")
     parser.add_argument("--days", "-d", type=int, default=7)
     parser.add_argument("--indent", type=int, default=2)
     args = parser.parse_args()
 
-    errors = []
-
-    # ── ČT (oficiální API) ──
     try:
-        print("\n=== Česká televize (oficiální API) ===", file=sys.stderr)
-        ct_progs = fetch_ct_all(args.days)
-    except RuntimeError as exc:
-        print(f"[CHYBA] ČT API selhalo: {exc}", file=sys.stderr)
-        ct_progs = {"ČT1": [], "ČT2": []}
-        errors.append(f"ČT API: {exc}")
-
-    # ── Nova + Prima (XMLTV) ──
-    try:
-        print("\n=== Nova + Prima (epg.lat XMLTV) ===", file=sys.stderr)
         xmltv_progs, xmltv_icons = fetch_xmltv(args.days)
     except RuntimeError as exc:
         print(f"[CHYBA] XMLTV selhalo: {exc}", file=sys.stderr)
-        xmltv_progs = {ch: [] for ch in XMLTV_CHANNEL_MAP}
-        xmltv_icons = {}
-        errors.append(f"XMLTV: {exc}")
+        sys.exit(1)
 
-    # ── Sestavení výstupu ──
-    output = build_output(ct_progs, xmltv_progs, xmltv_icons)
+    output = build_output(xmltv_progs, xmltv_icons)
     indent = args.indent if args.indent > 0 else None
 
     with open(args.output, "w", encoding="utf-8") as f:
@@ -443,10 +219,6 @@ def main():
 
     total = sum(len(ch["programmes"]) for ch in output["channels"])
     print(f"\n[OK] Uloženo {total} pořadů → '{args.output}'", file=sys.stderr)
-
-    if errors:
-        print(f"[POZOR] Některé zdroje selhaly: {'; '.join(errors)}", file=sys.stderr)
-        # Nekončíme chybou — částečná data jsou lepší než nic
 
 
 if __name__ == "__main__":
