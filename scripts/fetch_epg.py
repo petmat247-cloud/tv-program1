@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-fetch_epg.py — Stahuje TV program z OFICIÁLNÍHO API České televize (ČT1, ČT2)
+fetch_epg.py — Stahuje TV program z OFICIÁLNÍHO API České televize (ČT1, ČT2, ČT sport)
                a z epg.lat/cz.xml.gz (TV Nova, Prima).
 
 Zdroje:
-  ČT1, ČT2 → https://www.ceskatelevize.cz/services-old/programme/xml/schedule.php
-              Oficiální, bezplatné, bez API klíče (user=test stačí).
+  ČT1, ČT2, ČT sport → https://www.ceskatelevize.cz/services-old/programme/xml/schedule.php
+                        Oficiální, bezplatné, bez API klíče (user=test stačí).
   Nova, Prima → https://epg.lat/files/cz.xml.gz  (XMLTV/gzip)
 """
 
@@ -31,29 +31,34 @@ CT_API_URL = (
     "?user=test&date={date}&channel={channel}&json=1"
 )
 CT_CHANNELS = {
-    "ct1": {"name": "ČT1",  "id": "ct1",
-            "logo": "https://img.ceskatelevize.cz/program/user/16/bnr/ct1.png"},
-    "ct2": {"name": "ČT2",  "id": "ct2",
-            "logo": "https://img.ceskatelevize.cz/program/user/16/bnr/ct2.png"},
+    "ct1":  {"name": "ČT1",      "id": "ct1",
+             "logo": "https://www.sms.cz/kategorie/televize/bmp/loga/velka/ct1.png"},
+    "ct2":  {"name": "ČT2",      "id": "ct2",
+             "logo": "https://www.sms.cz/kategorie/televize/bmp/loga/velka/ct2.png"},
+    "ct4":  {"name": "ČT sport", "id": "ct4",
+             "logo": "https://www.sms.cz/kategorie/televize/bmp/loga/velka/ct4.png"},
 }
 
 # XMLTV mapování pro Novu a Primu (ČT voláme přes vlastní API)
 XMLTV_CHANNEL_MAP = {
-    "Nova.cz":    "TV Nova",
-    "Nova.TV.cz": "TV Nova",
-    "Prima.cz":   "Prima",
+    "Nova.cz":         "TV Nova",
+    "Prima.cz":        "Prima",
+    "Seznam.cz.TV.cz": "Televize Seznam",
 }
 XMLTV_LOGOS_FALLBACK = {
-    "TV Nova": "https://www.sms.cz/kategorie/televize/bmp/loga/velka/nova.png",
-    "Prima":   None,
+    "TV Nova":         "https://www.sms.cz/kategorie/televize/bmp/loga/velka/nova.png",
+    "Prima":           "https://www.sms.cz/kategorie/televize/bmp/loga/velka/prima.png",
+    "Televize Seznam": "https://www.sms.cz/kategorie/televize/bmp/loga/velka/seznamcztv.png",
 }
 
-CHANNEL_ORDER = ["TV Nova", "ČT1", "ČT2", "Prima"]
+CHANNEL_ORDER = ["TV Nova", "Prima", "Televize Seznam", "ČT1", "ČT2", "ČT sport"]
 CHANNEL_SLUGS = {
-    "TV Nova": "tv-nova",
-    "ČT1":     "ct1",
-    "ČT2":     "ct2",
-    "Prima":   "prima",
+    "TV Nova":         "tv-nova",
+    "Prima":           "prima",
+    "Televize Seznam": "seznam-tv",
+    "ČT1":             "ct1",
+    "ČT2":             "ct2",
+    "ČT sport":        "ct-sport",
 }
 
 
@@ -145,13 +150,16 @@ def fetch_ct_day(channel_id: str, date: datetime) -> list:
         start_dt = start_local_naive.replace(tzinfo=tz)
         start_utc = start_dt.astimezone(timezone.utc)
 
-        # Délka pořadu ze stopáže "HH:MM" nebo "HHH:MM"
+        # Délka pořadu ze stopáže – formát je MM:SS (minuty:sekundy), NIKOLI HH:MM!
+        # Příklad: "181:00" = 181 minut (Studio 6, ranní blok), "051:37" = 51 min 37 s
         stop_utc = start_utc + timedelta(minutes=30)  # fallback
         if stopaz:
             try:
                 parts = stopaz.split(":")
-                dur_min = int(parts[0]) * 60 + int(parts[1])
-                stop_utc = start_utc + timedelta(minutes=dur_min)
+                # parts[0] = minuty, parts[1] = sekundy
+                dur_min = int(parts[0]) + round(int(parts[1]) / 60)
+                if dur_min > 0:
+                    stop_utc = start_utc + timedelta(minutes=dur_min)
             except (ValueError, IndexError):
                 pass
 
@@ -328,7 +336,16 @@ def build_output(ct_progs: dict, xmltv_progs: dict, xmltv_icons: dict) -> dict:
             if prima_logo is None:
                 prima_logo = xmltv_icons.get(ch_id) or XMLTV_LOGOS_FALLBACK.get("Prima")
 
-    # Sestavení kanálů v pořadí
+    # Televize Seznam
+    seznam_progs = []
+    seznam_logo  = None
+    for ch_id, canon in XMLTV_CHANNEL_MAP.items():
+        if canon == "Televize Seznam":
+            seznam_progs.extend(xmltv_progs.get(ch_id, []))
+            if seznam_logo is None:
+                seznam_logo = xmltv_icons.get(ch_id) or XMLTV_LOGOS_FALLBACK.get("Televize Seznam")
+
+    # Sestavení kanálů v pořadí: Nova, Prima, Televize Seznam, ČT1, ČT2, ČT sport
     channels = [
         {
             "id":         "tv-nova",
@@ -336,6 +353,20 @@ def build_output(ct_progs: dict, xmltv_progs: dict, xmltv_icons: dict) -> dict:
             "logo":       nova_logo,
             "source":     "epg.lat",
             "programmes": nova_unique,
+        },
+        {
+            "id":         "prima",
+            "name":       "Prima",
+            "logo":       prima_logo,
+            "source":     "epg.lat",
+            "programmes": prima_progs,
+        },
+        {
+            "id":         "seznam-tv",
+            "name":       "Televize Seznam",
+            "logo":       seznam_logo,
+            "source":     "epg.lat",
+            "programmes": seznam_progs,
         },
         {
             "id":         "ct1",
@@ -352,11 +383,11 @@ def build_output(ct_progs: dict, xmltv_progs: dict, xmltv_icons: dict) -> dict:
             "programmes": ct_progs.get("ČT2", []),
         },
         {
-            "id":         "prima",
-            "name":       "Prima",
-            "logo":       prima_logo,
-            "source":     "epg.lat",
-            "programmes": prima_progs,
+            "id":         "ct-sport",
+            "name":       "ČT sport",
+            "logo":       CT_CHANNELS["ct4"]["logo"],
+            "source":     "ceskatelevize.cz (oficiální API)",
+            "programmes": ct_progs.get("ČT sport", []),
         },
     ]
 

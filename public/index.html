@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="TV program pro Nova, ČT1, ČT2 a Prima — přehledně a zdarma">
+  <meta name="description" content="TV program pro Nova, Prima, ČT1, ČT2 a ČT sport — přehledně a zdarma">
   <meta name="theme-color" content="#0d0d16">
   <title>TV Program</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📺</text></svg>">
@@ -32,10 +32,12 @@ a{color:inherit}
   --radius-s:   8px;
   --header-h:   140px;
   /* Channel */
-  --nova:       #f97316;
-  --ct1:        #3b82f6;
-  --ct2:        #06b6d4;
-  --prima:      #a855f7;
+  --nova:       #e63946;
+  --ct1:        #4338ca;
+  --ct2:        #d4a017;
+  --prima:      #f4912c;
+  --ct-sport:   #16a34a;
+  --seznam:     #991b1b;
   /* UI */
   --accent:     #6366f1;
   --live:       #22c55e;
@@ -115,9 +117,10 @@ body { min-height:100dvh; background:var(--bg); }
 
 /* Day tabs */
 .day-nav {
-  display:flex; gap:6px; padding:8px 0;
+  display:flex; gap:6px; padding:8px 0 10px;
   border-top:1px solid var(--border);
   overflow-x:auto; scrollbar-width:none;
+  justify-content:center;
 }
 .day-nav::-webkit-scrollbar{display:none}
 
@@ -137,6 +140,7 @@ body { min-height:100dvh; background:var(--bg); }
 .ch-filter {
   display:flex; gap:6px; padding:8px 0 10px;
   overflow-x:auto; scrollbar-width:none;
+  justify-content:center;
 }
 .ch-filter::-webkit-scrollbar{display:none}
 
@@ -148,19 +152,23 @@ body { min-height:100dvh; background:var(--bg); }
 }
 .ch-btn:hover { border-color:var(--border-hi); color:var(--txt); }
 .ch-btn.active { color:#fff; font-weight:700; }
-.ch-btn[data-ch="all"].active   { background:var(--accent); border-color:var(--accent); }
-.ch-btn[data-ch="tv-nova"].active{ background:var(--nova);   border-color:var(--nova); }
-.ch-btn[data-ch="ct1"].active   { background:var(--ct1);    border-color:var(--ct1); }
-.ch-btn[data-ch="ct2"].active   { background:var(--ct2);    border-color:var(--ct2); }
-.ch-btn[data-ch="prima"].active  { background:var(--prima);  border-color:var(--prima); }
+.ch-btn[data-ch="all"].active      { background:var(--accent);   border-color:var(--accent); }
+.ch-btn[data-ch="tv-nova"].active  { background:var(--nova);     border-color:var(--nova); }
+.ch-btn[data-ch="ct1"].active      { background:var(--ct1);      border-color:var(--ct1); }
+.ch-btn[data-ch="ct2"].active      { background:var(--ct2);      border-color:var(--ct2); }
+.ch-btn[data-ch="prima"].active    { background:var(--prima);    border-color:var(--prima); }
+.ch-btn[data-ch="ct-sport"].active { background:var(--ct-sport); border-color:var(--ct-sport); }
+.ch-btn[data-ch="seznam-tv"].active { background:var(--seznam);  border-color:var(--seznam); }
 
 .ch-dot {
   width:8px; height:8px; border-radius:50%; flex-shrink:0;
 }
-[data-ch="tv-nova"] .ch-dot { background:var(--nova); }
-[data-ch="ct1"]     .ch-dot { background:var(--ct1); }
-[data-ch="ct2"]     .ch-dot { background:var(--ct2); }
-[data-ch="prima"]   .ch-dot { background:var(--prima); }
+[data-ch="tv-nova"]  .ch-dot { background:var(--nova); }
+[data-ch="ct1"]      .ch-dot { background:var(--ct1); }
+[data-ch="ct2"]      .ch-dot { background:var(--ct2); }
+[data-ch="prima"]    .ch-dot { background:var(--prima); }
+[data-ch="ct-sport"] .ch-dot { background:var(--ct-sport); }
+[data-ch="seznam-tv"] .ch-dot { background:var(--seznam); }
 
 /* ── MAIN ─────────────────────────────────────────────────────────────── */
 .main {
@@ -182,9 +190,10 @@ body { min-height:100dvh; background:var(--bg); }
   align-items:start;
 }
 @media(min-width:680px)  { .grid { grid-template-columns:repeat(2,1fr); } }
-@media(min-width:1100px) { .grid { grid-template-columns:repeat(4,1fr); } }
+@media(min-width:900px)  { .grid { grid-template-columns:repeat(3,1fr); } }
+@media(min-width:1300px) { .grid { grid-template-columns:repeat(5,1fr); } }
 
-.grid.single { grid-template-columns:1fr; max-width:660px; }
+.grid.single { grid-template-columns:1fr; max-width:660px; margin:0 auto; }
 
 /* ── CHANNEL CARD ─────────────────────────────────────────────────────── */
 .card {
@@ -216,10 +225,12 @@ body { min-height:100dvh; background:var(--bg); }
   background:var(--card);
   flex-shrink:0;
 }
-.card[data-ch="tv-nova"] .card-head { border-bottom-color:var(--nova); }
-.card[data-ch="ct1"]     .card-head { border-bottom-color:var(--ct1); }
-.card[data-ch="ct2"]     .card-head { border-bottom-color:var(--ct2); }
-.card[data-ch="prima"]   .card-head { border-bottom-color:var(--prima); }
+.card[data-ch="tv-nova"]   .card-head { border-bottom-color:var(--nova); }
+.card[data-ch="ct1"]       .card-head { border-bottom-color:var(--ct1); }
+.card[data-ch="ct2"]       .card-head { border-bottom-color:var(--ct2); }
+.card[data-ch="prima"]     .card-head { border-bottom-color:var(--prima); }
+.card[data-ch="ct-sport"]  .card-head { border-bottom-color:var(--ct-sport); }
+.card[data-ch="seznam-tv"] .card-head { border-bottom-color:var(--seznam); }
 
 .ch-logo-img {
   width:36px; height:36px;
@@ -232,10 +243,12 @@ body { min-height:100dvh; background:var(--bg); }
   font-size:.55rem; font-weight:900; color:#fff;
   letter-spacing:-.02em; text-transform:uppercase;
 }
-.card[data-ch="tv-nova"] .ch-badge { background:var(--nova); }
-.card[data-ch="ct1"]     .ch-badge { background:var(--ct1); }
-.card[data-ch="ct2"]     .ch-badge { background:var(--ct2); }
-.card[data-ch="prima"]   .ch-badge { background:var(--prima); }
+.card[data-ch="tv-nova"]   .ch-badge { background:var(--nova); }
+.card[data-ch="ct1"]       .ch-badge { background:var(--ct1); }
+.card[data-ch="ct2"]       .ch-badge { background:var(--ct2); }
+.card[data-ch="prima"]     .ch-badge { background:var(--prima); }
+.card[data-ch="ct-sport"]  .ch-badge { background:var(--ct-sport); }
+.card[data-ch="seznam-tv"] .ch-badge { background:var(--seznam); }
 
 .ch-name { font-size:.95rem; font-weight:700; letter-spacing:-.01em; flex:1; }
 .ch-count {
@@ -268,10 +281,12 @@ body { min-height:100dvh; background:var(--bg); }
   position:absolute; left:0; top:0; bottom:0;
   width:3px; border-radius:0 2px 2px 0;
 }
-.card[data-ch="tv-nova"] .prog.live::before { background:var(--nova); }
-.card[data-ch="ct1"]     .prog.live::before { background:var(--ct1); }
-.card[data-ch="ct2"]     .prog.live::before { background:var(--ct2); }
-.card[data-ch="prima"]   .prog.live::before { background:var(--prima); }
+.card[data-ch="tv-nova"]   .prog.live::before { background:var(--nova); }
+.card[data-ch="ct1"]       .prog.live::before { background:var(--ct1); }
+.card[data-ch="ct2"]       .prog.live::before { background:var(--ct2); }
+.card[data-ch="prima"]     .prog.live::before { background:var(--prima); }
+.card[data-ch="ct-sport"]  .prog.live::before { background:var(--ct-sport); }
+.card[data-ch="seznam-tv"] .prog.live::before { background:var(--seznam); }
 
 /* Time col */
 .p-time { display:flex; flex-direction:column; gap:1px; padding-top:2px; }
@@ -284,10 +299,10 @@ body { min-height:100dvh; background:var(--bg); }
 
 /* Content col */
 .p-content { min-width:0; }
-.p-row { display:flex; align-items:flex-start; gap:7px; flex-wrap:wrap; }
+.p-row { display:grid; grid-template-columns:minmax(0,1fr) auto; gap:4px 7px; align-items:start; }
 .p-title {
   font-size:.87rem; font-weight:600; color:var(--txt);
-  line-height:1.3; flex:1; min-width:0;
+  line-height:1.3; min-width:0;
 }
 .live-badge {
   display:inline-flex; align-items:center; gap:4px;
@@ -320,10 +335,12 @@ body { min-height:100dvh; background:var(--bg); }
   height:100%; border-radius:2px;
   transition:width 1s linear;
 }
-.card[data-ch="tv-nova"] .p-bar { background:var(--nova); }
-.card[data-ch="ct1"]     .p-bar { background:var(--ct1); }
-.card[data-ch="ct2"]     .p-bar { background:var(--ct2); }
-.card[data-ch="prima"]   .p-bar { background:var(--prima); }
+.card[data-ch="tv-nova"]   .p-bar { background:var(--nova); }
+.card[data-ch="ct1"]       .p-bar { background:var(--ct1); }
+.card[data-ch="ct2"]       .p-bar { background:var(--ct2); }
+.card[data-ch="prima"]     .p-bar { background:var(--prima); }
+.card[data-ch="ct-sport"]  .p-bar { background:var(--ct-sport); }
+.card[data-ch="seznam-tv"] .p-bar { background:var(--seznam); }
 
 /* ── EMPTY STATE ──────────────────────────────────────────────────────── */
 .empty {
@@ -411,9 +428,11 @@ body { min-height:100dvh; background:var(--bg); }
     <div class="ch-filter" role="group" aria-label="Filtr stanic">
       <button class="ch-btn active" data-ch="all">Všechny stanice</button>
       <button class="ch-btn" data-ch="tv-nova"><span class="ch-dot"></span>TV Nova</button>
+      <button class="ch-btn" data-ch="prima"><span class="ch-dot"></span>Prima</button>
+      <button class="ch-btn" data-ch="seznam-tv"><span class="ch-dot"></span>Seznam TV</button>
       <button class="ch-btn" data-ch="ct1"><span class="ch-dot"></span>ČT1</button>
       <button class="ch-btn" data-ch="ct2"><span class="ch-dot"></span>ČT2</button>
-      <button class="ch-btn" data-ch="prima"><span class="ch-dot"></span>Prima</button>
+      <button class="ch-btn" data-ch="ct-sport"><span class="ch-dot"></span>ČT sport</button>
     </div>
 
   </div>
@@ -425,17 +444,17 @@ body { min-height:100dvh; background:var(--bg); }
 <!-- ── FOOTER ──────────────────────────────────────────────────────────────── -->
 <footer class="footer">
   Data: <a href="https://epg.lat" target="_blank" rel="noopener">epg.lat</a>
-  &bull; Zdroj: sms.cz / programy-tv.cz
-  &bull; Automatická aktualizace 4&times; denně
+  &bull; Zdroj: <a href="https://www.sms.cz" target="_blank" rel="noopener">sms.cz</a> / <a href="https://www.ceskatelevize.cz" target="_blank" rel="noopener">ceskatelevize.cz</a><br>
+  Automatická aktualizace jednou denně. <br>Tento web je určen výhradně pro sousoukromou potřebu <br> a není určen pro veřejné ani komerční využití.<br> TV program Petr Klouček
 </footer>
 
 <script>
 'use strict';
 
 /* ── Constants ──────────────────────────────────────────────────────────────── */
-const TZ      = 'Europe/Prague';
-const EPG_URL = '/epg_data.json';
-const BADGE   = { 'tv-nova':'NOVA', ct1:'ČT1', ct2:'ČT2', prima:'PRIMA' };
+const TZ          = 'Europe/Prague';
+const EPG_URL     = './epg_data.json';
+const BADGE = { 'tv-nova':'NOVA', ct1:'ČT1', ct2:'ČT2', prima:'PRIMA', 'ct-sport':'ŠPORT', 'seznam-tv':'SEZNAM' };
 
 /* ── State ──────────────────────────────────────────────────────────────────── */
 let epg          = null;     // parsed JSON
@@ -486,8 +505,8 @@ function esc(s) {
 }
 
 /* ── Render single programme ────────────────────────────────────────────────── */
-function renderProg(p, chId) {
-  const live = isLive(p);
+function renderProg(p, chId, liveProg) {
+  const live = (liveProg !== undefined) ? (p === liveProg) : isLive(p);
   const past = !live && isPast(p);
   const s = new Date(p.start), e = new Date(p.stop);
   const dur = durMin(s, e);
@@ -518,6 +537,15 @@ function renderCard(ch) {
   const progs = progsForDay(ch.programmes, dayOffset);
   const badge = BADGE[ch.id] ?? ch.name;
 
+  // Vyber přesně jeden živý pořad pro tento kanál:
+  // ze všech, kde start ≤ now < stop, vezmi ten s nejpozdějším začátkem.
+  // Tím je garantováno, že "PRÁVĚ BĚŽÍ" označení dostane nejvýše jeden pořad.
+  const now = Date.now();
+  const liveCandidates = progs.filter(p => new Date(p.start) <= now && now < new Date(p.stop));
+  const liveProg = liveCandidates.length
+    ? liveCandidates.reduce((best, p) => new Date(p.start) >= new Date(best.start) ? p : best)
+    : null;
+
   // Logo with fallback badge
   const logo = ch.logo
     ? `<img class="ch-logo-img" src="${esc(ch.logo)}" alt="${esc(ch.name)}"
@@ -527,7 +555,7 @@ function renderCard(ch) {
     : `<span class="ch-badge">${esc(badge)}</span>`;
 
   const body = progs.length
-    ? progs.map(p => renderProg(p, ch.id)).join('')
+    ? progs.map(p => renderProg(p, ch.id, liveProg)).join('')
     : `<div class="empty"><div class="empty-ico">📭</div>Pro tento den nejsou k dispozici žádná data.</div>`;
 
   return `<div class="card" data-ch="${esc(ch.id)}" aria-label="${esc(ch.name)}">
@@ -600,29 +628,115 @@ function render() {
   }
 }
 
-/* ── Fetch EPG ──────────────────────────────────────────────────────────────── */
+/* ── Offline Demo Data Generator ────────────────────────────────────────────── */
+function generateMockEPG() {
+  const base = new Date();
+  base.setMinutes(0, 0, 0);
+  const iso = m => new Date(base.getTime() + m * 60000).toISOString();
+
+  return {
+    generated_at: new Date().toISOString(),
+    source: 'offline-preview',
+    channels: [
+      {
+        id: 'tv-nova',
+        name: 'TV Nova',
+        logo: 'https://www.sms.cz/kategorie/televize/bmp/loga/velka/nova.png',
+        programmes: [
+          { title: 'Odpolední Televizní noviny', start: iso(-120), stop: iso(-60), description: 'Přehled hlavních zpráv a událostí dne.', category: 'Zpravodajství' },
+          { title: 'Ulice', start: iso(-60), stop: iso(0), description: 'Oblíbený denní rodinný seriál.', category: 'Seriál' },
+          { title: 'Na lovu VI', start: iso(0), stop: iso(60), description: 'Vědomostní kvíz s Ondřejem Sokolem a lovci.', category: 'Soutěž' },
+          { title: 'Televizní noviny', start: iso(60), stop: iso(115), description: 'Hlavní zpravodajská relace TV Nova.', category: 'Zpravodajství' },
+          { title: 'Kriminálka Anděl', start: iso(115), stop: iso(180), description: 'Napínavé vyšetřování v ulicích Prahy.', category: 'Krimi' }
+        ]
+      },
+      {
+        id: 'ct1',
+        name: 'ČT1',
+        logo: 'https://www.sms.cz/kategorie/televize/bmp/loga/velka/ct1.png',
+        programmes: [
+          { title: 'AZ-kvíz', start: iso(-90), stop: iso(-45), description: 'Tradiční vědomostní soutěž.', category: 'Zábava' },
+          { title: 'Černé ovce', start: iso(-45), stop: iso(0), description: 'Spotřebitelský magazín s radami a testy.', category: 'Publicistika' },
+          { title: 'Události v regionech', start: iso(0), stop: iso(30), description: 'Regionální zpravodajství z celé republiky.', category: 'Zpravodajství' },
+          { title: 'Události', start: iso(30), stop: iso(95), description: 'Hlavní zprávy České televize.', category: 'Zpravodajství' },
+          { title: 'Případy 1. oddělení', start: iso(95), stop: iso(165), description: 'Kriminální případy z praxe pražské mordparty.', category: 'Krimi' }
+        ]
+      },
+      {
+        id: 'ct2',
+        name: 'ČT2',
+        logo: 'https://www.sms.cz/kategorie/televize/bmp/loga/velka/ct2.png',
+        programmes: [
+          { title: 'Zázraky divočiny', start: iso(-110), stop: iso(-40), description: 'Fascinující pohled do světa přírody.', category: 'Dokument' },
+          { title: 'Letecké katastrofy', start: iso(-40), stop: iso(20), description: 'Analýza vyšetřování leteckých havárií.', category: 'Dokument' },
+          { title: 'Cestománie', start: iso(20), stop: iso(70), description: 'Cestopisný cyklus po naší planetě.', category: 'Cestování' },
+          { title: 'Klub náročného diváka', start: iso(70), stop: iso(180), description: 'Oceňovaný film v původním znění.', category: 'Film' }
+        ]
+      },
+      {
+        id: 'prima',
+        name: 'Prima',
+        logo: 'https://www.sms.cz/kategorie/televize/bmp/loga/velka/prima.png',
+        programmes: [
+          { title: 'Prostřeno!', start: iso(-90), stop: iso(-30), description: 'Kulinářská reality show.', category: 'Zábava' },
+          { title: 'Zprávy z regionů', start: iso(-30), stop: iso(0), description: 'Aktuální dění z krajů.', category: 'Zpravodajství' },
+          { title: 'Hlavní zprávy', start: iso(0), stop: iso(50), description: 'Souhrn nejdůležitějších událostí.', category: 'Zpravodajství' },
+          { title: 'ZOO', start: iso(50), stop: iso(125), description: 'Oblíbený rodinný seriál.', category: 'Seriál' },
+          { title: '7 pádů Honzy Dědka', start: iso(125), stop: iso(195), description: 'Zábavná talk show s hosty.', category: 'Talk show' }
+        ]
+      },
+      {
+        id: 'seznam-tv',
+        name: 'Televize Seznam',
+        logo: 'https://www.sms.cz/kategorie/televize/bmp/loga/velka/seznamcztv.png',
+        programmes: [
+          { title: 'Moje místa', start: iso(-80), stop: iso(-40), description: 'Dokumentární cyklus o zajímavých osobnostech a místech.', category: 'Dokument' },
+          { title: 'Rozstřel', start: iso(-40), stop: iso(0), description: 'Přímé přenosy a rozhovory na aktuální témata.', category: 'Publicistika' },
+          { title: 'Zprávy FTV Prima', start: iso(0), stop: iso(30), description: 'Aktuální zpravodajství ze Seznamu.', category: 'Zpravodajství' },
+          { title: 'Co to znamená?', start: iso(30), stop: iso(90), description: 'Pořad vysvětlující aktuální dění.', category: 'Publicistika' },
+          { title: 'Jak to vidíte?', start: iso(90), stop: iso(150), description: 'Debatní pořad s hosty.', category: 'Talk show' }
+        ]
+      },
+      {
+        id: 'ct-sport',
+        name: 'ČT sport',
+        logo: 'https://www.sms.cz/kategorie/televize/bmp/loga/velka/ct4.png',
+        programmes: [
+          { title: 'Fotbal: Liga mistrů – předzápasové studio', start: iso(-60), stop: iso(0), description: 'Analýza a tipy před večerními zápasy.', category: 'Sport' },
+          { title: 'Fotbal: Liga mistrů – přímý přenos', start: iso(0), stop: iso(115), description: 'Živý přenos zápasu Ligy mistrů UEFA.', category: 'Fotbal' },
+          { title: 'Fotbal: Liga mistrů – pozápasové studio', start: iso(115), stop: iso(150), description: 'Hodnocení zápasu a rozhovory.', category: 'Sport' },
+          { title: 'Tenis: ATP Tour', start: iso(150), stop: iso(240), description: 'Přímý přenos tenisového turnaje ATP.', category: 'Tenis' }
+        ]
+      }
+    ]
+  };
+}
+
+/* ── Fetch EPG (Resilient with fallbacks) ────────────────────────────────────── */
 async function fetchEPG(showSkel = true) {
   if (showSkel) document.getElementById('main').innerHTML = skeleton();
+
+  let loaded = false;
+
+  // 1. Pokus: relativní soubor (funguje na Netlify i přes lokální server http://localhost)
   try {
     const res = await fetch(`${EPG_URL}?v=${Date.now()}`);
-    if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
-    epg = await res.json();
+    if (res.ok) {
+      epg = await res.json();
+      const genAt = new Date(epg.generated_at);
+      document.getElementById('lastUpdated').textContent = `aktualizováno ${hm(genAt)}`;
+      loaded = true;
+    }
+  } catch (_) {}
 
-    const genAt = new Date(epg.generated_at);
-    document.getElementById('lastUpdated').textContent = `aktualizováno ${hm(genAt)}`;
-
-    render();
-  } catch (err) {
-    console.error('[EPG]', err);
-    document.getElementById('main').innerHTML = `
-      <div class="err-box">
-        <div class="err-ico">⚠️</div>
-        <h2>Nepodařilo se načíst program</h2>
-        <p>Zkontrolujte připojení k internetu nebo zkuste to za chvíli znovu.<br>
-           <small style="opacity:.55">${esc(err.message)}</small></p>
-        <button class="btn-retry" onclick="fetchEPG()">Zkusit znovu</button>
-      </div>`;
+  // 3. Pokus: offline záloha – demo data pro bezstarostné ladění designu a barev
+  if (!loaded) {
+    epg = generateMockEPG();
+    document.getElementById('lastUpdated').textContent = 'lokální náhled (demo data)';
+    loaded = true;
   }
+
+  render();
 }
 
 /* ── Clock ──────────────────────────────────────────────────────────────────── */
