@@ -3,9 +3,9 @@
 Jednoduchá, moderní a plně automatizovaná webová aplikace pro TV program stanic:
 **TV Nova, Prima, Televize Seznam, ČT1, ČT2 a ČT sport**.
 
-- **Živý web:** [https://tv-program1.netlify.app](https://tv-program1.netlify.app) (případně GitHub Pages, doporučeno kvůli kreditům)
-- **GitHub repozitář:** `petmat247-cloud/tv-program`
-- **Hosting:** Netlify / GitHub Pages
+- **Živý web:** [https://petmat247-cloud.github.io/tv-program1/](https://petmat247-cloud.github.io/tv-program1/)
+- **GitHub repozitář:** `petmat247-cloud/tv-program1`
+- **Hosting:** GitHub Pages (Zcela zdarma, Netlify bylo zrušeno kvůli kreditům)
 
 ---
 
@@ -17,9 +17,10 @@ Jednoduchá, moderní a plně automatizovaná webová aplikace pro TV program st
 2. **TV Nova, Prima a Televize Seznam:**
    - EPG zdroj `https://epg.lat/files/cz.xml.gz` (XMLTV formát).
    - Loga se stahují staticky z `sms.cz` kvůli spolehlivosti.
-3. **Automatizace:**
-   - GitHub Actions (`.github/workflows/update-epg.yml`) spouští každý den ráno skript `scripts/fetch_epg.py`.
-   - Výsledný `public/epg_data.json` se automaticky uloží do repozitáře. *Doporučuje se hostovat přes GitHub Pages kvůli úspoře Netlify kreditů (každý commit přes Actions jinak vyčerpává Netlify).*
+3. **Automatizace (GitHub Actions):**
+   - Skript `.github/workflows/update-epg.yml` se spouští každý den ráno (nebo při změně kódu).
+   - Spustí `scripts/fetch_epg.py`, který vygeneruje `public/epg_data.json`.
+   - Následně GitHub Action automaticky vezme celou složku `public` a nasadí ji jako web na GitHub Pages.
 
 ---
 
@@ -29,7 +30,7 @@ Jednoduchá, moderní a plně automatizovaná webová aplikace pro TV program st
 TV-Web/
 ├── .github/
 │   └── workflows/
-│       └── update-epg.yml      ← Denní GitHub Actions cron (stahování + commit)
+│       └── update-epg.yml      ← Automatizace: Stažení dat + Deploy na GitHub Pages
 ├── public/
 │   ├── index.html              ← Kompletní frontend (CSS, JS, Dark/Light mód, filtry)
 │   ├── epg_data.json           ← Aktuální vygenerovaná data programu
@@ -37,29 +38,32 @@ TV-Web/
 ├── scripts/
 │   └── fetch_epg.py            ← Python skript stahující ČT API + epg.lat
 ├── Spustit-nahled.command      ← Dvojklik pro lokální testování (spustí server http://localhost:8080)
-├── netlify.toml                ← Konfigurace Netlify (CORS, cache hlavičky)
 ├── .gitignore
 └── README.md
 ```
 
 ---
 
-## 📝 Historie a vývoj (Září 2026 - Změny a fixy)
+## 📝 Historie a vývoj (Změny a fixy)
 Při pokračování ve vývoji s AI sdílejte tyto body, aby věděla, na co navázat:
+
+- **Září 2026 (Migrace):** Kompletní přesun z Netlify na GitHub Pages. Přepracován `update-epg.yml`, aby stahoval EPG a rovnou nasazoval web (složku `public`). Smazán `netlify.toml` a fallbacky v `index.html`. Repozitář přejmenován na `tv-program1` a nastavena oprávnění Read/Write.
 - **Televize Seznam:** Byla přidána (CSS `#991b1b`, ID `seznam-tv`, stahuje se z `epg.lat` z kanálu `Seznam.cz.TV.cz`).
-- **Opravy layoutu:** Problém s překrýváním dlouhých názvů (např. Cestománie) se štítkem "PRÁVĚ BĚŽÍ" je opraven přes CSS `grid` pro `.p-row`. Filtry a navigace dnů jsou v CSS vycentrované.
+- **Opravy layoutu:** Problém s překrýváním dlouhých názvů se štítkem "PRÁVĚ BĚŽÍ" je opraven přes CSS `grid` pro `.p-row`.
 - **Logika Právě Běží:** Každý kanál může mít ve stejnou dobu "PRÁVĚ BĚŽÍ" vždy **maximálně jeden pořad**.
-- **Barvy stanic:**
-  - ČT1 je laděna do `indigo` (modro-červená, odlišená od Novy).
-  - ČT2 je laděna do zlatavě žluté, zbytek stanic ponechán v brand barvách.
+- **Barvy stanic:** ČT1 je laděna do `indigo`, ČT2 do zlatavě žluté.
 - **Zdroje log:** Přešlo se jednotně na loga ze `sms.cz`, aby nedocházelo k chybám 404 z původního zdroje ČT.
-- **Bugfixes:**
-  - Opravena stopáž ČT pořadů (původní kód četl minuty jako hodiny).
-  - Ze zdroje `epg.lat` byl vyřazen kanál `Nova.TV.cz` (což je chorvatská Nova), načítá se pouze česká `Nova.cz`.
 
 ---
 
-## 🚀 Jak nahrávat změny (workflow)
-1. Úprava souborů lokálně v této složce.
-2. Před uploadem lokálně zkontrolovat otevřením `index.html` (nebo `Spustit-nahled.command`).
-3. Dát git commit celého projektu na GitHub najednou (např. z VS Code nebo terminálu), nikoliv editací jednoho souboru po druhém z webového rozhraní GitHubu, aby nedocházelo k plýtvání deploy limitů (pokud využíváte Netlify).
+## 🚀 Jak nahrávat změny a aktualizovat web
+
+Pokud chceš cokoliv upravit (přidat kanál, změnit barvu, upravit text):
+
+1. **Úprava na počítači:** Otevři projekt ve **VS Code** a proveď změny v kódu (např. v `public/index.html`).
+2. **Lokální kontrola:** Otevři si `index.html` v prohlížeči nebo dvakrát klikni na `Spustit-nahled.command` a podívej se, jestli to vypadá tak, jak chceš.
+3. **Nahrání na GitHub (VS Code):**
+   - V levém menu VS Code klikni na třetí ikonku shora (**Source Control**).
+   - Napiš krátkou zprávu (např. "Přidán nový kanál") do políčka *Message* a klikni na modré tlačítko **Commit**.
+   - Pak klikni na modré tlačítko **Sync Changes** (nebo ikonu `0↓ 1↑` dole v liště).
+4. **Hotovo:** Jakmile to VS Code nahraje na GitHub, automaticky se spustí akce a do minuty se změny objeví na živém webu! (Na nic dalšího neklikej, vše se zkompiluje samo).

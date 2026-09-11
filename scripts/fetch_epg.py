@@ -24,8 +24,7 @@ import urllib.error
 
 XMLTV_URL = "https://epg.lat/files/cz.xml.gz"
 
-# Officiální API ČT — jeden dotaz na kanál × den
-# user=test je veřejně zdokumentovaný testovací přístup
+
 CT_API_URL = (
     "https://www.ceskatelevize.cz/services-old/programme/xml/schedule.php"
     "?user=test&date={date}&channel={channel}&json=1"
