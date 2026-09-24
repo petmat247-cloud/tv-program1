@@ -391,6 +391,9 @@ body { min-height:100dvh; background:var(--bg); }
 ::-webkit-scrollbar { width:5px; height:5px; }
 ::-webkit-scrollbar-track { background:transparent; }
 ::-webkit-scrollbar-thumb { background:var(--border); border-radius:3px; }
+/* ── Refresh spin animation ─────────────────────────────────────────────────── */
+@keyframes spin { to { transform: rotate(360deg); } }
+#refreshBtn:disabled { opacity: 0.6; cursor: not-allowed; }
   </style>
 </head>
 <body>
@@ -411,6 +414,9 @@ body { min-height:100dvh; background:var(--bg); }
           <span id="lastUpdated">načítám…</span>
         </div>
         <span class="clock" id="clock"></span>
+        <button class="btn-theme" id="refreshBtn" title="Znovu načíst data programu" onclick="manualRefresh()">
+          <span id="refreshIco">🔄</span>
+        </button>
         <button class="btn-theme" id="themeBtn" title="Přepnout světlý/tmavý režim">
           <span id="themeIco">☀️</span>
         </button>
@@ -751,6 +757,19 @@ setInterval(updateClock, 10000);
 setInterval(() => { if (epg) render(); }, 60000);
 // Full data re-fetch every 20 min
 setInterval(() => fetchEPG(false), 20 * 60 * 1000);
+
+/* ── Manuální refresh ───────────────────────────────────────────────────────── */
+async function manualRefresh() {
+  const btn = document.getElementById('refreshBtn');
+  const ico = document.getElementById('refreshIco');
+  if (btn.disabled) return;
+  btn.disabled = true;
+  ico.style.display = 'inline-block';
+  ico.style.animation = 'spin 0.8s linear infinite';
+  await fetchEPG(false);
+  ico.style.animation = '';
+  btn.disabled = false;
+}
 
 /* ── Event listeners ────────────────────────────────────────────────────────── */
 // Day buttons
