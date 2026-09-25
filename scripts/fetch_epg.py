@@ -22,6 +22,7 @@ import urllib.error
 # ──────────────────────────────────────────────────────────────────────────────
 
 XMLTV_SOURCES = [
+    "https://iptv-epg.org/files/epg-cz.xml.gz",
     "https://epg.lat/files/cz.xml.gz",
     "https://raw.githubusercontent.com/kozmali/sk-cz-epg/main/epg.xml.gz"
 ]
@@ -40,9 +41,14 @@ CT_CHANNELS = {
 }
 
 XMLTV_CHANNEL_MAP = {
+    # epg.lat / sk-cz-epg IDs
     "Nova.cz":         "TV Nova",
     "Prima.cz":        "Prima",
     "Seznam.cz.TV.cz": "Televize Seznam",
+    # iptv-epg.org IDs
+    "NOVA.cz":         "TV Nova",
+    "PRIMA.cz":        "Prima",
+    "SEZNAMTV.cz":     "Televize Seznam",
 }
 XMLTV_LOGOS_FALLBACK = {
     "TV Nova":         "https://www.sms.cz/kategorie/televize/bmp/loga/velka/nova.png",
@@ -196,7 +202,8 @@ def fetch_xmltv_from_url(url: str, days_ahead: int) -> tuple:
                 icons[ch_id] = icon_el.get("src").strip()
 
     latest_date = None
-    progs = {cid: [] for cid in wanted}
+    # Skupiny programů podle oficiálního názvu, ne podle syrového ID
+    progs = {name: [] for name in set(XMLTV_CHANNEL_MAP.values())}
 
     for prog in root.iter("programme"):
         ch_id = prog.get("channel", "")
@@ -213,7 +220,8 @@ def fetch_xmltv_from_url(url: str, days_ahead: int) -> tuple:
             desc_el  = prog.find("desc")
             cat_el   = prog.find("category")
 
-            progs[ch_id].append({
+            canonical_name = XMLTV_CHANNEL_MAP[ch_id]
+            progs[canonical_name].append({
                 "title":       (title_el.text or "").strip() if title_el is not None else "",
                 "start":       utc_iso(start.astimezone(timezone.utc)),
                 "stop":        utc_iso(stop.astimezone(timezone.utc)),
@@ -223,8 +231,8 @@ def fetch_xmltv_from_url(url: str, days_ahead: int) -> tuple:
         except ValueError:
             continue
             
-    for ch_id in progs:
-        progs[ch_id].sort(key=lambda p: p["start"])
+    for name in progs:
+        progs[name].sort(key=lambda p: p["start"])
 
     return progs, icons, latest_date
 
@@ -278,28 +286,27 @@ def deduplicate(progs):
     return unique
 
 def build_output(ct_progs: dict, xmltv_progs: dict, xmltv_icons: dict, xmltv_source_url: str) -> dict:
-    nova_ch = [c for c, name in XMLTV_CHANNEL_MAP.items() if name == "TV Nova"][0]
-    prima_ch = [c for c, name in XMLTV_CHANNEL_MAP.items() if name == "Prima"][0]
-    seznam_ch = [c for c, name in XMLTV_CHANNEL_MAP.items() if name == "Televize Seznam"][0]
-
+    # Ikony se stále musí tahat podle původního ID z XML, ale protože jich může být víc,
+    # raději se rovnou spolehneme na fallback loga ze sms.cz, která fungují 100%
+    
     channels = [
         {
             "id": "tv-nova", "name": "TV Nova",
-            "logo": xmltv_icons.get(nova_ch) or XMLTV_LOGOS_FALLBACK["TV Nova"],
+            "logo": XMLTV_LOGOS_FALLBACK["TV Nova"],
             "source": xmltv_source_url,
-            "programmes": deduplicate(xmltv_progs.get(nova_ch, [])),
+            "programmes": deduplicate(xmltv_progs.get("TV Nova", [])),
         },
         {
             "id": "prima", "name": "Prima",
-            "logo": xmltv_icons.get(prima_ch) or XMLTV_LOGOS_FALLBACK["Prima"],
+            "logo": XMLTV_LOGOS_FALLBACK["Prima"],
             "source": xmltv_source_url,
-            "programmes": deduplicate(xmltv_progs.get(prima_ch, [])),
+            "programmes": deduplicate(xmltv_progs.get("Prima", [])),
         },
         {
             "id": "seznam-tv", "name": "Televize Seznam",
-            "logo": xmltv_icons.get(seznam_ch) or XMLTV_LOGOS_FALLBACK["Televize Seznam"],
+            "logo": XMLTV_LOGOS_FALLBACK["Televize Seznam"],
             "source": xmltv_source_url,
-            "programmes": deduplicate(xmltv_progs.get(seznam_ch, [])),
+            "programmes": deduplicate(xmltv_progs.get("Televize Seznam", [])),
         },
         {
             "id": "ct1", "name": "ČT1",
@@ -346,7 +353,7 @@ def main():
         print("\n=== Nova + Prima + Seznam (XMLTV) ===", file=sys.stderr)
         xmltv_progs, xmltv_icons, best_url = get_best_xmltv(args.days)
     except RuntimeError as exc:
-        xmltv_progs = {ch: [] for ch in XMLTV_CHANNEL_MAP}
+        xmltv_progs = {name: [] for name in set(XMLTV_CHANNEL_MAP.values())}
         xmltv_icons, best_url = {}, "none"
         print(f"[CHYBA] Všechny XMLTV zdroje selhaly: {exc}", file=sys.stderr)
 
