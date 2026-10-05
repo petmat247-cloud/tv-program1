@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T11:02:22Z",
+  "generated_at": "2026-10-05T12:10:06Z",
   "sources": {
     "ct": "https://www.ceskatelevize.cz/services-old/programme/xml/schedule.php?user=test&date={date}&channel={channel}&json=1",
     "xmltv": "https://iptv-epg.org/files/epg-cz.xml.gz"
@@ -11,160 +11,6 @@
       "logo": "https://www.sms.cz/kategorie/televize/bmp/loga/velka/nova.png",
       "source": "https://iptv-epg.org/files/epg-cz.xml.gz",
       "programmes": [
-        {
-          "title": "",
-          "start": "2026-10-03T08:35:00Z",
-          "stop": "2026-10-03T09:55:00Z",
-          "description": "E20 — Na lovu: Hvězdný speciál V\nNa lovu: Hvězdný speciál V Hvězdný speciál oblíbené televizní show Na lovu, ve kterém půjde o dvojnásobné výhry. Dominik Vršanský, Ondřej Havel, Martin Čermák a Ester Kabelová se pokusí ve vědomostním souboji porazit lovce a vybojovat peníze pro charitu. Pořadem provází Ondřej Sokol.Na lovu: Hvězdný speciál V Hvězdný speciál oblíbené televizní show Na lovu, ve kterém půjde o dvojnásobné výhry. Dominik Vršanský, Ondřej Havel, Martin Čermák a Ester Kabelová se pokusí ve vědomostním souboji porazit lovce a vybojovat peníze pro charitu. Pořadem provází Ondřej Sokol.",
-          "category": "Mag"
-        },
-        {
-          "title": "Za pět minut dvanáct",
-          "start": "2026-10-03T09:55:00Z",
-          "stop": "2026-10-03T11:00:00Z",
-          "description": "Diskuzní pořad s aktuálními tématy a hosty z politiky a veřejného života, vysílaný každou sobotu od 11:55.Diskuzní pořad s aktuálními tématy a hosty z politiky a veřejného života, vysílaný každou sobotu od 11:55.",
-          "category": "Mag"
-        },
-        {
-          "title": "SuperStar",
-          "start": "2026-10-03T11:00:00Z",
-          "stop": "2026-10-03T13:30:00Z",
-          "description": "E5 — CASTING\nCASTING Známé písničky, skvělí zpěváci, nečekané drama! To vše nabízí pátý castingový díl nejoblíbenější hudební show na světě! Kdo získá golden ticket a přímý postup do dalšího kola? A kdo si na svůj verdikt počká v golden roomu? Nenechte si ujít další díl jedinečné show! Moderuje Leoš Mareš!CASTING Známé písničky, skvělí zpěváci, nečekané drama! To vše nabízí pátý castingový díl nejoblíbenější hudební show na světě! Kdo získá golden ticket a přímý postup do dalšího kola? A kdo si na svůj verdikt počká v golden roomu? Nenechte si ujít další díl jedinečné show! Moderuje Leoš Mareš!",
-          "category": "Mag"
-        },
-        {
-          "title": "Velké sedlo",
-          "start": "2026-10-03T13:30:00Z",
-          "stop": "2026-10-03T14:35:00Z",
-          "description": "E5 — Kalná voda\nSikyta se snaží znovu získat Ivanu, ta ho však odmítá. Mezitím dojde k nečekanému znečištění řeky a Palyza se Sikytou se pustí do záchrany ryb. Brzy odhalí, že za ekologickou havárií stojí průsak ze silážní jámy. Český seriál (1987). Hrají P. Nový, J. Krausová, I. Vyskočil, J. Holý, T. Jirman, J. Smutná, V. Jandák a další. Režie F. MudraSikyta se snaží znovu získat Ivanu, ta ho však odmítá. Mezitím dojde k nečekanému znečištění řeky a Palyza se Sikytou se pustí do záchrany ryb. Brzy odhalí, že za ekologickou havárií stojí průsak ze silážní jámy. Český seriál (1987). Hrají P. Nový, J. Krausová, I. Vyskočil, J. Holý, T. Jirman, J. Smutná, V. Jandák a další. Režie F. Mudra.",
-          "category": "Mag"
-        },
-        {
-          "title": "Twister",
-          "start": "2026-10-03T14:35:00Z",
-          "stop": "2026-10-03T16:50:00Z",
-          "description": "Helen Hunt a Bill Paxton se blíží k obřímu tornádu, největšímu za posledních 30 let. Tornádo však změní směr a oni bojují o holý život.Helen Hunt a Bill Paxton se blíží k obřímu tornádu, největšímu za posledních 30 let. Tornádo však změní směr a oni bojují o holý život.",
-          "category": "Mag"
-        },
-        {
-          "title": "Hospoda",
-          "start": "2026-10-03T16:50:00Z",
-          "stop": "2026-10-03T17:30:00Z",
-          "description": "E49 — Výletník\nVýletník Do hospůdky tři schůdky - z hospody tři schody. Český seriál (1995). Účinkují P. Nárožný, J. Menzel, J. Kanyza, B. Poloczek, L. Potměšil, J. Dvořák, L. Lipský, P. Vondruška, V. Knop, Z. Bydžovská a J. Krytinář. Režie J. DudekVýletník Do hospůdky tři schůdky - z hospody tři schody. Český seriál (1995). Účinkují P. Nárožný, J. Menzel, J. Kanyza, B. Poloczek, L. Potměšil, J. Dvořák, L. Lipský, P. Vondruška, V. Knop, Z. Bydžovská a J. Krytinář. Režie J. Dudek.",
-          "category": "Mag"
-        },
-        {
-          "title": "Televizní noviny",
-          "start": "2026-10-03T17:30:00Z",
-          "stop": "2026-10-03T18:10:00Z",
-          "description": "Hlavní zpravodajská relace TV Nova, kterou vysíláme každý den v 19:30. Kontakt na redakci: zpravy@nova.czHlavní zpravodajská relace TV Nova, kterou vysíláme každý den v 19:30. Kontakt na redakci: zpravy@nova.cz.",
-          "category": "Mag"
-        },
-        {
-          "title": "Sportovní noviny",
-          "start": "2026-10-03T18:10:00Z",
-          "stop": "2026-10-03T18:15:00Z",
-          "description": "Aktuální sportovní zpravodajství, přehled nejdůležitějších sportovních událostí doma i ve světě. Vysíláme každý všední den po Televizních novinách.Aktuální sportovní zpravodajství, přehled nejdůležitějších sportovních událostí doma i ve světě. Vysíláme každý všední den po Televizních novinách.",
-          "category": "Mag"
-        },
-        {
-          "title": "Počasí",
-          "start": "2026-10-03T18:15:00Z",
-          "stop": "2026-10-03T18:20:00Z",
-          "description": "Počasí Přehled aktuálního počasí a předpověď na následující dny.Počasí Přehled aktuálního počasí a předpověď na následující dny.",
-          "category": "Mag"
-        },
-        {
-          "title": "Možné je všechno! III",
-          "start": "2026-10-03T18:20:00Z",
-          "stop": "2026-10-03T19:50:00Z",
-          "description": "E6 — Možné je všechno! III\nMožné je všechno! III Nenechte si ujít velkolepé finále třetí řady improvizační show! Adama Mišíka namočíme v barvě! Jakub Štáfek se rozvede s Petrou Nesvačilovou! Eva Burešová podá daňové přiznání ve verších! A Ondřej Sokol vyvěští budoucnost! Dále účinkují Pavla Gajdošíková, Oskar Hes a Jiří Mádl! Moderuje Aleš Háma!Možné je všechno! III Nenechte si ujít velkolepé finále třetí řady improvizační show! Adama Mišíka namočíme v barvě! Jakub Štáfek se rozvede s Petrou Nesvačilovou! Eva Burešová podá daňové přiznání ve verších! A Ondřej Sokol vyvěští budoucnost! Dále účinkují Pavla Gajdošíková, Oskar Hes a Jiří Mádl! Moderuje Aleš Háma!",
-          "category": "Mag"
-        },
-        {
-          "title": "Rychle a zběsile 6",
-          "start": "2026-10-03T19:50:00Z",
-          "stop": "2026-10-03T22:25:00Z",
-          "description": "Vina Diesela a jeho partu vytrhne z poklidného života agent Dwayne Johnson s žádostí, aby své schopnosti tentokrát využili ve prospěch něčeho užitečného. Už dlouho se snaží dopadnout bývalého příslušníka speciálních jednotek SEALs Luka Evanse a jeho gang, kteří jsou díky mistrovství za volantem úspěšnými zločinci. Výměnou za pomoc Dwayne Johnson nabízí čistý trestný rejstřík pro všechny a možnost vrátit se domů... Akční film v koprodukci USA, Japonsko, Španělsko (2013). Dále hrají P. Walker, M. Rodriguez, T. Gibson, G. Carano, S. Kang, G. Gadot a další. Režie J. Lin (119 min)Vina Diesela a jeho partu vytrhne z poklidného života agent Dwayne Johnson s žádostí, aby své schopnosti tentokrát využili ve prospěch něčeho užitečného. Už dlouho se snaží dopadnout bývalého příslušníka speciálních jednotek SEALs Luka Evanse a jeho gang, kteří jsou díky mistrovství za volantem úspěšnými zločinci. Výměnou za pomoc Dwayne Johnson nabízí čistý trestný rejstřík pro všechny a možnost vrátit se domů... Akční film v koprodukci USA, Japonsko, Španělsko (2013). Dále hrají P. Walker, M. Rodriguez, T. Gibson, G. Carano, S. Kang, G. Gadot a další. Režie J. Lin (119 min).",
-          "category": "Mag"
-        },
-        {
-          "title": "Nikdo",
-          "start": "2026-10-03T22:25:00Z",
-          "stop": "2026-10-04T00:15:00Z",
-          "description": "Že je někdo nenápadný, neznamená, že není nebezpečný...Že je někdo nenápadný, neznamená, že není nebezpečný...",
-          "category": "Mag"
-        },
-        {
-          "title": "Kriminálka Anděl VIII",
-          "start": "2026-10-04T00:15:00Z",
-          "stop": "2026-10-04T01:30:00Z",
-          "description": "E5 — Bestie\nBestie Bývalý prvoligový rozhodčí padl až na dno. Vrah mu vystavil krvavý účet. Nová řada legendárního kriminálního seriálu (2026). Hrají D. Švehlík, J. Dvořák, H. Dvořáková, M. Novotný, M. Dancingerová, M. Taclík a další. Režie O. HraškaBestie Bývalý prvoligový rozhodčí padl až na dno. Vrah mu vystavil krvavý účet. Nová řada legendárního kriminálního seriálu (2026). Hrají D. Švehlík, J. Dvořák, H. Dvořáková, M. Novotný, M. Dancingerová, M. Taclík a další. Režie O. Hraška.",
-          "category": "Mag"
-        },
-        {
-          "title": "Ordinace v růžové zahradě 2",
-          "start": "2026-10-04T01:30:00Z",
-          "stop": "2026-10-04T02:25:00Z",
-          "description": "E1050 — Show pro Radku\nShow pro Radku Vojta žárlí na Radku a Michala, jejich údajná nevěra bude mít šokující vyústění. Nové příběhy oblíbeného českého seriálu (2022). Hrají M. Badinková, I. Lupták, A. Slováčková, M. Zounar, R. Štabrňák, L. Hejlík, R. Jašków, P. Štěpánek, Z. Adamovská, J. Holcová, P. Pagáčová a další. Režie J. FuitShow pro Radku Vojta žárlí na Radku a Michala, jejich údajná nevěra bude mít šokující vyústění. Nové příběhy oblíbeného českého seriálu (2022). Hrají M. Badinková, I. Lupták, A. Slováčková, M. Zounar, R. Štabrňák, L. Hejlík, R. Jašków, P. Štěpánek, Z. Adamovská, J. Holcová, P. Pagáčová a další. Režie J. Fuit.",
-          "category": "Mag"
-        },
-        {
-          "title": "My, chalupáři",
-          "start": "2026-10-04T02:25:00Z",
-          "stop": "2026-10-04T03:40:00Z",
-          "description": "E27 — My, chalupáři!\nLifestyle magazín nejen pro chalupáře s množstvím inspirace, nápadů a kreativních řešení. Manželé a vášniví chalupáři Lucie Benešová a Tomáš Matonoha zamíří na návštěvu k dalším slavným českým chalupářům, a prozkoumají, co vše je možné na chatách vyrobit, vylepšit nebo postavit. Vypraví se i na zajímavé výlety po okolí za novými netradičními zážitky a přenesou na vás trochu té pověstné chalupářské pohody.Lifestyle magazín nejen pro chalupáře s množstvím inspirace, nápadů a kreativních řešení. Manželé a vášniví chalupáři Lucie Benešová a Tomáš Matonoha zamíří na návštěvu k dalším slavným českým chalupářům, a prozkoumají, co vše je možné na chatách vyrobit, vylepšit nebo postavit. Vypraví se i na zajímavé výlety po okolí za novými netradičními zážitky a přenesou na vás trochu té pověstné chalupářské pohody.",
-          "category": "Mag"
-        },
-        {
-          "title": "Televizní noviny",
-          "start": "2026-10-04T03:40:00Z",
-          "stop": "2026-10-04T04:20:00Z",
-          "description": "Hlavní zpravodajská relace TV Nova, kterou vysíláme každý den v 19:30. Kontakt na redakci: zpravy@nova.czHlavní zpravodajská relace TV Nova, kterou vysíláme každý den v 19:30. Kontakt na redakci: zpravy@nova.cz.",
-          "category": "Mag"
-        },
-        {
-          "title": "Bernieho dobrodružství",
-          "start": "2026-10-04T04:20:00Z",
-          "stop": "2026-10-04T04:30:00Z",
-          "description": "E19 — Bernieho dobrodružství\nBernieho dobrodružství Bernie je ztracen na dně oceánu, v tomto nepřátelském prostředí se geniální vynálezce neúnavně snaží vrátit na svůj ostrov a znovu se spojit se Zigem. Francouzský animovaný seriál (2021)Bernieho dobrodružství Bernie je ztracen na dně oceánu, v tomto nepřátelském prostředí se geniální vynálezce neúnavně snaží vrátit na svůj ostrov a znovu se spojit se Zigem. Francouzský animovaný seriál (2021).",
-          "category": "Mag"
-        },
-        {
-          "title": "Karate ovce",
-          "start": "2026-10-04T04:30:00Z",
-          "stop": "2026-10-04T05:00:00Z",
-          "description": "E29 — Karate ovce\nKarate ovce Ochránit stádo ovcí před hladovým vlkem je pořádná fuška. Wanda a Trico ale umí karate, a tak je o vtipné situace postaráno. Animovaný seriál (2022)Karate ovce Ochránit stádo ovcí před hladovým vlkem je pořádná fuška. Wanda a Trico ale umí karate, a tak je o vtipné situace postaráno. Animovaný seriál (2022).",
-          "category": "Mag"
-        },
-        {
-          "title": "Zig a Sharko IV",
-          "start": "2026-10-04T05:00:00Z",
-          "stop": "2026-10-04T05:25:00Z",
-          "description": "E32 — Zig a Sharko\nZig a Sharko Jediným cílem hladové hyeny Ziga je mořská víla Marina, která ale má statného ochránce žraloka Sharka. Čtvrtá řada francouzského animovaného seriálu (2022)Zig a Sharko Jediným cílem hladové hyeny Ziga je mořská víla Marina, která ale má statného ochránce žraloka Sharka. Čtvrtá řada francouzského animovaného seriálu (2022).",
-          "category": "Mag"
-        },
-        {
-          "title": "Policie Modrava II",
-          "start": "2026-10-04T05:25:00Z",
-          "stop": "2026-10-04T06:35:00Z",
-          "description": "E1 — Nehoda\nNehoda Alena Prokešová měla tři starší bohaté manžely a všichni zemřeli. Stojí za jejich smrtí ona nebo někdo jiný? Český kriminální seriál (2017). Hrají S. Norisová, J. Satoranský, F. Tomsa, Z. Palusga, J. Monczka, J. Stránská, M. Dadák, J. Boušková a další. Režie J. SoukupNehoda Alena Prokešová měla tři starší bohaté manžely a všichni zemřeli. Stojí za jejich smrtí ona nebo někdo jiný? Český kriminální seriál (2017). Hrají S. Norisová, J. Satoranský, F. Tomsa, Z. Palusga, J. Monczka, J. Stránská, M. Dadák, J. Boušková a další. Režie J. Soukup.",
-          "category": "Mag"
-        },
-        {
-          "title": "Zlatá labuť",
-          "start": "2026-10-04T06:35:00Z",
-          "stop": "2026-10-04T07:55:00Z",
-          "description": "E40 — Zlatá labuť\nZlatá labuť Zmizení malého Edy všem obrátí život vzhůru nohama. Petr však dokáže, že svou rodinu umí ochránit. Zlo nás nerozdělí. Český romantický seriál TV Nova (2024). Hrají A. Vacula, K. Ryška, B. Kaňoková, S. Lewandowska, Š. Krausová, S. Haváčová, J. Plesl, P. Řezníček. Režie B. HoličekZlatá labuť Zmizení malého Edy všem obrátí život vzhůru nohama. Petr však dokáže, že svou rodinu umí ochránit. Zlo nás nerozdělí. Český romantický seriál TV Nova (2024). Hrají A. Vacula, K. Ryška, B. Kaňoková, S. Lewandowska, Š. Krausová, S. Haváčová, J. Plesl, P. Řezníček. Režie B. Holiček.",
-          "category": "Mag"
-        },
-        {
-          "title": "My, chalupáři",
-          "start": "2026-10-04T07:55:00Z",
-          "stop": "2026-10-04T09:10:00Z",
-          "description": "E28 — My, chalupáři!\nLifestyle magazín nejen pro chalupáře s množstvím inspirace, nápadů a kreativních řešení. Manželé a vášniví chalupáři Lucie Benešová a Tomáš Matonoha zamíří na návštěvu k dalším slavným českým chalupářům, a prozkoumají, co vše je možné na chatách vyrobit, vylepšit nebo postavit. Vypraví se i na zajímavé výlety po okolí za novými netradičními zážitky a přenesou na vás trochu té pověstné chalupářské pohody.Lifestyle magazín nejen pro chalupáře s množstvím inspirace, nápadů a kreativních řešení. Manželé a vášniví chalupáři Lucie Benešová a Tomáš Matonoha zamíří na návštěvu k dalším slavným českým chalupářům, a prozkoumají, co vše je možné na chatách vyrobit, vylepšit nebo postavit. Vypraví se i na zajímavé výlety po okolí za novými netradičními zážitky a přenesou na vás trochu té pověstné chalupářské pohody.",
-          "category": "Mag"
-        },
         {
           "title": "Ledničko, vyprávěj! II",
           "start": "2026-10-04T09:10:00Z",
@@ -266,13 +112,20 @@
         {
           "title": "Zlatá labuť",
           "start": "2026-10-05T02:00:00Z",
-          "stop": "2026-10-05T03:20:00Z",
+          "stop": "2026-10-05T03:00:00Z",
           "description": "E40 — Zlatá labuť\nZlatá labuť Zmizení malého Edy všem obrátí život vzhůru nohama. Petr však dokáže, že svou rodinu umí ochránit. Zlo nás nerozdělí. Český romantický seriál TV Nova (2024). Hrají A. Vacula, K. Ryška, B. Kaňoková, S. Lewandowska, Š. Krausová, S. Haváčová, J. Plesl, P. Řezníček. Režie B. HoličekZlatá labuť Zmizení malého Edy všem obrátí život vzhůru nohama. Petr však dokáže, že svou rodinu umí ochránit. Zlo nás nerozdělí. Český romantický seriál TV Nova (2024). Hrají A. Vacula, K. Ryška, B. Kaňoková, S. Lewandowska, Š. Krausová, S. Haváčová, J. Plesl, P. Řezníček. Režie B. Holiček.",
           "category": "Mag"
         },
         {
+          "title": "Babicovy dobroty IX",
+          "start": "2026-10-05T03:00:00Z",
+          "stop": "2026-10-05T03:15:00Z",
+          "description": "E8 — O těstě a těstovinách\nO těstě a těstovinách Tentokrát nám Eva Königová z Blatnice udělá Tarteletky. Jsou to piškotové košíčky naplněné krémem a čerstvým ovocem. Jirka Babica vás pak naučí rychlý a jednoduchý Rajčatový koš a Domácí lasagne se špenátem (2012)O těstě a těstovinách Tentokrát nám Eva Königová z Blatnice udělá Tarteletky. Jsou to piškotové košíčky naplněné krémem a čerstvým ovocem. Jirka Babica vás pak naučí rychlý a jednoduchý Rajčatový koš a Domácí lasagne se špenátem (2012).",
+          "category": "Mag"
+        },
+        {
           "title": "Televizní noviny",
-          "start": "2026-10-05T03:20:00Z",
+          "start": "2026-10-05T03:15:00Z",
           "stop": "2026-10-05T04:00:00Z",
           "description": "Hlavní zpravodajská relace TV Nova, kterou vysíláme každý den v 19:30. Kontakt na redakci: zpravy@nova.czHlavní zpravodajská relace TV Nova, kterou vysíláme každý den v 19:30. Kontakt na redakci: zpravy@nova.cz.",
           "category": "Mag"
@@ -441,13 +294,13 @@
         {
           "title": "Studna",
           "start": "2026-10-05T21:25:00Z",
-          "stop": "2026-10-05T22:40:00Z",
+          "stop": "2026-10-05T22:45:00Z",
           "description": "E5 — Studna\nStudna Je mrazivá noc, 13. února 1968, když jsou místní hasiči přivoláni k požáru rodinného domu ve Vonoklasech. V objektu najdou dvě mrtvá těla. O pár hodin později a několik kilometrů dále je nalezen Slávek, poškrábaný, pořezaný, vysílený a promrzlý, na dně. Policie, příbuzní, sousedé a celá vesnice se zajímá o jediné, co se stalo? Rodinné drama (2025). Hrají D. Švehlík, F. Červenka, J. Matoušková, J. Prachař, A. Doláková, H. Vagnerová, K. Ryška, S. Lewandowska, P. Řezníček a další. Režie T. KopáčováStudna Je mrazivá noc, 13. února 1968, když jsou místní hasiči přivoláni k požáru rodinného domu ve Vonoklasech. V objektu najdou dvě mrtvá těla. O pár hodin později a několik kilometrů dále je nalezen Slávek, poškrábaný, pořezaný, vysílený a promrzlý, na dně. Policie, příbuzní, sousedé a celá vesnice se zajímá o jediné, co se stalo? Rodinné drama (2025). Hrají D. Švehlík, F. Červenka, J. Matoušková, J. Prachař, A. Doláková, H. Vagnerová, K. Ryška, S. Lewandowska, P. Řezníček a další. Režie T. Kopáčová.",
           "category": "Mag"
         },
         {
           "title": "Mentalista II",
-          "start": "2026-10-05T22:40:00Z",
+          "start": "2026-10-05T22:45:00Z",
           "stop": "2026-10-05T23:45:00Z",
           "description": "E6 — Černé zlato a rudá krev\nUprostřed pole je nalezeno tělo muže a brzy se podaří zjistit, že mrtvý byl nadšený ornitolog. Chránění ptáci, kteří na pozemku hnízdili, byli zřejmě příčinou, že se na poli nemohla těžit ropa... Druhá řada amerického krimi seriálu se Simonem Bakerem v hlavní roli (2009). Dále hrají R. Tunney, T. Kang, O. Yeoman, A. Righetti a další.Uprostřed pole je nalezeno tělo muže a brzy se podaří zjistit, že mrtvý byl nadšený ornitolog. Chránění ptáci, kteří na pozemku hnízdili, byli zřejmě příčinou, že se na poli nemohla těžit ropa... Druhá řada amerického krimi seriálu se Simonem Bakerem v hlavní roli (2009). Dále hrají R. Tunney, T. Kang, O. Yeoman, A. Righetti a další.",
           "category": "Mag"
@@ -843,6 +696,216 @@
           "stop": "2026-10-07T22:40:00Z",
           "description": "E10 — Dokud jsi mladý\nDokud jsi mladý Na zahradě školy, která připravuje budoucí baseballové špičkové hráče, je nalezen utlučený hlavní trenér. Vyšetřovatelé zprvu podezřívají manželku mrtvého, která po nešťastné smrti jejich dítěte od muže odešla a skončila závislá na alkoholu. Pachatele ale musí hledat jinde... Druhá řada amerického krimi seriálu se Simonem Bakerem v hlavní roli (2009). Dále hrají R. Tunney, T. Kang, O. Yeoman, A. Righetti a další.Dokud jsi mladý Na zahradě školy, která připravuje budoucí baseballové špičkové hráče, je nalezen utlučený hlavní trenér. Vyšetřovatelé zprvu podezřívají manželku mrtvého, která po nešťastné smrti jejich dítěte od muže odešla a skončila závislá na alkoholu. Pachatele ale musí hledat jinde... Druhá řada amerického krimi seriálu se Simonem Bakerem v hlavní roli (2009). Dále hrají R. Tunney, T. Kang, O. Yeoman, A. Righetti a další.",
           "category": "Mag"
+        },
+        {
+          "title": "Mentalista II",
+          "start": "2026-10-07T22:40:00Z",
+          "stop": "2026-10-07T23:40:00Z",
+          "description": "E11 — Růžové brýle\nRůžové brýle Na třídním srazu střední školy někdo zastřelí v autě mladé manžele. Během vyšetřování vyjde najevo, že smrt obou může souviset se starou událostí šikany jednoho ze žáků. Kdosi ho totiž svázal a svlékl v dívčích šatnách, fotky pak rozšířil po celé škole... Druhá řada amerického krimi seriálu se Simonem Bakerem v hlavní roli (2009). Dále hrají R. Tunney, T. Kang, O. Yeoman, A. Righetti a další.Růžové brýle Na třídním srazu střední školy někdo zastřelí v autě mladé manžele. Během vyšetřování vyjde najevo, že smrt obou může souviset se starou událostí šikany jednoho ze žáků. Kdosi ho totiž svázal a svlékl v dívčích šatnách, fotky pak rozšířil po celé škole... Druhá řada amerického krimi seriálu se Simonem Bakerem v hlavní roli (2009). Dále hrají R. Tunney, T. Kang, O. Yeoman, A. Righetti a další.",
+          "category": "Mag"
+        },
+        {
+          "title": "Kriminálka Las Vegas XI",
+          "start": "2026-10-07T23:40:00Z",
+          "stop": "2026-10-08T00:40:00Z",
+          "description": "E10 — 418/427\n418/427 Na parkovišti před supermarketem jsou zastřeleni žena a muž obsluhující nákupní vozíky. Při ohledání obětí se zjistí, že mrtvá byla na místě s malou holčičkou, kterou někdo unesl. Od agenta FBI Moora, manžela zabité ženy, se tým dozvídá, že údajný pachatel je určitě známý pedofil, kterého v minulosti poslal do vězení... Jedenáctá řada amerického kriminálního seriálu (2010). Hrají L. Fishburne, M. Helgenberger, J. Fox, G. Eads, P. Guilfoyle, E. Szmanda, R. D. Hall a další.418/427 Na parkovišti před supermarketem jsou zastřeleni žena a muž obsluhující nákupní vozíky. Při ohledání obětí se zjistí, že mrtvá byla na místě s malou holčičkou, kterou někdo unesl. Od agenta FBI Moora, manžela zabité ženy, se tým dozvídá, že údajný pachatel je určitě známý pedofil, kterého v minulosti poslal do vězení... Jedenáctá řada amerického kriminálního seriálu (2010). Hrají L. Fishburne, M. Helgenberger, J. Fox, G. Eads, P. Guilfoyle, E. Szmanda, R. D. Hall a další.",
+          "category": "Mag"
+        },
+        {
+          "title": "Ledničko, vyprávěj! II",
+          "start": "2026-10-08T00:40:00Z",
+          "stop": "2026-10-08T01:30:00Z",
+          "description": "E23 — Ledničko, vyprávěj! II\nLedničko, vyprávěj! II Každý týden si Veronika Besky Beskydiarová pozve dva hosty, kteří přinesou svou nejoblíbenější surovinu. Z nich pak budou Přemek Forejt a Honza Punčochář v kuchařském souboji vařit nedělní oběd. Kdo získá Řád červené ledničky? Zvítězí Honzova tradiční kuchyně nebo Přemkův moderní přístup? A jak jim zavaří naši hosté? Zaposlouchejte se do těch nejchutnějších příběhů a získejte inspiraci pro svůj nedělní oběd. Dnešní epizoda propojí svět módy a hlasového herectví. Svou oblíbenou surovinu přinese světoznámá módní návrhářka Beáta Rajská. Druhým hostem bude herec a mistr dabingu Michal Holán. Jaké chutě inspirují kreativitu z přehlídkových mol i nahrávacích studií?Ledničko, vyprávěj! II Každý týden si Veronika Besky Beskydiarová pozve dva hosty, kteří přinesou svou nejoblíbenější surovinu. Z nich pak budou Přemek Forejt a Honza Punčochář v kuchařském souboji vařit nedělní oběd. Kdo získá Řád červené ledničky? Zvítězí Honzova tradiční kuchyně nebo Přemkův moderní přístup? A jak jim zavaří naši hosté? Zaposlouchejte se do těch nejchutnějších příběhů a získejte inspiraci pro svůj nedělní oběd. Dnešní epizoda propojí svět módy a hlasového herectví. Svou oblíbenou surovinu přinese světoznámá módní návrhářka Beáta Rajská. Druhým hostem bude herec a mistr dabingu Michal Holán. Jaké chutě inspirují kreativitu z přehlídkových mol i nahrávacích studií?",
+          "category": "Mag"
+        },
+        {
+          "title": "Ulice",
+          "start": "2026-10-08T01:30:00Z",
+          "stop": "2026-10-08T02:15:00Z",
+          "description": "E5203 — 450. cyklus, d’l 5203\n450. cyklus, d’l 5203 Soňa slíbila, že video z natáčení pořadu Pečeme s Naty nezneužije pro politické účely. Když se nahrávka objeví na sítích, Erik s Natálkou prožívají zklamání. Vladimír ale zuří. Opravdu je Soňa schopná takové zrady? Možná je to vaše ulice. Možná jste to vy. Původní český seriál (2026).450. cyklus, d’l 5203 Soňa slíbila, že video z natáčení pořadu Pečeme s Naty nezneužije pro politické účely. Když se nahrávka objeví na sítích, Erik s Natálkou prožívají zklamání. Vladimír ale zuří. Opravdu je Soňa schopná takové zrady? Možná je to vaše ulice. Možná jste to vy. Původní český seriál (2026).",
+          "category": "Mag"
+        },
+        {
+          "title": "Ordinace v růžové zahradě 2",
+          "start": "2026-10-08T02:15:00Z",
+          "stop": "2026-10-08T03:15:00Z",
+          "description": "E744 — Domácí puťka\nDomácí puťka Bibi obviní Bělu: přebrala jsi mi muže! Marika musí volit: dítě nebo kariéra. Napětí, romantika a humor v oblíbeném seriálu TV Nova (2017). Hrají Z. Adamovská, P. Štěpánek, P. Rychlý, R. Fiala, M. Etzler, J. Čenský, M. Zounar, A. Růžičková, M. Randová a další. Režie M. KleisDomácí puťka Bibi obviní Bělu: přebrala jsi mi muže! Marika musí volit: dítě nebo kariéra. Napětí, romantika a humor v oblíbeném seriálu TV Nova (2017). Hrají Z. Adamovská, P. Štěpánek, P. Rychlý, R. Fiala, M. Etzler, J. Čenský, M. Zounar, A. Růžičková, M. Randová a další. Režie M. Kleis.",
+          "category": "Mag"
+        },
+        {
+          "title": "Televizní noviny",
+          "start": "2026-10-08T03:15:00Z",
+          "stop": "2026-10-08T04:00:00Z",
+          "description": "Hlavní zpravodajská relace TV Nova, kterou vysíláme každý den v 19:30. Kontakt na redakci: zpravy@nova.czHlavní zpravodajská relace TV Nova, kterou vysíláme každý den v 19:30. Kontakt na redakci: zpravy@nova.cz.",
+          "category": "Mag"
+        },
+        {
+          "title": "Snídaně s Novou",
+          "start": "2026-10-08T04:00:00Z",
+          "stop": "2026-10-08T06:40:00Z",
+          "description": "Ranní zpravodajský a publicistický blok TV Nova, vysílaný každý všední den od 6:00. Kontakt na redakci: snidane@nova.czRanní zpravodajský a publicistický blok TV Nova, vysílaný každý všední den od 6:00. Kontakt na redakci: snidane@nova.cz.",
+          "category": "Mag"
+        },
+        {
+          "title": "Ulice",
+          "start": "2026-10-08T06:40:00Z",
+          "stop": "2026-10-08T07:40:00Z",
+          "description": "E5203 — 450. cyklus, d’l 5203\n450. cyklus, d’l 5203 Soňa slíbila, že video z natáčení pořadu Pečeme s Naty nezneužije pro politické účely. Když se nahrávka objeví na sítích, Erik s Natálkou prožívají zklamání. Vladimír ale zuří. Opravdu je Soňa schopná takové zrady? Možná je to vaše ulice. Možná jste to vy. Původní český seriál (2026).450. cyklus, d’l 5203 Soňa slíbila, že video z natáčení pořadu Pečeme s Naty nezneužije pro politické účely. Když se nahrávka objeví na sítích, Erik s Natálkou prožívají zklamání. Vladimír ale zuří. Opravdu je Soňa schopná takové zrady? Možná je to vaše ulice. Možná jste to vy. Původní český seriál (2026).",
+          "category": "Mag"
+        },
+        {
+          "title": "Ordinace v růžové zahradě 2",
+          "start": "2026-10-08T07:40:00Z",
+          "stop": "2026-10-08T08:50:00Z",
+          "description": "E1051 — Je pozdě\nJe pozdě Radka se stala obětí zločinu a prožila trauma: dokáže se někomu svěřit, půjde na policii? Alena a Ondra jsou v tom až po uši, svůj románek musí tajit před celou Kamenicí. Nové příběhy oblíbeného českého seriálu (2022). Hrají M. Badinková, I. Lupták, A. Slováčková, M. Zounar, R. Štabrňák, L. Hejlík, R. Jašków, P. Štěpánek, Z. Adamovská, J. Holcová, P. Pagáčová a další. Režie J. FuitJe pozdě Radka se stala obětí zločinu a prožila trauma: dokáže se někomu svěřit, půjde na policii? Alena a Ondra jsou v tom až po uši, svůj románek musí tajit před celou Kamenicí. Nové příběhy oblíbeného českého seriálu (2022). Hrají M. Badinková, I. Lupták, A. Slováčková, M. Zounar, R. Štabrňák, L. Hejlík, R. Jašków, P. Štěpánek, Z. Adamovská, J. Holcová, P. Pagáčová a další. Režie J. Fuit.",
+          "category": "Mag"
+        },
+        {
+          "title": "Dr. House V",
+          "start": "2026-10-08T08:50:00Z",
+          "stop": "2026-10-08T09:50:00Z",
+          "description": "E18 — Čiči čiči\nČiči čiči Dr. House a jeho tým musí přijít na kloub záhadě s kočkou, která spí pouze s lidmi, kteří mají zemřít. Když kočka předpověděla údajnou smrt pracovnici domova s pečovatelskou službou, žena raději předstírala záchvat, jen aby House diagnostikoval její nemoc dřív, než bude pozdě... Pátá řada amerického seriálu (2008). V hlavní roli Hugh Laurie, dále hrají J. Morrison, O. Epps, L. Edelstein, J. Spencer, R. S. Leonard a další.Čiči čiči Dr. House a jeho tým musí přijít na kloub záhadě s kočkou, která spí pouze s lidmi, kteří mají zemřít. Když kočka předpověděla údajnou smrt pracovnici domova s pečovatelskou službou, žena raději předstírala záchvat, jen aby House diagnostikoval její nemoc dřív, než bude pozdě... Pátá řada amerického seriálu (2008). V hlavní roli Hugh Laurie, dále hrají J. Morrison, O. Epps, L. Edelstein, J. Spencer, R. S. Leonard a další.",
+          "category": "Mag"
+        },
+        {
+          "title": "Tescoma s chutí",
+          "start": "2026-10-08T09:50:00Z",
+          "stop": "2026-10-08T10:00:00Z",
+          "description": "E104 — VIP - Kubánské citronové kuře\nVIP - Kubánské citronové kuře Originální zábavná cooking show, v níž nejlepší čeští odborníci radí a ukazují divákovi, co všechno nabízí voňavý a chutný svět gastronomie.VIP - Kubánské citronové kuře Originální zábavná cooking show, v níž nejlepší čeští odborníci radí a ukazují divákovi, co všechno nabízí voňavý a chutný svět gastronomie.",
+          "category": "Mag"
+        },
+        {
+          "title": "Polední Televizní noviny",
+          "start": "2026-10-08T10:00:00Z",
+          "stop": "2026-10-08T10:20:00Z",
+          "description": "Aktuální zpravodajství TV Nova z domova i ze světa, které vysíláme každý všední den ve 12:00. Kontakt na redakci: zpravy@nova.czAktuální zpravodajství TV Nova z domova i ze světa, které vysíláme každý všední den ve 12:00. Kontakt na redakci: zpravy@nova.cz.",
+          "category": "Mag"
+        },
+        {
+          "title": "Polední Sportovní noviny",
+          "start": "2026-10-08T10:20:00Z",
+          "stop": "2026-10-08T10:24:00Z",
+          "description": "Sportovní zpravodajství, které nabízí souhrn nejdůležitějších událostí doma i ve světě.Sportovní zpravodajství, které nabízí souhrn nejdůležitějších událostí doma i ve světě.",
+          "category": "Mag"
+        },
+        {
+          "title": "Polední Počasí",
+          "start": "2026-10-08T10:24:00Z",
+          "stop": "2026-10-08T10:25:00Z",
+          "description": "Polední Počasí Přehled aktuálního počasí a předpověď na následující dny.Polední Počasí Přehled aktuálního počasí a předpověď na následující dny.",
+          "category": "Mag"
+        },
+        {
+          "title": "Ordinace v růžové zahradě 2",
+          "start": "2026-10-08T10:25:00Z",
+          "stop": "2026-10-08T11:40:00Z",
+          "description": "E746 — Jak žijí milionáři\nJak žijí milionáři Eduarda čekají výsledky testů: dozví se, jestli je HIV pozitivní. Alena má trávit dovolenou s bývalým manželem. Napětí, romantika a humor v oblíbeném seriálu TV Nova (2017). Hrají Z. Adamovská, P. Štěpánek, P. Rychlý, R. Fiala, M. Etzler, J. Čenský, M. Zounar, R. Štabrňák, B. Štěpánová a další. Režie J. FuitJak žijí milionáři Eduarda čekají výsledky testů: dozví se, jestli je HIV pozitivní. Alena má trávit dovolenou s bývalým manželem. Napětí, romantika a humor v oblíbeném seriálu TV Nova (2017). Hrají Z. Adamovská, P. Štěpánek, P. Rychlý, R. Fiala, M. Etzler, J. Čenský, M. Zounar, R. Štabrňák, B. Štěpánová a další. Režie J. Fuit.",
+          "category": "Mag"
+        },
+        {
+          "title": "Mentalista II",
+          "start": "2026-10-08T11:40:00Z",
+          "stop": "2026-10-08T12:35:00Z",
+          "description": "E12 — Krvácející srdce\nKrvácející srdce Na slavnosti k zahájení důležité stavby je nalezena v zemi na stavebním pozemku ubodaná asistentka starostky. Brzy se potvrdí, že starostce vyhrožuje jakási ekoteroristická skupina vedená tajemným vůdcem Jasperem... Druhá řada amerického krimi seriálu se Simonem Bakerem v hlavní roli (2009). Dále hrají R. Tunney, T. Kang, O. Yeoman, A. Righetti a další.Krvácející srdce Na slavnosti k zahájení důležité stavby je nalezena v zemi na stavebním pozemku ubodaná asistentka starostky. Brzy se potvrdí, že starostce vyhrožuje jakási ekoteroristická skupina vedená tajemným vůdcem Jasperem... Druhá řada amerického krimi seriálu se Simonem Bakerem v hlavní roli (2009). Dále hrají R. Tunney, T. Kang, O. Yeoman, A. Righetti a další.",
+          "category": "Mag"
+        },
+        {
+          "title": "Mentalista II",
+          "start": "2026-10-08T12:35:00Z",
+          "stop": "2026-10-08T13:30:00Z",
+          "description": "E13 — Rychlá kola\nRychlá kola Uprostřed autosalónu je v kufru luxusního vozu nalezena mrtvá asistentka prodeje. Zjistí se, že byla přejeta autem. Stopa vede k jejímu snoubenci. Ten však tvrdí, že nemá s její smrtí nic společného... Druhá řada amerického krimi seriálu se Simonem Bakerem v hlavní roli (2009). Dále hrají R. Tunney, T. Kang, O. Yeoman, A. Righetti a další.Rychlá kola Uprostřed autosalónu je v kufru luxusního vozu nalezena mrtvá asistentka prodeje. Zjistí se, že byla přejeta autem. Stopa vede k jejímu snoubenci. Ten však tvrdí, že nemá s její smrtí nic společného... Druhá řada amerického krimi seriálu se Simonem Bakerem v hlavní roli (2009). Dále hrají R. Tunney, T. Kang, O. Yeoman, A. Righetti a další.",
+          "category": "Mag"
+        },
+        {
+          "title": "Výměna manželek X",
+          "start": "2026-10-08T13:30:00Z",
+          "stop": "2026-10-08T14:55:00Z",
+          "description": "E11 — 11\n11. Jak si poradí mladá nezkušená Eliška s pubertálními dětmi a několika desítkami domácích zvířat? Pokusí se Eva ve stísněných podmínkách v rodině s malými dětmi nastavit jasná pravidla? Úspěšná reality show, ve které si dvě ženy vymění domácnost na dobu deseti dní, které stráví pod dohledem nového chotě, nových dětí a hlavně televizní kamery! (2018)11. Jak si poradí mladá nezkušená Eliška s pubertálními dětmi a několika desítkami domácích zvířat? Pokusí se Eva ve stísněných podmínkách v rodině s malými dětmi nastavit jasná pravidla? Úspěšná reality show, ve které si dvě ženy vymění domácnost na dobu deseti dní, které stráví pod dohledem nového chotě, nových dětí a hlavně televizní kamery! (2018).",
+          "category": "Mag"
+        },
+        {
+          "title": "Odpolední Počasí",
+          "start": "2026-10-08T14:55:00Z",
+          "stop": "2026-10-08T15:00:00Z",
+          "description": "Odpolední Počasí Přehled aktuálního počasí a předpověď na následující dny.Odpolední Počasí Přehled aktuálního počasí a předpověď na následující dny.",
+          "category": "Mag"
+        },
+        {
+          "title": "Odpolední Televizní noviny",
+          "start": "2026-10-08T15:00:00Z",
+          "stop": "2026-10-08T15:20:00Z",
+          "description": "Aktuální zpravodajství TV Nova z domova i ze světa, které vysíláme každý všední den v 17:00. Kontakt na redakci: zpravy@nova.czAktuální zpravodajství TV Nova z domova i ze světa, které vysíláme každý všední den v 17:00. Kontakt na redakci: zpravy@nova.cz.",
+          "category": "Mag"
+        },
+        {
+          "title": "Odpolední Sportovní noviny",
+          "start": "2026-10-08T15:20:00Z",
+          "stop": "2026-10-08T15:30:00Z",
+          "description": "Sportovní zpravodajství, které nabízí souhrn nejdůležitějších událostí doma i ve světě.Sportovní zpravodajství, které nabízí souhrn nejdůležitějších událostí doma i ve světě.",
+          "category": "Mag"
+        },
+        {
+          "title": "Na lovu VI",
+          "start": "2026-10-08T15:30:00Z",
+          "stop": "2026-10-08T16:30:00Z",
+          "description": "E91 — Na lovu VI\nNa lovu VI Světově úspěšný televizní kvíz, ve kterém si můžete porovnat své znalosti s nejlepšími kvízovými mozky Česka! Tým soutěžících se pod taktovkou Ondřeje Sokola snaží uprchnout lovci a vyhrát peníze.Na lovu VI Světově úspěšný televizní kvíz, ve kterém si můžete porovnat své znalosti s nejlepšími kvízovými mozky Česka! Tým soutěžících se pod taktovkou Ondřeje Sokola snaží uprchnout lovci a vyhrát peníze.",
+          "category": "Mag"
+        },
+        {
+          "title": "Ulice",
+          "start": "2026-10-08T16:30:00Z",
+          "stop": "2026-10-08T17:30:00Z",
+          "description": "E5204 — 450. cyklus, d’l 5204\n450. cyklus, d’l 5204 Svatba Patrika a Veroniky se blíží. Blanka každý den bojuje s tajemstvím, které proti své vůli sdílí s Patrikem. Situace se ještě přiostří, když se Patrik dozví, že jeho milenka je těhotná. Bude Blanka i nadále mlčet? Možná je to vaše ulice. Možná jste to vy. Původní český seriál (2026).450. cyklus, d’l 5204 Svatba Patrika a Veroniky se blíží. Blanka každý den bojuje s tajemstvím, které proti své vůli sdílí s Patrikem. Situace se ještě přiostří, když se Patrik dozví, že jeho milenka je těhotná. Bude Blanka i nadále mlčet? Možná je to vaše ulice. Možná jste to vy. Původní český seriál (2026).",
+          "category": "Mag"
+        },
+        {
+          "title": "Televizní noviny",
+          "start": "2026-10-08T17:30:00Z",
+          "stop": "2026-10-08T18:10:00Z",
+          "description": "Hlavní zpravodajská relace TV Nova, kterou vysíláme každý den v 19:30. Kontakt na redakci: zpravy@nova.czHlavní zpravodajská relace TV Nova, kterou vysíláme každý den v 19:30. Kontakt na redakci: zpravy@nova.cz.",
+          "category": "Mag"
+        },
+        {
+          "title": "Sportovní noviny",
+          "start": "2026-10-08T18:10:00Z",
+          "stop": "2026-10-08T18:15:00Z",
+          "description": "Aktuální sportovní zpravodajství, přehled nejdůležitějších sportovních událostí doma i ve světě. Vysíláme každý všední den po Televizních novinách.Aktuální sportovní zpravodajství, přehled nejdůležitějších sportovních událostí doma i ve světě. Vysíláme každý všední den po Televizních novinách.",
+          "category": "Mag"
+        },
+        {
+          "title": "Počasí",
+          "start": "2026-10-08T18:15:00Z",
+          "stop": "2026-10-08T18:20:00Z",
+          "description": "Počasí Přehled aktuálního počasí a předpověď na následující dny.Počasí Přehled aktuálního počasí a předpověď na následující dny.",
+          "category": "Mag"
+        },
+        {
+          "title": "Boží plán",
+          "start": "2026-10-08T18:20:00Z",
+          "stop": "2026-10-08T19:40:00Z",
+          "description": "E12 — Sázka o byt\nJe domov tam, kde jsou přátelé? Má na něj právo i morče? Premiéra komediálního seriálu. Hrají: T. Jeřábek, M. Lambora, M. Petřeková, V. Matějovský, F. Březina, J. Vondráček, S. Rychlíková, A. Krejčíková, M. Adamczyk, Š. Ligas, V. Paterová, J. Šťastný, D. Pecina a další. Scénář: M. Turnovská, L. Konečná. Režie: L. BorovičkaJe domov tam, kde jsou přátelé? Má na něj právo i morče? Premiéra komediálního seriálu. Hrají: T. Jeřábek, M. Lambora, M. Petřeková, V. Matějovský, F. Březina, J. Vondráček, S. Rychlíková, A. Krejčíková, M. Adamczyk, Š. Ligas, V. Paterová, J. Šťastný, D. Pecina a další. Scénář: M. Turnovská, L. Konečná. Režie: L. Borovička.",
+          "category": "Mag"
+        },
+        {
+          "title": "Jáma lvová II",
+          "start": "2026-10-08T19:40:00Z",
+          "stop": "2026-10-08T20:55:00Z",
+          "description": "E6 — Jáma lvová II / 6\nJáma lvová II / 6 Reality show, v níž se ambiciózní podnikatelé pokusí přesvědčit pětici zkušených byznysmenů, že právě jejich nápad stojí za investici. Komu se splní sny a kdo odejde s prázdnou?Jáma lvová II / 6 Reality show, v níž se ambiciózní podnikatelé pokusí přesvědčit pětici zkušených byznysmenů, že právě jejich nápad stojí za investici. Komu se splní sny a kdo odejde s prázdnou?",
+          "category": "Mag"
+        },
+        {
+          "title": "Kriminálka Las Vegas XI",
+          "start": "2026-10-08T20:55:00Z",
+          "stop": "2026-10-08T21:55:00Z",
+          "description": "E11 — Buď chlap\nBuď chlap Policisté zkoumají na internetu objevenou fotku mrtvoly mladé ženy. Zdá se, že je to podvod a žena v okamžiku focení vše jen zinscenovala. K jejich překvapení se však později její mrtvola opravdu najde, avšak jinak oblečená. Ke všemu je nalezena na stejném místě, kde byla focena naaranžovaná fotografie... Jedenáctá řada amerického kriminálního seriálu (2010). Hrají L. Fishburne, M. Helgenberger, G. Eads, J. Fox, P. Guilfoyle, E. Szmanda, R. D. Hall a další.Buď chlap Policisté zkoumají na internetu objevenou fotku mrtvoly mladé ženy. Zdá se, že je to podvod a žena v okamžiku focení vše jen zinscenovala. K jejich překvapení se však později její mrtvola opravdu najde, avšak jinak oblečená. Ke všemu je nalezena na stejném místě, kde byla focena naaranžovaná fotografie... Jedenáctá řada amerického kriminálního seriálu (2010). Hrají L. Fishburne, M. Helgenberger, G. Eads, J. Fox, P. Guilfoyle, E. Szmanda, R. D. Hall a další.",
+          "category": "Mag"
+        },
+        {
+          "title": "Mentalista II",
+          "start": "2026-10-08T21:55:00Z",
+          "stop": "2026-10-08T22:55:00Z",
+          "description": "E12 — Krvácející srdce\nKrvácející srdce Na slavnosti k zahájení důležité stavby je nalezena v zemi na stavebním pozemku ubodaná asistentka starostky. Brzy se potvrdí, že starostce vyhrožuje jakási ekoteroristická skupina vedená tajemným vůdcem Jasperem... Druhá řada amerického krimi seriálu se Simonem Bakerem v hlavní roli (2009). Dále hrají R. Tunney, T. Kang, O. Yeoman, A. Righetti a další.Krvácející srdce Na slavnosti k zahájení důležité stavby je nalezena v zemi na stavebním pozemku ubodaná asistentka starostky. Brzy se potvrdí, že starostce vyhrožuje jakási ekoteroristická skupina vedená tajemným vůdcem Jasperem... Druhá řada amerického krimi seriálu se Simonem Bakerem v hlavní roli (2009). Dále hrají R. Tunney, T. Kang, O. Yeoman, A. Righetti a další.",
+          "category": "Mag"
         }
       ]
     },
@@ -852,167 +915,6 @@
       "logo": "https://www.sms.cz/kategorie/televize/bmp/loga/velka/prima.png",
       "source": "https://iptv-epg.org/files/epg-cz.xml.gz",
       "programmes": [
-        {
-          "title": "Máme rádi Česko",
-          "start": "2026-10-03T09:45:00Z",
-          "stop": "2026-10-03T11:35:00Z",
-          "description": "M. Preissová, J.Janěková, K. Cibulková, M. Preiss, A. Chmela, M. Pavelka\nZábavný pořad Máme rádi Česko opět prověří nejen znalosti diváků, ale především vědomosti českých celebrit. Co všechno vědí o České republice? To se dozvíte v zábavné show, kterou vás provede Libor Bouček. V roli kapitánů se opět proti sobě postaví Jakub Prachař a Vojta Kotek. Dále účinkují: M. Preissová, J.Janěková, K. Cibulková, M. Preiss, A. Chmela a M. Pavelka. Režie M. Čech.Zábavný pořad Máme rádi Česko opět prověří nejen znalosti diváků, ale především vědomosti českých celebrit. Co všechno vědí o České republice? To se dozvíte v zábavné show, kterou vás provede Libor Bouček. V roli kapitánů se opět proti sobě postaví Jakub Prachař a Vojta Kotek. Dále účinkují: M. Preissová, J.Janěková, K. Cibulková, M. Preiss, A. Chmela a M. Pavelka. Režie M. Čech.",
-          "category": "Mag"
-        },
-        {
-          "title": "Strach",
-          "start": "2026-10-03T11:35:00Z",
-          "stop": "2026-10-03T13:45:00Z",
-          "description": "Major Kalaš se snaží odhalit síť vyzvědačů, jejíž počátky sahají do temné okupační minulosti... Český kriminální film. Režie P. Schulhoff.Major Kalaš se snaží odhalit síť vyzvědačů, jejíž počátky sahají do temné okupační minulosti... Český kriminální film. Režie P. Schulhoff.",
-          "category": "Thril"
-        },
-        {
-          "title": "Dobrodružství kriminalistiky",
-          "start": "2026-10-03T13:45:00Z",
-          "stop": "2026-10-03T14:55:00Z",
-          "description": "E16 — Paprsek\nObchodník Han van Meegeren je zatčen kvůli prodeji obrazů Němcům. Tvrdí, že šlo o padělky, a aby dokázal svou nevinu, podstoupí před odborníky zkoušku. Namaluje obraz ve stylu Vermeera. Během práce se odhalují jeho znalosti i tajemství padělatelské techniky. Československý koprodukční kriminální seriál. Režie A. Moskalyk.Obchodník Han van Meegeren je zatčen kvůli prodeji obrazů Němcům. Tvrdí, že šlo o padělky, a aby dokázal svou nevinu, podstoupí před odborníky zkoušku. Namaluje obraz ve stylu Vermeera. Během práce se odhalují jeho znalosti i tajemství padělatelské techniky. Československý koprodukční kriminální seriál. Režie A. Moskalyk.",
-          "category": "Seriál"
-        },
-        {
-          "title": "Čekání na Patrika",
-          "start": "2026-10-03T14:55:00Z",
-          "stop": "2026-10-03T16:55:00Z",
-          "description": "Milostné zmatky tří dospívajících kamarádek, které touží získat lásku vysněného muže... Česká filmová komedie. Režie P. Tuček.Milostné zmatky tří dospívajících kamarádek, které touží získat lásku vysněného muže... Česká filmová komedie. Režie P. Tuček.",
-          "category": "Kom"
-        },
-        {
-          "title": "HLAVNÍ ZPRÁVY",
-          "start": "2026-10-03T16:55:00Z",
-          "stop": "2026-10-03T17:40:00Z",
-          "description": "Ty nejdůležitější aktuální zprávy z domova i ze světa v hlavní zpravodajské relaci. Atraktivně a srozumitelně.Ty nejdůležitější aktuální zprávy z domova i ze světa v hlavní zpravodajské relaci. Atraktivně a srozumitelně.",
-          "category": "Zpr"
-        },
-        {
-          "title": "Krimi zprávy",
-          "start": "2026-10-03T17:40:00Z",
-          "stop": "2026-10-03T17:55:00Z",
-          "description": "Aktuální události z oblasti kriminality. Zločiny očima profesionálů, zkušených reportérů i diváků.Aktuální události z oblasti kriminality. Zločiny očima profesionálů, zkušených reportérů i diváků.",
-          "category": "Thril"
-        },
-        {
-          "title": "SHOWTIME",
-          "start": "2026-10-03T17:55:00Z",
-          "stop": "2026-10-03T18:15:00Z",
-          "description": "Exkluzivní zákulisí života celebrit - luxusní večírky, žhavé drby, slavnostní premiéry a módní trendy!Exkluzivní zákulisí života celebrit - luxusní večírky, žhavé drby, slavnostní premiéry a módní trendy!",
-          "category": "Mag"
-        },
-        {
-          "title": "Zákony vlka 3",
-          "start": "2026-10-03T18:15:00Z",
-          "stop": "2026-10-03T19:30:00Z",
-          "description": "E6 — Nouzový plán\nRobert je stále více v klinči Wilka a pašerácké bandy, bude muset znovu využít své zlodějské schopnosti. Při přenášeni rakve během pohřbu se ukáže, že v rakvi jsou nebožtíci dva. Kriminální seriál 2026. Režie M. Najbrt.Robert je stále více v klinči Wilka a pašerácké bandy, bude muset znovu využít své zlodějské schopnosti. Při přenášeni rakve během pohřbu se ukáže, že v rakvi jsou nebožtíci dva. Kriminální seriál 2026. Režie M. Najbrt.",
-          "category": "Seriál"
-        },
-        {
-          "title": "Černé vdovy",
-          "start": "2026-10-03T19:30:00Z",
-          "stop": "2026-10-03T20:40:00Z",
-          "description": "E6\nKdyž Johana zjistí, že Veronika spala s Filipem, zuří. Renata se holkám omlouvá, že lhala o Mirkovi, ale odmítá ho znovu zabít. Olin je přesvědčený, že majitele firmy dala zabít Anna Karolína, Písařík mu vyhrožuje vyhazovem. Scénář M. Zlatníková, M. Sabo. Režie R. Bajgar.Když Johana zjistí, že Veronika spala s Filipem, zuří. Renata se holkám omlouvá, že lhala o Mirkovi, ale odmítá ho znovu zabít. Olin je přesvědčený, že majitele firmy dala zabít Anna Karolína, Písařík mu vyhrožuje vyhazovem. Scénář M. Zlatníková, M. Sabo. Režie R. Bajgar.",
-          "category": "Mag"
-        },
-        {
-          "title": "Muž s cejchem smrti",
-          "start": "2026-10-03T20:40:00Z",
-          "stop": "2026-10-03T22:25:00Z",
-          "description": "Agent z protidrogového oddílu Steven Seagal zjistí, že je jeho sousedství zamořeno překupníky. A tak se rozzuřený policista vydává na misi pomsty, která ho přivede až na Jamajku. Zde se strhne nejkrvavější bitva v jeho životě... Americký akční thriller. 8+ (obsahuje násilí, vulgarismy, sex)Agent z protidrogového oddílu Steven Seagal zjistí, že je jeho sousedství zamořeno překupníky. A tak se rozzuřený policista vydává na misi pomsty, která ho přivede až na Jamajku. Zde se strhne nejkrvavější bitva v jeho životě... Americký akční thriller. 8+ (obsahuje násilí, vulgarismy, sex).",
-          "category": "Thril"
-        },
-        {
-          "title": "Prokletý ostrov",
-          "start": "2026-10-03T22:25:00Z",
-          "stop": "2026-10-04T01:15:00Z",
-          "description": "Detektivové Daniels a Aule se vydávají do psychiatrické léčebny pro kriminálníky. Mají za úkol vyšetřit útěk jedné pacientky. Brzy však zjistí, že se za zdmi léčebny odehrává mnohem víc... Americký film8+ (obsahuje násilí, vulgarismy)Detektivové Daniels a Aule se vydávají do psychiatrické léčebny pro kriminálníky. Mají za úkol vyšetřit útěk jedné pacientky. Brzy však zjistí, že se za zdmi léčebny odehrává mnohem víc... Americký film8+ (obsahuje násilí, vulgarismy).",
-          "category": "Thril"
-        },
-        {
-          "title": "Rezervace smrti",
-          "start": "2026-10-04T01:15:00Z",
-          "stop": "2026-10-04T02:55:00Z",
-          "description": "Američtí misionáři Andrew a Sue musí neprodleně uprchnout z Kalahari, protože je začala ohrožovat místní extremistická militantní skupina. S pašerákem Grunem se vydají na cestu malým letadlem, které však havaruje. Uprostřed divočiny bojují o život s predátory, nedostatkem léků i vlastními silami... Americký akční film. Režie M. M. Dewil.Američtí misionáři Andrew a Sue musí neprodleně uprchnout z Kalahari, protože je začala ohrožovat místní extremistická militantní skupina. S pašerákem Grunem se vydají na cestu malým letadlem, které však havaruje. Uprostřed divočiny bojují o život s predátory, nedostatkem léků i vlastními silami... Americký akční film. Režie M. M. Dewil.",
-          "category": "Film"
-        },
-        {
-          "title": "Rozpal to, šéfe!",
-          "start": "2026-10-04T02:55:00Z",
-          "stop": "2026-10-04T03:30:00Z",
-          "description": "Trenér\nZdeněk Pohlreich opět na svém statku! Rozpálí gril, rozvášní chuťové buňky, uvaří pro vás i své přátele. Jednoduše, s nápadem i vtipem, prostě nejlíp.Zdeněk Pohlreich opět na svém statku! Rozpálí gril, rozvášní chuťové buňky, uvaří pro vás i své přátele. Jednoduše, s nápadem i vtipem, prostě nejlíp.",
-          "category": "Mag"
-        },
-        {
-          "title": "Přestávka ve vysílání",
-          "start": "2026-10-04T03:30:00Z",
-          "stop": "2026-10-04T04:00:00Z",
-          "description": "Přestávka ve vysílání\nPřestávka ve vysílání.",
-          "category": "Mag"
-        },
-        {
-          "title": "Příhody Bolka a Lolka",
-          "start": "2026-10-04T04:00:00Z",
-          "stop": "2026-10-04T04:15:00Z",
-          "description": "Hoří\nBolek a Lolek se nikdy nenudí a prožívají různá dobrodružství... Polský animovaný seriál.Bolek a Lolek se nikdy nenudí a prožívají různá dobrodružství... Polský animovaný seriál.",
-          "category": "Seriál"
-        },
-        {
-          "title": "M*A*S*H",
-          "start": "2026-10-04T04:15:00Z",
-          "stop": "2026-10-04T04:45:00Z",
-          "description": "E12\nPersonál polní vojenské chirurgické nemocnice se s válkou vyrovnává po svém. Ani v Koreji jim nechybí humor a odvaha, vlastnosti, bez kterých by situaci jen stěží přežili... Americký válečný seriál.Personál polní vojenské chirurgické nemocnice se s válkou vyrovnává po svém. Ani v Koreji jim nechybí humor a odvaha, vlastnosti, bez kterých by situaci jen stěží přežili... Americký válečný seriál.",
-          "category": "Seriál"
-        },
-        {
-          "title": "M*A*S*H",
-          "start": "2026-10-04T04:45:00Z",
-          "stop": "2026-10-04T05:20:00Z",
-          "description": "E13\nPersonál polní vojenské chirurgické nemocnice se s válkou vyrovnává po svém. Ani v Koreji jim nechybí humor a odvaha, vlastnosti, bez kterých by situaci jen stěží přežili... Americký válečný seriál.Personál polní vojenské chirurgické nemocnice se s válkou vyrovnává po svém. Ani v Koreji jim nechybí humor a odvaha, vlastnosti, bez kterých by situaci jen stěží přežili... Americký válečný seriál.",
-          "category": "Seriál"
-        },
-        {
-          "title": "M*A*S*H",
-          "start": "2026-10-04T05:20:00Z",
-          "stop": "2026-10-04T05:50:00Z",
-          "description": "E14\nPersonál polní vojenské chirurgické nemocnice se s válkou vyrovnává po svém. Ani v Koreji jim nechybí humor a odvaha, vlastnosti, bez kterých by situaci jen stěží přežili... Americký válečný seriál.Personál polní vojenské chirurgické nemocnice se s válkou vyrovnává po svém. Ani v Koreji jim nechybí humor a odvaha, vlastnosti, bez kterých by situaci jen stěží přežili... Americký válečný seriál.",
-          "category": "Seriál"
-        },
-        {
-          "title": "M*A*S*H",
-          "start": "2026-10-04T05:50:00Z",
-          "stop": "2026-10-04T06:20:00Z",
-          "description": "E15\nPersonál polní vojenské chirurgické nemocnice se s válkou vyrovnává po svém. Ani v Koreji jim nechybí humor a odvaha, vlastnosti, bez kterých by situaci jen stěží přežili... Americký válečný seriál.Personál polní vojenské chirurgické nemocnice se s válkou vyrovnává po svém. Ani v Koreji jim nechybí humor a odvaha, vlastnosti, bez kterých by situaci jen stěží přežili... Americký válečný seriál.",
-          "category": "Seriál"
-        },
-        {
-          "title": "M*A*S*H",
-          "start": "2026-10-04T06:20:00Z",
-          "stop": "2026-10-04T06:55:00Z",
-          "description": "E16\nPersonál polní vojenské chirurgické nemocnice se s válkou vyrovnává po svém. Ani v Koreji jim nechybí humor a odvaha, vlastnosti, bez kterých by situaci jen stěží přežili... Americký válečný seriál.Personál polní vojenské chirurgické nemocnice se s válkou vyrovnává po svém. Ani v Koreji jim nechybí humor a odvaha, vlastnosti, bez kterých by situaci jen stěží přežili... Americký válečný seriál.",
-          "category": "Seriál"
-        },
-        {
-          "title": "Prima ČESKO",
-          "start": "2026-10-04T06:55:00Z",
-          "stop": "2026-10-04T07:25:00Z",
-          "description": "Cestujte s námi po Česku a poznejte nejzajímavější místa naší země.Cestujte s námi po Česku a poznejte nejzajímavější místa naší země.",
-          "category": "Mag"
-        },
-        {
-          "title": "Prima SVĚT",
-          "start": "2026-10-04T07:25:00Z",
-          "stop": "2026-10-04T08:00:00Z",
-          "description": "To nejzajímavější ze světa. Už od roku 1995!To nejzajímavější ze světa. Už od roku 1995!",
-          "category": "Mag"
-        },
-        {
-          "title": "Norské domy snů III",
-          "start": "2026-10-04T08:00:00Z",
-          "stop": "2026-10-04T09:00:00Z",
-          "description": "E5\nNejen Češi jsou národ chatařů, i Norové se ve volném čase vydávají do svých horských příbytků. O ty, které svým majitelům padají na hlavu, se postarají interiérový designér Halvor Bakke a jeho tři řemeslně zdatní kamarádi... Norský dokumentární seriál.Nejen Češi jsou národ chatařů, i Norové se ve volném čase vydávají do svých horských příbytků. O ty, které svým majitelům padají na hlavu, se postarají interiérový designér Halvor Bakke a jeho tři řemeslně zdatní kamarádi... Norský dokumentární seriál.",
-          "category": "Dok"
-        },
         {
           "title": "PARTIE Terezie Tománkové",
           "start": "2026-10-04T09:00:00Z",
@@ -1030,37 +932,44 @@
         {
           "title": "Libovky Pepy Libického",
           "start": "2026-10-04T11:20:00Z",
-          "stop": "2026-10-04T12:30:00Z",
+          "stop": "2026-10-04T12:20:00Z",
           "description": "Libová jízda s Pepou Libickým! Tradiční i nevšední realizace, povedené renovace, návštěvy zajímavých staveb, představení moderních technologií a materiálů. Pořad plný nápadů a odborných rad, který vám usnadní budování, zařizování i opravy vašeho domova.Libová jízda s Pepou Libickým! Tradiční i nevšední realizace, povedené renovace, návštěvy zajímavých staveb, představení moderních technologií a materiálů. Pořad plný nápadů a odborných rad, který vám usnadní budování, zařizování i opravy vašeho domova.",
           "category": "Mag"
         },
         {
           "title": "Zahradnice po ruce",
-          "start": "2026-10-04T12:30:00Z",
-          "stop": "2026-10-04T13:10:00Z",
+          "start": "2026-10-04T12:20:00Z",
+          "stop": "2026-10-04T13:00:00Z",
           "description": "Nejlepší restaurace na světě? Podle Lenky Eywy - zdravá jedlá zahrada! Zahradnice po ruce vás provede zahradou ve všech ročních obdobích, od semínka až po sklizeň. Se spoustou skvělých nápadů, respektem k půdě a bez zbytečné dřiny. Zbavte se starých zahradnických dogmat a začněte důvěřovat přírodě i své intuici! Vytvořte si vlastní kousek světa, kde všechno dává smysl, a navíc skvěle chutná.Nejlepší restaurace na světě? Podle Lenky Eywy - zdravá jedlá zahrada! Zahradnice po ruce vás provede zahradou ve všech ročních obdobích, od semínka až po sklizeň. Se spoustou skvělých nápadů, respektem k půdě a bez zbytečné dřiny. Zbavte se starých zahradnických dogmat a začněte důvěřovat přírodě i své intuici! Vytvořte si vlastní kousek světa, kde všechno dává smysl, a navíc skvěle chutná.",
           "category": "Mag"
         },
         {
           "title": "Vychytávky Ládi Hrušky",
-          "start": "2026-10-04T13:10:00Z",
-          "stop": "2026-10-04T13:40:00Z",
+          "start": "2026-10-04T13:00:00Z",
+          "stop": "2026-10-04T13:45:00Z",
           "description": "Kdo jiný než Láďa Hruška?! Pobaví, poradí, sežene, vyzkouší, vymyslí, předvede, ušetří, uvaří... Přijede k vám na zahradu, do dílny i do kuchyně! Triky, rady, vychytávky a cenné rodinné recepty přímo z vašich domovů. A protože záleží i na pohybu, ukáže vám cviky, které zvládnete přímo u televize - pohodlně, bez vybavení, rovnou z obýváku!Kdo jiný než Láďa Hruška?! Pobaví, poradí, sežene, vyzkouší, vymyslí, předvede, ušetří, uvaří... Přijede k vám na zahradu, do dílny i do kuchyně! Triky, rady, vychytávky a cenné rodinné recepty přímo z vašich domovů. A protože záleží i na pohybu, ukáže vám cviky, které zvládnete přímo u televize - pohodlně, bez vybavení, rovnou z obýváku!",
           "category": "Film"
         },
         {
           "title": "Jak se staví sen - extra",
-          "start": "2026-10-04T13:40:00Z",
-          "stop": "2026-10-04T14:50:00Z",
+          "start": "2026-10-04T13:45:00Z",
+          "stop": "2026-10-04T14:55:00Z",
           "description": "Chaloupkovi\nAndrea Chaloupková zažívá těžké životní období. Prochází onkologickou léčbou a jen s pomocí rodičů se dokáže starat o pětiletého syna. Jak nám ale napsala ředitelka Mamma Helpu, organizace, která pomáhá onkologicky nemocným ženám, Andrea je neskutečný bojovník a i tak náročnou léčbu zvládá s optimismem, a navíc pomáhá i ostatním. Pořádá charitativní sbírky, píše blog a vyrábí pomůcky, které ženám pomáhají. Kromě svého zdraví má jen jediný sen. A to zrekonstruovat bydlení pro sebe a Filípka. Doufáme, že náš pořad bude tím pověstným světlem na konci tunelu a další velkou motivací pro uzdravení.Andrea Chaloupková zažívá těžké životní období. Prochází onkologickou léčbou a jen s pomocí rodičů se dokáže starat o pětiletého syna. Jak nám ale napsala ředitelka Mamma Helpu, organizace, která pomáhá onkologicky nemocným ženám, Andrea je neskutečný bojovník a i tak náročnou léčbu zvládá s optimismem, a navíc pomáhá i ostatním. Pořádá charitativní sbírky, píše blog a vyrábí pomůcky, které ženám pomáhají. Kromě svého zdraví má jen jediný sen. A to zrekonstruovat bydlení pro sebe a Filípka. Doufáme, že náš pořad bude tím pověstným světlem na konci tunelu a další velkou motivací pro uzdravení.",
           "category": "Mag"
         },
         {
           "title": "Seznamka",
-          "start": "2026-10-04T14:50:00Z",
-          "stop": "2026-10-04T16:55:00Z",
+          "start": "2026-10-04T14:55:00Z",
+          "stop": "2026-10-04T16:52:00Z",
           "description": "Najít toho pravého je v dnešní době oříšek. Ani seznamovací agentura nikomu nezaručí kvalitní protějšek. Jak si s osudem pohraje skutečnost, že Hedvika kvůli takové agentuře nevědomky randí s manželem své nejlepší kamarádky? Česká komedie. Režie Z. Marinovová.Najít toho pravého je v dnešní době oříšek. Ani seznamovací agentura nikomu nezaručí kvalitní protějšek. Jak si s osudem pohraje skutečnost, že Hedvika kvůli takové agentuře nevědomky randí s manželem své nejlepší kamarádky? Česká komedie. Režie Z. Marinovová.",
           "category": "Kom"
+        },
+        {
+          "title": "Počasí",
+          "start": "2026-10-04T16:52:00Z",
+          "stop": "2026-10-04T16:55:00Z",
+          "description": "Počasí.",
+          "category": "Mag"
         },
         {
           "title": "HLAVNÍ ZPRÁVY",
@@ -1107,20 +1016,20 @@
         {
           "title": "Zmizení",
           "start": "2026-10-04T20:45:00Z",
-          "stop": "2026-10-04T23:45:00Z",
+          "stop": "2026-10-04T23:50:00Z",
           "description": "Keller Dover prožívá tu nejhorší noční můru. Neznámý pachatel unesl jeho šestiletou dceru a její kamarádku. Policejní pátrání se protahuje a Keller se rozhodne jednat na vlastní pěst. Pustí se do výslechu zaostalého mladíka, který je jediným pojítkem k případu... Americký thriller. Režie D. Villeneuve.Keller Dover prožívá tu nejhorší noční můru. Neznámý pachatel unesl jeho šestiletou dceru a její kamarádku. Policejní pátrání se protahuje a Keller se rozhodne jednat na vlastní pěst. Pustí se do výslechu zaostalého mladíka, který je jediným pojítkem k případu... Americký thriller. Režie D. Villeneuve.",
           "category": "Thril"
         },
         {
           "title": "Miliónový hurikán",
-          "start": "2026-10-04T23:45:00Z",
-          "stop": "2026-10-05T01:45:00Z",
+          "start": "2026-10-04T23:50:00Z",
+          "stop": "2026-10-05T01:50:00Z",
           "description": "Značně komplikovaná situace nastane, když se během evakuace výškového domu kvůli hurikánu střetnou místní policisté v domě s nebezpečným gangem, který sem přišel ukrást cenné obrazy... Americký akční film8+ (obsahuje násilí, strach, vulgarismy)Značně komplikovaná situace nastane, když se během evakuace výškového domu kvůli hurikánu střetnou místní policisté v domě s nebezpečným gangem, který sem přišel ukrást cenné obrazy... Americký akční film8+ (obsahuje násilí, strach, vulgarismy).",
-          "category": "Film"
+          "category": "Dob"
         },
         {
           "title": "Norské domy snů III",
-          "start": "2026-10-05T01:45:00Z",
+          "start": "2026-10-05T01:50:00Z",
           "stop": "2026-10-05T02:45:00Z",
           "description": "E5\nNejen Češi jsou národ chatařů, i Norové se ve volném čase vydávají do svých horských příbytků. O ty, které svým majitelům padají na hlavu, se postarají interiérový designér Halvor Bakke a jeho tři řemeslně zdatní kamarádi... Norský dokumentární seriál.Nejen Češi jsou národ chatařů, i Norové se ve volném čase vydávají do svých horských příbytků. O ty, které svým majitelům padají na hlavu, se postarají interiérový designér Halvor Bakke a jeho tři řemeslně zdatní kamarádi... Norský dokumentární seriál.",
           "category": "Dok"
@@ -1177,65 +1086,72 @@
         {
           "title": "M*A*S*H",
           "start": "2026-10-05T06:30:00Z",
-          "stop": "2026-10-05T07:00:00Z",
+          "stop": "2026-10-05T07:05:00Z",
           "description": "E19\nPersonál polní vojenské chirurgické nemocnice se s válkou vyrovnává po svém. Ani v Koreji jim nechybí humor a odvaha, vlastnosti, bez kterých by situaci jen stěží přežili... Americký válečný seriál.Personál polní vojenské chirurgické nemocnice se s válkou vyrovnává po svém. Ani v Koreji jim nechybí humor a odvaha, vlastnosti, bez kterých by situaci jen stěží přežili... Americký válečný seriál.",
           "category": "Vál"
         },
         {
           "title": "Ohnivý kuře II",
-          "start": "2026-10-05T07:00:00Z",
-          "stop": "2026-10-05T08:25:00Z",
+          "start": "2026-10-05T07:05:00Z",
+          "stop": "2026-10-05T08:30:00Z",
           "description": "E102 — Snowboardové návraty\nMike s Burákem se dozvídají o soutěži v Grandu a začínají spřádat plány, jak jim konkurovat. Pomůže jim Petra? Jarda vaří tak hrozně, že jedna zákaznice to už nevydrží. Vtrhne do kuchyně a uvaří si sama. A vaří božsky. Béda dělá vše, co může, aby Milušku přesvědčil, že musejí vypadnout z Janovek. To se ale nelíbí Renátě. Ta Milušku potřebuje v Janovkách a Bédovi dá jasně najevo, že on jí to kazit nebude. Luky sežene Jíšovi velkou zakázku na jeho jídelní hůlky. Jíša si pozve na pomoc Baťku. Jak už to tak ale s Baťkou bývá, Baťka zkazí, co může. Seriál s vůní jídla a chutí života. Režie M. Pivoňková.Mike s Burákem se dozvídají o soutěži v Grandu a začínají spřádat plány, jak jim konkurovat. Pomůže jim Petra? Jarda vaří tak hrozně, že jedna zákaznice to už nevydrží. Vtrhne do kuchyně a uvaří si sama. A vaří božsky. Béda dělá vše, co může, aby Milušku přesvědčil, že musejí vypadnout z Janovek. To se ale nelíbí Renátě. Ta Milušku potřebuje v Janovkách a Bédovi dá jasně najevo, že on jí to kazit nebude. Luky sežene Jíšovi velkou zakázku na jeho jídelní hůlky. Jíša si pozve na pomoc Baťku. Jak už to tak ale s Baťkou bývá, Baťka zkazí, co může. Seriál s vůní jídla a chutí života. Režie M. Pivoňková.",
           "category": "Film"
         },
         {
           "title": "Zákony vlka 3",
-          "start": "2026-10-05T08:25:00Z",
-          "stop": "2026-10-05T09:45:00Z",
+          "start": "2026-10-05T08:30:00Z",
+          "stop": "2026-10-05T09:50:00Z",
           "description": "E6 — Nouzový plán\nRobert je stále více v klinči Wilka a pašerácké bandy, bude muset znovu využít své zlodějské schopnosti. Při přenášeni rakve během pohřbu se ukáže, že v rakvi jsou nebožtíci dva. Kriminální seriál 2026. Režie M. Najbrt.Robert je stále více v klinči Wilka a pašerácké bandy, bude muset znovu využít své zlodějské schopnosti. Při přenášeni rakve během pohřbu se ukáže, že v rakvi jsou nebožtíci dva. Kriminální seriál 2026. Režie M. Najbrt.",
           "category": "Seriál"
         },
         {
           "title": "Námořní vyšetřovací služba XIX",
-          "start": "2026-10-05T09:45:00Z",
-          "stop": "2026-10-05T10:40:00Z",
+          "start": "2026-10-05T09:50:00Z",
+          "stop": "2026-10-05T10:45:00Z",
           "description": "E20 — Všechno, nebo nic\nTým zvláštních agentů, kteří operují mimo vojenské velení, musí vyšetřit každý zločin, který má něco společného s námořními silami. Bez ohledu na to, jakou hodnost mají podezřelí... Americký krimiseriál.Tým zvláštních agentů, kteří operují mimo vojenské velení, musí vyšetřit každý zločin, který má něco společného s námořními silami. Bez ohledu na to, jakou hodnost mají podezřelí... Americký krimiseriál.",
           "category": "Thril"
         },
         {
           "title": "Námořní vyšetřovací služba XIX",
-          "start": "2026-10-05T10:40:00Z",
-          "stop": "2026-10-05T11:40:00Z",
+          "start": "2026-10-05T10:45:00Z",
+          "stop": "2026-10-05T11:45:00Z",
           "description": "E21 — Jeden jako druhý\nTým zvláštních agentů, kteří operují mimo vojenské velení, musí vyšetřit každý zločin, který má něco společného s námořními silami. Bez ohledu na to, jakou hodnost mají podezřelí... Americký krimiseriál.Tým zvláštních agentů, kteří operují mimo vojenské velení, musí vyšetřit každý zločin, který má něco společného s námořními silami. Bez ohledu na to, jakou hodnost mají podezřelí... Americký krimiseriál.",
           "category": "Thril"
         },
         {
           "title": "Máme rádi Česko",
-          "start": "2026-10-05T11:40:00Z",
-          "stop": "2026-10-05T13:25:00Z",
+          "start": "2026-10-05T11:45:00Z",
+          "stop": "2026-10-05T13:30:00Z",
           "description": "J. Ledecký, M. Jandová, A. Slováčková, J. Sedláčková, D. Matásek, E. Maximová\nOblíbená stálice televize Prima neztrácí kouzlo ani v deváté sezoně. Libor Bouček uvede nesmírně zábavný souboj kapitánů Jakuba Prachaře a Vojty Kotka. Těšit se můžete na skvělou kapelu Jana Maxiána i nové moderní studio. Porovnejte svoje povědomí o Česku s dalšími známými tvářemi, ale hlavně se skvěle bavte! Dále účinkují J. Ledecký, M. Jandová, A. Slováčková, J. Sedláčková, D. Matásek a E. Maximová. Režie M. Čech.Oblíbená stálice televize Prima neztrácí kouzlo ani v deváté sezoně. Libor Bouček uvede nesmírně zábavný souboj kapitánů Jakuba Prachaře a Vojty Kotka. Těšit se můžete na skvělou kapelu Jana Maxiána i nové moderní studio. Porovnejte svoje povědomí o Česku s dalšími známými tvářemi, ale hlavně se skvěle bavte! Dále účinkují J. Ledecký, M. Jandová, A. Slováčková, J. Sedláčková, D. Matásek a E. Maximová. Režie M. Čech.",
           "category": "Mag"
         },
         {
           "title": "Inkognito",
-          "start": "2026-10-05T13:25:00Z",
-          "stop": "2026-10-05T14:35:00Z",
+          "start": "2026-10-05T13:30:00Z",
+          "stop": "2026-10-05T14:40:00Z",
           "description": "V zábavné show Inkognito se čtveřice osobností snaží uhodnout profesi jednotlivých hostů nebo jejich identitu. Hádejte společně s nimi a pobavte se nečekanými myšlenkami. Moderuje Libor Bouček.V zábavné show Inkognito se čtveřice osobností snaží uhodnout profesi jednotlivých hostů nebo jejich identitu. Hádejte společně s nimi a pobavte se nečekanými myšlenkami. Moderuje Libor Bouček.",
           "category": "Mag"
         },
         {
           "title": "Ano, šéfe!",
-          "start": "2026-10-05T14:35:00Z",
-          "stop": "2026-10-05T15:50:00Z",
+          "start": "2026-10-05T14:40:00Z",
+          "stop": "2026-10-05T15:55:00Z",
           "description": "Zlatý soudek / Vodňany\nKarel má rybí restauraci v rybníkářském městě, ve Vodňanech. Na jídelním lístku má spoustu rybích pokrmů a v restauraci velké rybí akvárium, které ho vyjde na nemalé peníze. Ať se ale snaží, jak může, stejně se v jeho restauraci Zlatý soudek dobře nenajíte. Karel je ale muž činu a do všeho se vrhá po hlavě. Je ochoten do restaurace i znovu investovat. Ocení Šéf jeho snahu?Karel má rybí restauraci v rybníkářském městě, ve Vodňanech. Na jídelním lístku má spoustu rybích pokrmů a v restauraci velké rybí akvárium, které ho vyjde na nemalé peníze. Ať se ale snaží, jak může, stejně se v jeho restauraci Zlatý soudek dobře nenajíte. Karel je ale muž činu a do všeho se vrhá po hlavě. Je ochoten do restaurace i znovu investovat. Ocení Šéf jeho snahu?",
           "category": "Mag"
         },
         {
           "title": "Prostřeno!",
-          "start": "2026-10-05T15:50:00Z",
-          "stop": "2026-10-05T16:55:00Z",
+          "start": "2026-10-05T15:55:00Z",
+          "stop": "2026-10-05T16:52:00Z",
           "description": "Nová pravidla oblíbené kulinářské show mění zažité pořádky. Pětice amatérských kuchařů se opět utká o titul hostitele týdne, tentokrát však čistě gastronomické umění stačit nebude. Bodování se nově rozděluje do dvou kategorií - vedle menu soutěžící hodnotí také atmosféru, kterou hostitel dokáže vytvořit. Sledujte premiérové díly plné kulinářského umění, osobitých povah a nečekaných setkání.Nová pravidla oblíbené kulinářské show mění zažité pořádky. Pětice amatérských kuchařů se opět utká o titul hostitele týdne, tentokrát však čistě gastronomické umění stačit nebude. Bodování se nově rozděluje do dvou kategorií - vedle menu soutěžící hodnotí také atmosféru, kterou hostitel dokáže vytvořit. Sledujte premiérové díly plné kulinářského umění, osobitých povah a nečekaných setkání.",
           "category": "Sou"
+        },
+        {
+          "title": "Počasí",
+          "start": "2026-10-05T16:52:00Z",
+          "stop": "2026-10-05T16:55:00Z",
+          "description": "Počasí.",
+          "category": "Mag"
         },
         {
           "title": "HLAVNÍ ZPRÁVY",
@@ -1289,13 +1205,13 @@
         {
           "title": "Policie v akci",
           "start": "2026-10-05T22:55:00Z",
-          "stop": "2026-10-05T23:50:00Z",
+          "stop": "2026-10-05T23:55:00Z",
           "description": "Hodný vnuk I / Pepek námořník / Vykázaný partner / Hodný vnuk II\nČtyři případy, čtyři lidské osudy. Reální policisté, případy ukazující skutečný život a volání o pomoc.Čtyři případy, čtyři lidské osudy. Reální policisté, případy ukazující skutečný život a volání o pomoc.",
           "category": "Mag"
         },
         {
           "title": "Námořní vyšetřovací služba XIX",
-          "start": "2026-10-05T23:50:00Z",
+          "start": "2026-10-05T23:55:00Z",
           "stop": "2026-10-06T00:45:00Z",
           "description": "E20 — Všechno, nebo nic\nTým zvláštních agentů, kteří operují mimo vojenské velení, musí vyšetřit každý zločin, který má něco společného s námořními silami. Bez ohledu na to, jakou hodnost mají podezřelí... Americký krimiseriál.Tým zvláštních agentů, kteří operují mimo vojenské velení, musí vyšetřit každý zločin, který má něco společného s námořními silami. Bez ohledu na to, jakou hodnost mají podezřelí... Americký krimiseriál.",
           "category": "Thril"
@@ -1310,13 +1226,13 @@
         {
           "title": "Libovky Pepy Libického",
           "start": "2026-10-06T01:40:00Z",
-          "stop": "2026-10-06T01:55:00Z",
+          "stop": "2026-10-06T01:56:00Z",
           "description": "Znáte Pepu Libického? Ne? Tak to byste ale měli! S ním totiž může budovat, rekonstruovat a vyrábět i ten, kdo není řemeslně příliš zdatný.Znáte Pepu Libického? Ne? Tak to byste ale měli! S ním totiž může budovat, rekonstruovat a vyrábět i ten, kdo není řemeslně příliš zdatný.",
           "category": "Mag"
         },
         {
           "title": "Přestávka ve vysílání",
-          "start": "2026-10-06T01:55:00Z",
+          "start": "2026-10-06T01:56:00Z",
           "stop": "2026-10-06T04:00:00Z",
           "description": "Přestávka ve vysílání\nPřestávka ve vysílání.",
           "category": "Mag"
@@ -1628,6 +1544,195 @@
           "stop": "2026-10-07T22:00:00Z",
           "description": "E6 — Jupiter\nKriminalistický benjamínek Michal Pešek vyšetřuje krádež vzácné sošky ze zámeckých sbírek. Začínající policista se má utkat s protřelým recidivistou... Český seriál. . Režie J. Dudek.Kriminalistický benjamínek Michal Pešek vyšetřuje krádež vzácné sošky ze zámeckých sbírek. Začínající policista se má utkat s protřelým recidivistou... Český seriál. . Režie J. Dudek.",
           "category": "Thril"
+        },
+        {
+          "title": "Ano, šéfe!",
+          "start": "2026-10-07T22:00:00Z",
+          "stop": "2026-10-07T23:10:00Z",
+          "description": "Bike hospoda U Všech Andělů / Nové Město pod Smrkem\nManželé Svobodovi provozují restauraci a penzion, ale restaurace si na sebe nevydělá ani v sezoně. Je navázaná nejvíce na bikerskou trasu Single track, a tak klientela není stálá. Jde spíše o turisty, kteří do kraje přijíždějí. Lucie Svobodová je také výtvarnicí a umí se ohánět motorovou pilou. Vytváří a vyřezává anděly, kterými zdobí restauraci.Manželé Svobodovi provozují restauraci a penzion, ale restaurace si na sebe nevydělá ani v sezoně. Je navázaná nejvíce na bikerskou trasu Single track, a tak klientela není stálá. Jde spíše o turisty, kteří do kraje přijíždějí. Lucie Svobodová je také výtvarnicí a umí se ohánět motorovou pilou. Vytváří a vyřezává anděly, kterými zdobí restauraci.",
+          "category": "Mag"
+        },
+        {
+          "title": "Policie v akci",
+          "start": "2026-10-07T23:10:00Z",
+          "stop": "2026-10-08T00:05:00Z",
+          "description": "Pejskař / Násilník / Pachatel se vrací na místo činu\nČtyři případy, čtyři lidské osudy. Reální policisté, případy ukazující skutečný život a volání o pomoc.Čtyři případy, čtyři lidské osudy. Reální policisté, případy ukazující skutečný život a volání o pomoc.",
+          "category": "Mag"
+        },
+        {
+          "title": "Námořní vyšetřovací služba XX",
+          "start": "2026-10-08T00:05:00Z",
+          "stop": "2026-10-08T01:00:00Z",
+          "description": "E3 — Poklad\nTým zvláštních agentů, kteří operují mimo vojenské velení, musí vyšetřit každý zločin, který má něco společného s námořními silami. Bez ohledu na to, jakou hodnost mají podezřelí... Americký krimiseriál.Tým zvláštních agentů, kteří operují mimo vojenské velení, musí vyšetřit každý zločin, který má něco společného s námořními silami. Bez ohledu na to, jakou hodnost mají podezřelí... Americký krimiseriál.",
+          "category": "Thril"
+        },
+        {
+          "title": "Námořní vyšetřovací služba XX",
+          "start": "2026-10-08T01:00:00Z",
+          "stop": "2026-10-08T01:55:00Z",
+          "description": "E4 — Beze stopy\nTým zvláštních agentů, kteří operují mimo vojenské velení, musí vyšetřit každý zločin, který má něco společného s námořními silami. Bez ohledu na to, jakou hodnost mají podezřelí... Americký krimiseriál.Tým zvláštních agentů, kteří operují mimo vojenské velení, musí vyšetřit každý zločin, který má něco společného s námořními silami. Bez ohledu na to, jakou hodnost mají podezřelí... Americký krimiseriál.",
+          "category": "Thril"
+        },
+        {
+          "title": "Máme rádi Česko",
+          "start": "2026-10-08T01:55:00Z",
+          "stop": "2026-10-08T03:55:00Z",
+          "description": "Z. Pohlreich, O. Synek, K. Schicková, E. Ridi, P. Vágner, Z. Hejnová\nSledujte oblíbený zábavný pořad s kapitány Jakubem Prachařem a Vojtou Kotkem. Moderuje Libor Bouček. Dále účinkují Z. Pohlreich, O. Synek, K. Schicková, E. Ridi, P. Vágner a Z. Hejdová. Režie M. Čech.Sledujte oblíbený zábavný pořad s kapitány Jakubem Prachařem a Vojtou Kotkem. Moderuje Libor Bouček. Dále účinkují Z. Pohlreich, O. Synek, K. Schicková, E. Ridi, P. Vágner a Z. Hejdová. Režie M. Čech.",
+          "category": "Mag"
+        },
+        {
+          "title": "Nový den",
+          "start": "2026-10-08T03:55:00Z",
+          "stop": "2026-10-08T04:00:00Z",
+          "description": "Všechny informace pro úspěšný start vašeho dne na jednom místě. Exkluzivní hosté, zprávy, počasí i sport.Všechny informace pro úspěšný start vašeho dne na jednom místě. Exkluzivní hosté, zprávy, počasí i sport.",
+          "category": "Mag"
+        },
+        {
+          "title": "Nový den",
+          "start": "2026-10-08T04:00:00Z",
+          "stop": "2026-10-08T04:55:00Z",
+          "description": "Všechny informace pro úspěšný start vašeho dne na jednom místě. Exkluzivní hosté, zprávy, počasí i sport.Všechny informace pro úspěšný start vašeho dne na jednom místě. Exkluzivní hosté, zprávy, počasí i sport.",
+          "category": "Mag"
+        },
+        {
+          "title": "M*A*S*H",
+          "start": "2026-10-08T04:55:00Z",
+          "stop": "2026-10-08T05:25:00Z",
+          "description": "E25\nPersonál polní vojenské chirurgické nemocnice se s válkou vyrovnává po svém. Ani v Koreji jim nechybí humor a odvaha, vlastnosti, bez kterých by situaci jen stěží přežili... Americký válečný seriál.Personál polní vojenské chirurgické nemocnice se s válkou vyrovnává po svém. Ani v Koreji jim nechybí humor a odvaha, vlastnosti, bez kterých by situaci jen stěží přežili... Americký válečný seriál.",
+          "category": "Vál"
+        },
+        {
+          "title": "M*A*S*H",
+          "start": "2026-10-08T05:25:00Z",
+          "stop": "2026-10-08T06:00:00Z",
+          "description": "E26\nPersonál polní vojenské chirurgické nemocnice se s válkou vyrovnává po svém. Ani v Koreji jim nechybí humor a odvaha, vlastnosti, bez kterých by situaci jen stěží přežili... Americký válečný seriál.Personál polní vojenské chirurgické nemocnice se s válkou vyrovnává po svém. Ani v Koreji jim nechybí humor a odvaha, vlastnosti, bez kterých by situaci jen stěží přežili... Americký válečný seriál.",
+          "category": "Vál"
+        },
+        {
+          "title": "M*A*S*H",
+          "start": "2026-10-08T06:00:00Z",
+          "stop": "2026-10-08T06:30:00Z",
+          "description": "E27\nPersonál polní vojenské chirurgické nemocnice se s válkou vyrovnává po svém. Ani v Koreji jim nechybí humor a odvaha, vlastnosti, bez kterých by situaci jen stěží přežili... Americký válečný seriál.Personál polní vojenské chirurgické nemocnice se s válkou vyrovnává po svém. Ani v Koreji jim nechybí humor a odvaha, vlastnosti, bez kterých by situaci jen stěží přežili... Americký válečný seriál.",
+          "category": "Vál"
+        },
+        {
+          "title": "M*A*S*H",
+          "start": "2026-10-08T06:30:00Z",
+          "stop": "2026-10-08T07:00:00Z",
+          "description": "E28\nPersonál polní vojenské chirurgické nemocnice se s válkou vyrovnává po svém. Ani v Koreji jim nechybí humor a odvaha, vlastnosti, bez kterých by situaci jen stěží přežili... Americký válečný seriál.Personál polní vojenské chirurgické nemocnice se s válkou vyrovnává po svém. Ani v Koreji jim nechybí humor a odvaha, vlastnosti, bez kterých by situaci jen stěží přežili... Americký válečný seriál.",
+          "category": "Vál"
+        },
+        {
+          "title": "Ohnivý kuře II",
+          "start": "2026-10-08T07:00:00Z",
+          "stop": "2026-10-08T08:20:00Z",
+          "description": "E105 — Veruna a vnoučata\nVeruně píše Hrubešová, že se u nich zastaví na návštěvu její snacha i s vnoučaty. Odkdy má ale Hrubešová nějakou rodinu? Renátu už nebaví tahat peníze z Milušky po malých částkách. Potřebuje vymyslet, jak z ní dostat peníze jednorázově. Marylin se ozvali z fashion magazínu a chtějí udělat reportáž o jejích uměleckých hůlkách. Bohužel se ale znovu ozval i stylista. Alena má průšvih a nutně potřebuje od Kohouta vrátit peníze. Kohout má naštěstí v zásobě jeden poklad, který dostal od svého strýce. Seriál s vůní jídla a chutí života. Režie V. Moravec.Veruně píše Hrubešová, že se u nich zastaví na návštěvu její snacha i s vnoučaty. Odkdy má ale Hrubešová nějakou rodinu? Renátu už nebaví tahat peníze z Milušky po malých částkách. Potřebuje vymyslet, jak z ní dostat peníze jednorázově. Marylin se ozvali z fashion magazínu a chtějí udělat reportáž o jejích uměleckých hůlkách. Bohužel se ale znovu ozval i stylista. Alena má průšvih a nutně potřebuje od Kohouta vrátit peníze. Kohout má naštěstí v zásobě jeden poklad, který dostal od svého strýce. Seriál s vůní jídla a chutí života. Režie V. Moravec.",
+          "category": "Film"
+        },
+        {
+          "title": "Kriminálka Slapy: Pod hladinou 2",
+          "start": "2026-10-08T08:20:00Z",
+          "stop": "2026-10-08T09:50:00Z",
+          "description": "E7 — Hrozba\nPod molem se najdou ostatky těla mladé dívky, která byla zavražděna před dvaceti lety. Za pár dní se však najde čerstvá mrtvola - opět jde o mladou dívku. Když se podezřelý vesnický podivín odhodlá k zoufalému činu, policie se utvrdí v tom, že vraždí někdo z místních. Hrají M. Němec, M. Adamczyk, I. Chýlková, V. Vydra, F. Tomsa, Š. Krausová, L. Zahradnická, I. Chmela a další. Režie J. Machala.Pod molem se najdou ostatky těla mladé dívky, která byla zavražděna před dvaceti lety. Za pár dní se však najde čerstvá mrtvola - opět jde o mladou dívku. Když se podezřelý vesnický podivín odhodlá k zoufalému činu, policie se utvrdí v tom, že vraždí někdo z místních. Hrají M. Němec, M. Adamczyk, I. Chýlková, V. Vydra, F. Tomsa, Š. Krausová, L. Zahradnická, I. Chmela a další. Režie J. Machala.",
+          "category": "Mag"
+        },
+        {
+          "title": "Námořní vyšetřovací služba XX",
+          "start": "2026-10-08T09:50:00Z",
+          "stop": "2026-10-08T10:45:00Z",
+          "description": "E5 — Ochránce\nTým zvláštních agentů, kteří operují mimo vojenské velení, musí vyšetřit každý zločin, který má něco společného s námořními silami. Bez ohledu na to, jakou hodnost mají podezřelí... Americký krimiseriál.Tým zvláštních agentů, kteří operují mimo vojenské velení, musí vyšetřit každý zločin, který má něco společného s námořními silami. Bez ohledu na to, jakou hodnost mají podezřelí... Americký krimiseriál.",
+          "category": "Thril"
+        },
+        {
+          "title": "Námořní vyšetřovací služba XX",
+          "start": "2026-10-08T10:45:00Z",
+          "stop": "2026-10-08T11:45:00Z",
+          "description": "E6 — Bojovník za dobro\nTým zvláštních agentů, kteří operují mimo vojenské velení, musí vyšetřit každý zločin, který má něco společného s námořními silami. Bez ohledu na to, jakou hodnost mají podezřelí... Americký krimiseriál.Tým zvláštních agentů, kteří operují mimo vojenské velení, musí vyšetřit každý zločin, který má něco společného s námořními silami. Bez ohledu na to, jakou hodnost mají podezřelí... Americký krimiseriál.",
+          "category": "Thril"
+        },
+        {
+          "title": "Máme rádi Česko",
+          "start": "2026-10-08T11:45:00Z",
+          "stop": "2026-10-08T13:30:00Z",
+          "description": "D. Morávková, M. Hrabě, A. Antony, G. Partyšová, P. Švancara, M. Peroutka\nSledujte oblíbený zábavný pořad s kapitány Jakubem Prachařem a Vojtou Kotkem. Moderuje Libor Bouček. Dále účinkují D. Morávková, M. Hrabě, A. Antony, G. Partyšová, P. Švancara a M. Peroutka. Režie M. Čech.Sledujte oblíbený zábavný pořad s kapitány Jakubem Prachařem a Vojtou Kotkem. Moderuje Libor Bouček. Dále účinkují D. Morávková, M. Hrabě, A. Antony, G. Partyšová, P. Švancara a M. Peroutka. Režie M. Čech.",
+          "category": "Mag"
+        },
+        {
+          "title": "Inkognito",
+          "start": "2026-10-08T13:30:00Z",
+          "stop": "2026-10-08T14:35:00Z",
+          "description": "V zábavné show Inkognito se čtveřice osobností snaží uhodnout profesi jednotlivých hostů nebo jejich identitu. Hádejte společně s nimi a pobavte se nečekanými myšlenkami. Moderuje Libor Bouček.V zábavné show Inkognito se čtveřice osobností snaží uhodnout profesi jednotlivých hostů nebo jejich identitu. Hádejte společně s nimi a pobavte se nečekanými myšlenkami. Moderuje Libor Bouček.",
+          "category": "Mag"
+        },
+        {
+          "title": "Ano, šéfe!",
+          "start": "2026-10-08T14:35:00Z",
+          "stop": "2026-10-08T15:50:00Z",
+          "description": "Vídeň Luže / Luže\nMajitel hospody Vídeň, Arnošt Petráň, zkusil za svůj život ledacos. Dokonce se vydal i na dráhu zločinu. Teď už ale napravený padělatel peněz seká latinu a vede hospodu v Luži. Je kuchař-amatér, tak zkouší vařit vše, co mu kdo doporučí nebo co kde ochutná. A navíc je přesvědčen o tom, že jen on má pravdu. Dokáže Šéfa poslechnout?Majitel hospody Vídeň, Arnošt Petráň, zkusil za svůj život ledacos. Dokonce se vydal i na dráhu zločinu. Teď už ale napravený padělatel peněz seká latinu a vede hospodu v Luži. Je kuchař-amatér, tak zkouší vařit vše, co mu kdo doporučí nebo co kde ochutná. A navíc je přesvědčen o tom, že jen on má pravdu. Dokáže Šéfa poslechnout?",
+          "category": "Mag"
+        },
+        {
+          "title": "Prostřeno!",
+          "start": "2026-10-08T15:50:00Z",
+          "stop": "2026-10-08T16:55:00Z",
+          "description": "Nová pravidla oblíbené kulinářské show mění zažité pořádky. Pětice amatérských kuchařů se opět utká o titul hostitele týdne, tentokrát však čistě gastronomické umění stačit nebude. Bodování se nově rozděluje do dvou kategorií - vedle menu soutěžící hodnotí také atmosféru, kterou hostitel dokáže vytvořit. Sledujte premiérové díly plné kulinářského umění, osobitých povah a nečekaných setkání.Nová pravidla oblíbené kulinářské show mění zažité pořádky. Pětice amatérských kuchařů se opět utká o titul hostitele týdne, tentokrát však čistě gastronomické umění stačit nebude. Bodování se nově rozděluje do dvou kategorií - vedle menu soutěžící hodnotí také atmosféru, kterou hostitel dokáže vytvořit. Sledujte premiérové díly plné kulinářského umění, osobitých povah a nečekaných setkání.",
+          "category": "Sou"
+        },
+        {
+          "title": "HLAVNÍ ZPRÁVY",
+          "start": "2026-10-08T16:55:00Z",
+          "stop": "2026-10-08T17:32:00Z",
+          "description": "Ty nejdůležitější aktuální zprávy z domova i ze světa v hlavní zpravodajské relaci. Atraktivně a srozumitelně.Ty nejdůležitější aktuální zprávy z domova i ze světa v hlavní zpravodajské relaci. Atraktivně a srozumitelně.",
+          "category": "Zpr"
+        },
+        {
+          "title": "Losování loterie Megamaxa",
+          "start": "2026-10-08T17:32:00Z",
+          "stop": "2026-10-08T17:40:00Z",
+          "description": "Losování loterie Megamaxa.",
+          "category": "Mag"
+        },
+        {
+          "title": "Krimi zprávy",
+          "start": "2026-10-08T17:40:00Z",
+          "stop": "2026-10-08T17:55:00Z",
+          "description": "Aktuální události z oblasti kriminality. Zločiny očima profesionálů, zkušených reportérů i diváků.Aktuální události z oblasti kriminality. Zločiny očima profesionálů, zkušených reportérů i diváků.",
+          "category": "Thril"
+        },
+        {
+          "title": "SHOWTIME",
+          "start": "2026-10-08T17:55:00Z",
+          "stop": "2026-10-08T18:15:00Z",
+          "description": "Exkluzivní zákulisí života celebrit - luxusní večírky, žhavé drby, slavnostní premiéry a módní trendy!Exkluzivní zákulisí života celebrit - luxusní večírky, žhavé drby, slavnostní premiéry a módní trendy!",
+          "category": "Mag"
+        },
+        {
+          "title": "Polabí",
+          "start": "2026-10-08T18:15:00Z",
+          "stop": "2026-10-08T19:35:00Z",
+          "description": "E93\nPolicie pátrá po pamětnících stavění máje v dubnu 2006. Martin nemá radost. Karas s Vlastou chystají svatbu. Malina má dohlédnout na vyšetřování. Znovu vyslechne všechny Haškovy. Martin má nového podezřelého. Tibor potřebuje půjčit, ale Beáta mu pomoct nemůže. Anebo ano? Proč Emma pomáhá Martinovi? Rodinný seriál. Hrají M. Etzler, K. Cibulková, J. Matoušková, A. Rašilov, V. Vydra, M. Písařík, J. Vyorálek, L. Hampl, L. Příkazký, L. Polišenská, V. Arichteva, Š. Benoni, J. Paulová, N. Golovchenko. Režie T. Bařina, J. Spousta.Policie pátrá po pamětnících stavění máje v dubnu 2006. Martin nemá radost. Karas s Vlastou chystají svatbu. Malina má dohlédnout na vyšetřování. Znovu vyslechne všechny Haškovy. Martin má nového podezřelého. Tibor potřebuje půjčit, ale Beáta mu pomoct nemůže. Anebo ano? Proč Emma pomáhá Martinovi? Rodinný seriál. Hrají M. Etzler, K. Cibulková, J. Matoušková, A. Rašilov, V. Vydra, M. Písařík, J. Vyorálek, L. Hampl, L. Příkazký, L. Polišenská, V. Arichteva, Š. Benoni, J. Paulová, N. Golovchenko. Režie T. Bařina, J. Spousta.",
+          "category": "Seriál"
+        },
+        {
+          "title": "Ano, šéfe!",
+          "start": "2026-10-08T19:35:00Z",
+          "stop": "2026-10-08T20:45:00Z",
+          "description": "Mexická restaurace Pancho´s / Plzeň\nAno, šéfe! pořad, který nejen kritizuje, ale také inspiruje. Zdeněk Pohlreich vyráží do českých restaurací, aby jejich provozovatelům pomohl odhalit slabá místa, zlepšit fungování podniku a vrátit hostům chuť se znovu vracet. Tam, kde jiní vidí problém, šéf vnímá výzvu. Čekají vás silné emoce, nekompromisní hodnocení, praktické rady i proměny restaurací. Když jde o kvalitu, Zdeněk Pohlreich kompromisy nedělá.Ano, šéfe! pořad, který nejen kritizuje, ale také inspiruje. Zdeněk Pohlreich vyráží do českých restaurací, aby jejich provozovatelům pomohl odhalit slabá místa, zlepšit fungování podniku a vrátit hostům chuť se znovu vracet. Tam, kde jiní vidí problém, šéf vnímá výzvu. Čekají vás silné emoce, nekompromisní hodnocení, praktické rady i proměny restaurací. Když jde o kvalitu, Zdeněk Pohlreich kompromisy nedělá.",
+          "category": "Mag"
+        },
+        {
+          "title": "Inkognito",
+          "start": "2026-10-08T20:45:00Z",
+          "stop": "2026-10-08T21:50:00Z",
+          "description": "V zábavné show Inkognito se čtveřice osobností snaží uhodnout profesi jednotlivých hostů nebo jejich identitu. Pobavte se nečekanými myšlenkami a hádejte společně s nimi. Moderuje Libor Bouček.V zábavné show Inkognito se čtveřice osobností snaží uhodnout profesi jednotlivých hostů nebo jejich identitu. Pobavte se nečekanými myšlenkami a hádejte společně s nimi. Moderuje Libor Bouček.",
+          "category": "Mag"
+        },
+        {
+          "title": "Ano, šéfe!",
+          "start": "2026-10-08T21:50:00Z",
+          "stop": "2026-10-08T22:55:00Z",
+          "description": "Vídeň Luže / Luže\nMajitel hospody Vídeň, Arnošt Petráň, zkusil za svůj život ledacos. Dokonce se vydal i na dráhu zločinu. Teď už ale napravený padělatel peněz seká latinu a vede hospodu v Luži. Je kuchař-amatér, tak zkouší vařit vše, co mu kdo doporučí nebo co kde ochutná. A navíc je přesvědčen o tom, že jen on má pravdu. Dokáže Šéfa poslechnout?Majitel hospody Vídeň, Arnošt Petráň, zkusil za svůj život ledacos. Dokonce se vydal i na dráhu zločinu. Teď už ale napravený padělatel peněz seká latinu a vede hospodu v Luži. Je kuchař-amatér, tak zkouší vařit vše, co mu kdo doporučí nebo co kde ochutná. A navíc je přesvědčen o tom, že jen on má pravdu. Dokáže Šéfa poslechnout?",
+          "category": "Mag"
         }
       ]
     },
@@ -1637,132 +1742,6 @@
       "logo": "https://www.sms.cz/kategorie/televize/bmp/loga/velka/seznamcztv.png",
       "source": "https://iptv-epg.org/files/epg-cz.xml.gz",
       "programmes": [
-        {
-          "title": "Muži nestárnou",
-          "start": "2026-10-03T09:40:00Z",
-          "stop": "2026-10-03T11:55:00Z",
-          "description": "Dokáže láska přežít desetiletí? Ta pravá určitě ano.Dokáže láska přežít desetiletí? Ta pravá určitě ano.",
-          "category": "Mag"
-        },
-        {
-          "title": "Muž na drátě",
-          "start": "2026-10-03T11:55:00Z",
-          "stop": "2026-10-03T13:45:00Z",
-          "description": "Hlavním hrdinou je obyčejný a dosud bezúhonný Evžen Macík, který se jednoho dne, když čeká na svou milenku Marii, stane svědkem loupežného přepadení spořitelny.Hlavním hrdinou je obyčejný a dosud bezúhonný Evžen Macík, který se jednoho dne, když čeká na svou milenku Marii, stane svědkem loupežného přepadení spořitelny.",
-          "category": "Mag"
-        },
-        {
-          "title": "Chlapci a chlapi",
-          "start": "2026-10-03T13:45:00Z",
-          "stop": "2026-10-03T15:05:00Z",
-          "description": "E5 — Zelené Vánoce\nVánoce v kasárnách nejsou žádný med. Místo bohaté večeře v teple hlídkování areálu. Ale taková už je vojna...Vánoce v kasárnách nejsou žádný med. Místo bohaté večeře v teple hlídkování areálu. Ale taková už je vojna...",
-          "category": "Mag"
-        },
-        {
-          "title": "7 pádů Honzy Dědka",
-          "start": "2026-10-03T15:05:00Z",
-          "stop": "2026-10-03T16:10:00Z",
-          "description": "E5 — Daniela Kolářová, Radko Gudas s dcerou Leontýnou, Stanislava Jachnická, DJ Roxtar\nNebudete se nudit! Daniela Kolářová o luxusu upřímnosti, Radko Gudas s dcerou o hokeji i životě, Stanislava Jachnická o dabingu a DJ Roxtar o závislostech, slávě a životě bez příkras.Nebudete se nudit! Daniela Kolářová o luxusu upřímnosti, Radko Gudas s dcerou o hokeji i životě, Stanislava Jachnická o dabingu a DJ Roxtar o závislostech, slávě a životě bez příkras.",
-          "category": "Mag"
-        },
-        {
-          "title": "Zahradní proměny",
-          "start": "2026-10-03T16:10:00Z",
-          "stop": "2026-10-03T17:10:00Z",
-          "description": "E17 — Powys\nCo se skrývá za nevzhlednou vegetací? Hotový poklad.Co se skrývá za nevzhlednou vegetací? Hotový poklad.",
-          "category": "Mag"
-        },
-        {
-          "title": "Zahradní proměny",
-          "start": "2026-10-03T17:10:00Z",
-          "stop": "2026-10-03T18:10:00Z",
-          "description": "E18 — Cambridge\nMůže být únava spojována také se zahradou? Určitě, ta dnešní je úplnou definicí únavy.Může být únava spojována také se zahradou? Určitě, ta dnešní je úplnou definicí únavy.",
-          "category": "Mag"
-        },
-        {
-          "title": "Profesionálové",
-          "start": "2026-10-03T18:10:00Z",
-          "stop": "2026-10-03T19:20:00Z",
-          "description": "E7 — Neuctivý státní zaměstnanec\nCowley je svéráz, který má však jasný cíl - zastavit zločin za každou cenu.Cowley je svéráz, který má však jasný cíl - zastavit zločin za každou cenu.",
-          "category": "Mag"
-        },
-        {
-          "title": "Profesionálové",
-          "start": "2026-10-03T19:20:00Z",
-          "stop": "2026-10-03T20:30:00Z",
-          "description": "E8 — Zvířený prach\nDoba železné opony pominula, ale v dobách, kdy panovala obrovská rivalita, hrozilo nebezpečí prakticky neustále.Doba železné opony pominula, ale v dobách, kdy panovala obrovská rivalita, hrozilo nebezpečí prakticky neustále.",
-          "category": "Mag"
-        },
-        {
-          "title": "Jak svět přichází o básníky",
-          "start": "2026-10-03T20:30:00Z",
-          "stop": "2026-10-03T22:20:00Z",
-          "description": "Dva studenti gymnázia se rozhodnou vytvořit ochotnické představení, do něhož bude zapojeno celé město.Dva studenti gymnázia se rozhodnou vytvořit ochotnické představení, do něhož bude zapojeno celé město.",
-          "category": "Mag"
-        },
-        {
-          "title": "Místo činu: Brémy",
-          "start": "2026-10-03T22:20:00Z",
-          "stop": "2026-10-04T00:15:00Z",
-          "description": "E1 — Šeherezáda\nKdyž mladá dívka Manu informuje policii o konspiracích, kvůli kterým zemřel její přítel, naráží jen na pohrdání a úšklebky.Když mladá dívka Manu informuje policii o konspiracích, kvůli kterým zemřel její přítel, naráží jen na pohrdání a úšklebky.",
-          "category": "Mag"
-        },
-        {
-          "title": "Lovci bizonů",
-          "start": "2026-10-04T00:15:00Z",
-          "stop": "2026-10-04T02:00:00Z",
-          "description": "Drama o muži, který hledá smysl života. Nicolas Cage v neobvyklé westernové roli.Drama o muži, který hledá smysl života. Nicolas Cage v neobvyklé westernové roli.",
-          "category": "Mag"
-        },
-        {
-          "title": "Ušák Jaromíra Bosáka",
-          "start": "2026-10-04T02:00:00Z",
-          "stop": "2026-10-04T02:20:00Z",
-          "description": "E49 — Alexandr Choupenitch\nDo Ušáku Jaromíra Bosáka usednul olympijský šermíř (konkrétně fleretista), bronzový z loňského ME a jedna z největších nadějí světového šermu - český reprezentant Alexander Choupenitch.Do Ušáku Jaromíra Bosáka usednul olympijský šermíř (konkrétně fleretista), bronzový z loňského ME a jedna z největších nadějí světového šermu - český reprezentant Alexander Choupenitch.",
-          "category": "Mag"
-        },
-        {
-          "title": "Výleťák",
-          "start": "2026-10-04T02:20:00Z",
-          "stop": "2026-10-04T02:25:00Z",
-          "description": "E127 — Skalní hrad Jestřebí a skalní vyhlídky na Máchově cestě\nZ původního hradu, který zde byl vybudován někdy kolem roku 1400, se toho do dnešní doby moc nedochovalo, ale i tak jde o turisty vyhledávané místo, které budí respekt už při pouhém pohledu z dálky.Z původního hradu, který zde byl vybudován někdy kolem roku 1400, se toho do dnešní doby moc nedochovalo, ale i tak jde o turisty vyhledávané místo, které budí respekt už při pouhém pohledu z dálky.",
-          "category": "Mag"
-        },
-        {
-          "title": "Otec Braun",
-          "start": "2026-10-04T02:25:00Z",
-          "stop": "2026-10-04T04:00:00Z",
-          "description": "E21 — Ukradené housle\nOtci Braunovi můžete brnkat na nervy, ale struny trpělivosti a rozvahy prasknout nemůžete.Otci Braunovi můžete brnkat na nervy, ale struny trpělivosti a rozvahy prasknout nemůžete.",
-          "category": "Mag"
-        },
-        {
-          "title": "Výleťák",
-          "start": "2026-10-04T04:00:00Z",
-          "stop": "2026-10-04T04:15:00Z",
-          "description": "E207 — Saské Švýcarsko jako na dlani ze stolové hory Lilienstein / Přírodní rezervace a stolová hora Kozelka na Plzeňsku\nDnes se budeme držet kopců a skal. O adrenalin tak nebude nouze!Dnes se budeme držet kopců a skal. O adrenalin tak nebude nouze!",
-          "category": "Mag"
-        },
-        {
-          "title": "Krotitelé chaosu",
-          "start": "2026-10-04T04:15:00Z",
-          "stop": "2026-10-04T05:15:00Z",
-          "description": "E8 — Steve + Maria, David + Luke, Jaime\nNa boj s nepořádkem jsou tu Krotitelé chaosu!Na boj s nepořádkem jsou tu Krotitelé chaosu!",
-          "category": "Mag"
-        },
-        {
-          "title": "Otec Braun",
-          "start": "2026-10-04T05:15:00Z",
-          "stop": "2026-10-04T07:15:00Z",
-          "description": "E21 — Ukradené housle\nOtci Braunovi můžete brnkat na nervy, ale struny trpělivosti a rozvahy prasknout nemůžete.Otci Braunovi můžete brnkat na nervy, ale struny trpělivosti a rozvahy prasknout nemůžete.",
-          "category": "Mag"
-        },
-        {
-          "title": "Profesionálové",
-          "start": "2026-10-04T07:15:00Z",
-          "stop": "2026-10-04T08:20:00Z",
-          "description": "E7 — Neuctivý státní zaměstnanec\nCowley je svéráz, který má však jasný cíl - zastavit zločin za každou cenu.Cowley je svéráz, který má však jasný cíl - zastavit zločin za každou cenu.",
-          "category": "Mag"
-        },
         {
           "title": "Profesionálové",
           "start": "2026-10-04T08:20:00Z",
@@ -2301,6 +2280,181 @@
           "stop": "2026-10-07T22:05:00Z",
           "description": "Příběh, který byl inspirován událostmi z 80. let.Příběh, který byl inspirován událostmi z 80. let.",
           "category": "Mag"
+        },
+        {
+          "title": "Profesionálové",
+          "start": "2026-10-07T22:05:00Z",
+          "stop": "2026-10-07T23:15:00Z",
+          "description": "E8 — Zvířený prach\nDoba železné opony pominula, ale v dobách, kdy panovala obrovská rivalita, hrozilo nebezpečí prakticky neustále.Doba železné opony pominula, ale v dobách, kdy panovala obrovská rivalita, hrozilo nebezpečí prakticky neustále.",
+          "category": "Mag"
+        },
+        {
+          "title": "Zákon a pořádek: Zločinné úmysly",
+          "start": "2026-10-07T23:15:00Z",
+          "stop": "2026-10-08T00:15:00Z",
+          "description": "E3 — Úsměv\nNávštěva zubní ordinace není nikdy příjemným zážitkem. Tentokrát se však stane hrůzou i pro samotného stomatologa.Návštěva zubní ordinace není nikdy příjemným zážitkem. Tentokrát se však stane hrůzou i pro samotného stomatologa.",
+          "category": "Mag"
+        },
+        {
+          "title": "Zákon a pořádek: Zločinné úmysly",
+          "start": "2026-10-08T00:15:00Z",
+          "stop": "2026-10-08T01:00:00Z",
+          "description": "E4 — Ženatý, ale sám\nHotelový pokoj se stává místem chladnokrevné vraždy.Hotelový pokoj se stává místem chladnokrevné vraždy.",
+          "category": "Mag"
+        },
+        {
+          "title": "JAG",
+          "start": "2026-10-08T01:00:00Z",
+          "stop": "2026-10-08T01:45:00Z",
+          "description": "E13 — Zázraky\nVěřit či nevěřit v nadpřirozeno? Některé případy matou i ty největší skeptiky.Věřit či nevěřit v nadpřirozeno? Některé případy matou i ty největší skeptiky.",
+          "category": "Mag"
+        },
+        {
+          "title": "JAG",
+          "start": "2026-10-08T01:45:00Z",
+          "stop": "2026-10-08T02:30:00Z",
+          "description": "E14 — Vražedný instinkt\nDo armády občas proniknou lidé, kteří svými výsledky zaostávají za svými kolegy. Způsob nakládání s nimi může být občas krutý.Do armády občas proniknou lidé, kteří svými výsledky zaostávají za svými kolegy. Způsob nakládání s nimi může být občas krutý.",
+          "category": "Mag"
+        },
+        {
+          "title": "Vražedná čísla",
+          "start": "2026-10-08T02:30:00Z",
+          "stop": "2026-10-08T03:10:00Z",
+          "description": "E17 — Plať, abys mohl hrát\nVražda rappera přiměje Charlieho analyzovat matematiku hudebního byznysu ve stejném týdnu, kdy do města přijíždějí Amitini rodiče. Megan požádala o týden volna, aniž by to s Donem probrala.Vražda rappera přiměje Charlieho analyzovat matematiku hudebního byznysu ve stejném týdnu, kdy do města přijíždějí Amitini rodiče. Megan požádala o týden volna, aniž by to s Donem probrala.",
+          "category": "Mag"
+        },
+        {
+          "title": "Zahradní proměny",
+          "start": "2026-10-08T03:10:00Z",
+          "stop": "2026-10-08T04:00:00Z",
+          "description": "E15 — Návrat Charlie k perlám mezi zahradami\nCharlie se vrací do zahrad, které patří k jejím nejpovedenějším a nejvýjimečnějším.Charlie se vrací do zahrad, které patří k jejím nejpovedenějším a nejvýjimečnějším.",
+          "category": "Mag"
+        },
+        {
+          "title": "Moje místa",
+          "start": "2026-10-08T04:00:00Z",
+          "stop": "2026-10-08T04:45:00Z",
+          "description": "E208 — Lenka Filipová\nKytara, nebo zpěv? Obojí. V tom měla jasno už na konzervatoři. Blanku Kubíkovou vzala do divadelní šatny svého tatínka, na procházku s dcerou a do dílny, kde vznikají kytary.Kytara, nebo zpěv? Obojí. V tom měla jasno už na konzervatoři. Blanku Kubíkovou vzala do divadelní šatny svého tatínka, na procházku s dcerou a do dílny, kde vznikají kytary.",
+          "category": "Mag"
+        },
+        {
+          "title": "Vražedná čísla",
+          "start": "2026-10-08T04:45:00Z",
+          "stop": "2026-10-08T05:40:00Z",
+          "description": "E17 — Plať, abys mohl hrát\nVražda rappera přiměje Charlieho analyzovat matematiku hudebního byznysu ve stejném týdnu, kdy do města přijíždějí Amitini rodiče. Megan požádala o týden volna, aniž by to s Donem probrala.Vražda rappera přiměje Charlieho analyzovat matematiku hudebního byznysu ve stejném týdnu, kdy do města přijíždějí Amitini rodiče. Megan požádala o týden volna, aniž by to s Donem probrala.",
+          "category": "Mag"
+        },
+        {
+          "title": "Zahradní proměny",
+          "start": "2026-10-08T05:40:00Z",
+          "stop": "2026-10-08T06:35:00Z",
+          "description": "E15 — Návrat Charlie k perlám mezi zahradami\nCharlie se vrací do zahrad, které patří k jejím nejpovedenějším a nejvýjimečnějším.Charlie se vrací do zahrad, které patří k jejím nejpovedenějším a nejvýjimečnějším.",
+          "category": "Mag"
+        },
+        {
+          "title": "Zákon a pořádek: Zločinné úmysly",
+          "start": "2026-10-08T06:35:00Z",
+          "stop": "2026-10-08T07:30:00Z",
+          "description": "E3 — Úsměv\nNávštěva zubní ordinace není nikdy příjemným zážitkem. Tentokrát se však stane hrůzou i pro samotného stomatologa.Návštěva zubní ordinace není nikdy příjemným zážitkem. Tentokrát se však stane hrůzou i pro samotného stomatologa.",
+          "category": "Mag"
+        },
+        {
+          "title": "Zákon a pořádek: Zločinné úmysly",
+          "start": "2026-10-08T07:30:00Z",
+          "stop": "2026-10-08T08:25:00Z",
+          "description": "E4 — Ženatý, ale sám\nHotelový pokoj se stává místem chladnokrevné vraždy.Hotelový pokoj se stává místem chladnokrevné vraždy.",
+          "category": "Mag"
+        },
+        {
+          "title": "JAG",
+          "start": "2026-10-08T08:25:00Z",
+          "stop": "2026-10-08T09:25:00Z",
+          "description": "E13 — Zázraky\nVěřit či nevěřit v nadpřirozeno? Některé případy matou i ty největší skeptiky.Věřit či nevěřit v nadpřirozeno? Některé případy matou i ty největší skeptiky.",
+          "category": "Mag"
+        },
+        {
+          "title": "JAG",
+          "start": "2026-10-08T09:25:00Z",
+          "stop": "2026-10-08T10:25:00Z",
+          "description": "E14 — Vražedný instinkt\nDo armády občas proniknou lidé, kteří svými výsledky zaostávají za svými kolegy. Způsob nakládání s nimi může být občas krutý.Do armády občas proniknou lidé, kteří svými výsledky zaostávají za svými kolegy. Způsob nakládání s nimi může být občas krutý.",
+          "category": "Mag"
+        },
+        {
+          "title": "Dva supernosáči",
+          "start": "2026-10-08T10:25:00Z",
+          "stop": "2026-10-08T12:20:00Z",
+          "description": "Dva přátelé se rozhodnou otevřít svéráznou detektivní agenturu, která nikdy nemá dopředu zaručený výsledek.Dva přátelé se rozhodnou otevřít svéráznou detektivní agenturu, která nikdy nemá dopředu zaručený výsledek.",
+          "category": "Mag"
+        },
+        {
+          "title": "Vražedná čísla",
+          "start": "2026-10-08T12:20:00Z",
+          "stop": "2026-10-08T13:20:00Z",
+          "description": "E18 — Když se hroutí světy\nKdyž je jeden z Charlieho přátel, vědec z univerzity, zatčen za teroristické aktivity, dostane se s Donem do filozofického sporu.Když je jeden z Charlieho přátel, vědec z univerzity, zatčen za teroristické aktivity, dostane se s Donem do filozofického sporu.",
+          "category": "Mag"
+        },
+        {
+          "title": "Zákon a pořádek: Zločinné úmysly",
+          "start": "2026-10-08T13:20:00Z",
+          "stop": "2026-10-08T14:15:00Z",
+          "description": "E5 — Hlubina\nNalezení pokladu je radostná událost. Méně příjemné je, když o vašem nálezu ví někdo další.Nalezení pokladu je radostná událost. Méně příjemné je, když o vašem nálezu ví někdo další.",
+          "category": "Mag"
+        },
+        {
+          "title": "Zákon a pořádek: Zločinné úmysly",
+          "start": "2026-10-08T14:15:00Z",
+          "stop": "2026-10-08T15:15:00Z",
+          "description": "E6 — Známost\nProč musela zemřít manželka soudce? Věděla něco, co neměla?Proč musela zemřít manželka soudce? Věděla něco, co neměla?",
+          "category": "Mag"
+        },
+        {
+          "title": "Zahradní proměny",
+          "start": "2026-10-08T15:15:00Z",
+          "stop": "2026-10-08T16:10:00Z",
+          "description": "E16 — Daventry\nJak už to tak bývá, člověk si nejdříve zařídí interiér, až pak svůj zrak obrátí k zahradě.Jak už to tak bývá, člověk si nejdříve zařídí interiér, až pak svůj zrak obrátí k zahradě.",
+          "category": "Mag"
+        },
+        {
+          "title": "JAG",
+          "start": "2026-10-08T16:10:00Z",
+          "stop": "2026-10-08T17:10:00Z",
+          "description": "E15 — Železná rakev\nPokud přijde pochybení, obviň všechny okolo. Tato zoufalá praktika je bohužel častá a vede pouze a jen k dalšímu zlu.Pokud přijde pochybení, obviň všechny okolo. Tato zoufalá praktika je bohužel častá a vede pouze a jen k dalšímu zlu.",
+          "category": "Mag"
+        },
+        {
+          "title": "JAG",
+          "start": "2026-10-08T17:10:00Z",
+          "stop": "2026-10-08T18:10:00Z",
+          "description": "E16 — Útěk z pekla\nNěkteří lidé problémy jen přitahují. Vojín Rivera není v tomto žádnou výjimkou.Někteří lidé problémy jen přitahují. Vojín Rivera není v tomto žádnou výjimkou.",
+          "category": "Mag"
+        },
+        {
+          "title": "Chlapci a chlapi",
+          "start": "2026-10-08T18:10:00Z",
+          "stop": "2026-10-08T19:25:00Z",
+          "description": "E6 — Supermazák\nVztah Tomáše a Hanky je na bodu mrazu. Mladý voják se snaží zachránit, co se dá, v tom mu pomáhá Kyslík.Vztah Tomáše a Hanky je na bodu mrazu. Mladý voják se snaží zachránit, co se dá, v tom mu pomáhá Kyslík.",
+          "category": "Mag"
+        },
+        {
+          "title": "7 pádů Honzy Dědka",
+          "start": "2026-10-08T19:25:00Z",
+          "stop": "2026-10-08T20:25:00Z",
+          "description": "E6 — David Pastrňák, Helena Třeštíková, Ema Klangová Businská, Michal Slaný\nDavid Pastrňák promluví o cestě z chudých poměrů mezi hvězdy NHL, Helena Třeštíková o životě i dokumentech, Ema Klangová Businská o herectví a Michal Slaný o záporných rolích.David Pastrňák promluví o cestě z chudých poměrů mezi hvězdy NHL, Helena Třeštíková o životě i dokumentech, Ema Klangová Businská o herectví a Michal Slaný o záporných rolích.",
+          "category": "Mag"
+        },
+        {
+          "title": "7 pádů Honzy Dědka",
+          "start": "2026-10-08T20:25:00Z",
+          "stop": "2026-10-08T21:35:00Z",
+          "description": "E5 — Daniela Kolářová, Radko Gudas s dcerou Leontýnou, Stanislava Jachnická, DJ Roxtar\nNebudete se nudit! Daniela Kolářová o luxusu upřímnosti, Radko Gudas s dcerou o hokeji i životě, Stanislava Jachnická o dabingu a DJ Roxtar o závislostech, slávě a životě bez příkras.Nebudete se nudit! Daniela Kolářová o luxusu upřímnosti, Radko Gudas s dcerou o hokeji i životě, Stanislava Jachnická o dabingu a DJ Roxtar o závislostech, slávě a životě bez příkras.",
+          "category": "Mag"
+        },
+        {
+          "title": "Zákon a pořádek: Zločinné úmysly",
+          "start": "2026-10-08T21:35:00Z",
+          "stop": "2026-10-08T22:30:00Z",
+          "description": "E5 — Hlubina\nNalezení pokladu je radostná událost. Méně příjemné je, když o vašem nálezu ví někdo další.Nalezení pokladu je radostná událost. Méně příjemné je, když o vašem nálezu ví někdo další.",
+          "category": "Mag"
         }
       ]
     },
@@ -2310,258 +2464,6 @@
       "logo": "https://www.sms.cz/kategorie/televize/bmp/loga/velka/ct1.png",
       "source": "Česká televize (API)",
       "programmes": [
-        {
-          "title": "Zajímavosti z regionů",
-          "start": "2026-10-04T04:00:00Z",
-          "stop": "2026-10-04T04:25:00Z",
-          "description": "Události a informace z kraje, v němž žijete",
-          "category": "Zpravodajství"
-        },
-        {
-          "title": "Honza a Růžová panenka",
-          "start": "2026-10-04T04:25:00Z",
-          "stop": "2026-10-04T04:50:00Z",
-          "description": "Pohádka o panence z růžového kvítku (1974). Hrají: M. Pavlata, O. Šimánek, S. Špánková a další. Vypráví Š. Haničincová. Scénář K. Krejčí. Kamera V. Štinglová. Režie S. Simonová",
-          "category": "Děti a mládež"
-        },
-        {
-          "title": "Roztomilý člověk",
-          "start": "2026-10-04T04:50:00Z",
-          "stop": "2026-10-04T06:16:00Z",
-          "description": "Oldřich Nový a Nataša Gollová v komedii o tom, že lhát se nevyplácí. Český film (1941). Dále hrají: L. Pešek, od jehož narození v těchto dnech uplyne 120 let, T. Pištěk, L. Chválová, E. Nollová, R. Schránil, J. Marvan a další. Scénář K. Steklý. Kamera V. Hanuš. Režie M. Frič",
-          "category": "Filmy"
-        },
-        {
-          "title": "Pečení na neděli",
-          "start": "2026-10-04T06:20:00Z",
-          "stop": "2026-10-04T06:56:00Z",
-          "description": "Petra Burianová, známá vítězka první řady soutěže Peče celá země, cestuje po českém a moravském venkově, poslouchá vyprávění pamětnic, a především pátrá po unikátních receptech na pečení. Tentokrát se vypravíme na Plzeňsko (2022). Režie Z. Fiala",
-          "category": "Magazíny"
-        },
-        {
-          "title": "Polopatě",
-          "start": "2026-10-04T07:00:00Z",
-          "stop": "2026-10-04T07:50:00Z",
-          "description": "Moderní hobby magazín Filipa Čapky. Užitečné informace o zahradách, bydlení a stavebních úpravách všeho druhu. Nejnovější trendy pro vaši inspiraci",
-          "category": "Magazíny"
-        },
-        {
-          "title": "Kalendárium",
-          "start": "2026-10-04T07:50:00Z",
-          "stop": "2026-10-04T08:03:00Z",
-          "description": "Zajímavá výročí týdne uvádí Saskia Burešová",
-          "category": "Vzdělávání"
-        },
-        {
-          "title": "Toulavá kamera",
-          "start": "2026-10-04T08:05:00Z",
-          "stop": "2026-10-04T08:34:00Z",
-          "description": "Mozaika z regionů",
-          "category": "Magazíny"
-        },
-        {
-          "title": "Objektiv",
-          "start": "2026-10-04T08:40:00Z",
-          "stop": "2026-10-04T09:08:00Z",
-          "description": "Magazín zahraničních zajímavostí. Kappadokie v Turecku - skály různorodých tvarů sahající až do nebe a kamenné sochy sedící na horách, které dohlížejí na život v údolích. Už jste jedli? Tuto otázku uslyšíte v Jižní Koreji častěji než klasické: Jak se máte. Místní speciality připravíme s Barborou Šámalovou. A po dobrém jídle nám vytráví na turistice v Kyrgyzstánu. Vystoupíme do oblastí plných vysokohorských jezer, jurt kočovníků a drsných hor.",
-          "category": "Magazíny"
-        },
-        {
-          "title": "F. L. Věk",
-          "start": "2026-10-04T09:10:00Z",
-          "stop": "2026-10-04T09:57:00Z",
-          "description": "František se vrací domů – do rodné Dobrušky. Klenot české televizní tvorby, slavný seriál o počátcích národního obrození (1970). Hrají: R. Brzobohatý, J. Pivec, A. Hegerlíková, J. Marvan, Z. Kryzánek, R. Lukavský, K. Höger, D. Medřická, J. Brejchová, J. Bohdalová, G. Vránová, V. Menšík, N. Popelíková, V. Krška, J. Skopeček, V. Brodský, J. Tříska, V. Preiss, J. Kodet a další. Podle románu A. Jiráska napsal O. Zelenka. Kamera R. Stahl. Režie F. Filip",
-          "category": "Seriály"
-        },
-        {
-          "title": "Nedělní debata",
-          "start": "2026-10-04T10:00:00Z",
-          "stop": "2026-10-04T11:00:00Z",
-          "description": "Důstojný důchod, nebo jen přežívání? Jak se proměňuje životní úroveň českých seniorů? Hosté: Aleš Juchelka /ANO/, Marian Jurečka /KDU-ČSL/ a Jiří Rusnok.",
-          "category": "Publicistika"
-        },
-        {
-          "title": "O ztracené lásce",
-          "start": "2026-10-04T11:00:00Z",
-          "stop": "2026-10-04T11:49:00Z",
-          "description": "Honza Jírů – je nemilovaná a opovrhovaná, ale spravedlivá a odhodlaná vrátit zemi to nejcennější, o co ji její vládci připravili. Výpravný pohádkový seriál pro děti i dospělé (2002). Hrají: M. Doubravová, L. Bílá, S. Stašová, V. Dlouhý, Z. Adamovská, S. Skopal, A. Goldflam, J. Vlasák, Z. Dušek, J. Langmajer, K. Frejová a další. Scénář E. Hudečková. Kamera J. Špelda. Režie V. Polesný",
-          "category": "Seriály"
-        },
-        {
-          "title": "Mykolko - hop!",
-          "start": "2026-10-04T11:50:00Z",
-          "stop": "2026-10-04T12:18:00Z",
-          "description": "Pohádka o princezně Karolíně, lesním princi a skřítkovi (1984). Hrají: S. Vrbická, J. Schwarz, J. Kepka, J. Synková, M. Masopust a další. Scénář K. Krejčí. Kamera V. Štinglová. Režie M. Bobek",
-          "category": "Děti a mládež"
-        },
-        {
-          "title": "Konec agenta W4C prostřednictvím psa pana Foustky",
-          "start": "2026-10-04T12:25:00Z",
-          "stop": "2026-10-04T13:51:00Z",
-          "description": "Bláznivá česká komedie režiséra Václava Vorlíčka o nelítostném boji špiónů o miliardu ve špetce soli (1967). Hrají: J. Sovák, J. Kačer, od jehož narození v těchto dnech uplynulo 90 let, K. Fialová, J. Libíček, J. Pleskot, J. Lír, J. Hlinomaz a další. Scénář O. Daněk a V. Vorlíček",
-          "category": "Filmy"
-        },
-        {
-          "title": "\"Já už budu hodný, dědečku!\"",
-          "start": "2026-10-04T13:55:00Z",
-          "stop": "2026-10-04T15:17:00Z",
-          "description": "Jak pražský hulvát k rozumu přišel. Miloš Kopecký v hlavní roli české komedie (1978). Dále hrají: A. Vránová, L. Pešek, od jehož narození dnes uplynulo 120 let, S. Beneš, D. Veškrnová, N. Gaierová, F. Peterka a další. Kamera J. Vojta. Scénář a režie P. Schulhoff",
-          "category": "Filmy"
-        },
-        {
-          "title": "Byl jednou jeden dům",
-          "start": "2026-10-04T15:20:00Z",
-          "stop": "2026-10-04T16:23:00Z",
-          "description": "Neopětované city i šťastné lásky na pozadí Mnichovské zrady. Osudy obyvatel jednoho pražského domu od třicátých let do května 1945 ve slavném českém seriálu (1974). Hrají: V. Menšík, M. Myslíková, Z. Ondrouchová, P. Čepek, J. Hrzán, M. Nedbal, J. Adamíra, J. Abrhám, J. Sovák, J. Somr, J. Obermaierová, J. Hlaváčová, J. Hanzlík, J. Vinklář, V. Ráž, A. Vránová, J. Větrovec, D. Medřická, E. Trejtnarová, J. Bláha, L. Švormová, J. Šulcová, J. Skopeček, S. Budínová, V. Postránecký, K. Höger, J. Vala, J. Libíček, B. Holišová, F. Němec, M. Rosůlková a další. Námět a scénář J. Otčenášek a O. Daněk. Kamera R. Stahl. Režie F. Filip",
-          "category": "Seriály"
-        },
-        {
-          "title": "Co naše babičky uměly a na co my jsme zapomněli",
-          "start": "2026-10-04T16:25:00Z",
-          "stop": "2026-10-04T16:51:00Z",
-          "description": "My, Češi, jsme národem houbařů. Tak proč si je nevypěstovat na zahrádce, anebo nevyzkoušet jedlé houby, které rostou na kmenech stromů? Devátá série magazínu o dovednostech našich předků. Režie V. Karas",
-          "category": "Zábava"
-        },
-        {
-          "title": "Události za okamžik a počasí",
-          "start": "2026-10-04T16:55:00Z",
-          "stop": "2026-10-04T17:00:00Z",
-          "description": "Hlavní události a předpověď počasí",
-          "category": null
-        },
-        {
-          "title": "Události",
-          "start": "2026-10-04T17:00:00Z",
-          "stop": "2026-10-04T17:50:00Z",
-          "description": "Hlavní zpravodajská relace České televize. Souhrn nejdůležitějších událostí dne v ČR i ve světě",
-          "category": "Zpravodajství"
-        },
-        {
-          "title": "Branky, body, vteřiny",
-          "start": "2026-10-04T17:52:00Z",
-          "stop": "2026-10-04T18:05:00Z",
-          "description": null,
-          "category": "Sport"
-        },
-        {
-          "title": "Losování Sportky a Šance",
-          "start": "2026-10-04T18:05:00Z",
-          "stop": "2026-10-04T18:08:00Z",
-          "description": null,
-          "category": "Zábava"
-        },
-        {
-          "title": "Bankovní bezpečnost II.",
-          "start": "2026-10-04T18:08:00Z",
-          "stop": "2026-10-04T18:10:00Z",
-          "description": "Pozor na manipulace s lidskou psychikou! Falešný bankéř či policista nabádají k rychlému převodu financí na nový účet, aby vás připravil o veškeré úspory. Režie M. Tůma",
-          "category": null
-        },
-        {
-          "title": "Hvězdná hodina vrahů",
-          "start": "2026-10-04T18:10:00Z",
-          "stop": "2026-10-04T19:38:00Z",
-          "description": "Praha 1945. Sériový vrah žen se skrývá ve stínech města, které propadlo chaosu a násilí. Blíží se zlom moderních dějin, povstání proti útlaku i hvězdná hodina zla. Premiéra německo-české minisérie podle románu Pavla Kohouta (2026). Hrají: J. Nay, N. Ofczarek, K. Dobrý, D. Striesow, J. Hainová a další. Režie Christopher Schier",
-          "category": "Seriály"
-        },
-        {
-          "title": "Výborná SHOW",
-          "start": "2026-10-04T19:40:00Z",
-          "stop": "2026-10-04T20:25:00Z",
-          "description": "Talk show Lucie Výborné s výtvarnicí Eliškou Soffer Podzimek, lékařkou Lucií Hrdličkovou a herečkou Terezou Dočkalovou na téma \"Plešouni\". Režie J. Sommer",
-          "category": "Zábava"
-        },
-        {
-          "title": "Výsledky losování Šťastných 10",
-          "start": "2026-10-04T20:29:00Z",
-          "stop": "2026-10-04T20:30:00Z",
-          "description": null,
-          "category": "Zábava"
-        },
-        {
-          "title": "Doktor Martin 2",
-          "start": "2026-10-04T20:30:00Z",
-          "stop": "2026-10-04T21:22:00Z",
-          "description": "Miroslav Donutil coby špičkový chirurg opět bravurně řeší zdravotní případy jako obvodní lékař v podhorském městečku v Beskydech. Se svou svéráznou povahou ale přesto stále naráží na další nečekané a často i úsměvné situace. Dále hrají: J. Čvančarová, N. Lichý, G. Marcinková, R. Mikluš, T. Měcháček, J. Štěpánková, M. Steinmasslová, M. Hanuš, V. Cibulková, L. Termerová, L. Sobota a další. Scénář H. Trojánek a Š. Titka. Kamera M. Holman. Režie P. Zahrádka",
-          "category": "Seriály"
-        },
-        {
-          "title": "Případy detektiva Murdocha XVII",
-          "start": "2026-10-04T21:25:00Z",
-          "stop": "2026-10-04T22:07:00Z",
-          "description": "Britsko-kanadský kriminální seriál o muži, který ví, že pokrok nezastavíš (2023). Hrají: Y. Bisson, T. Craig, H. Joyová, J. Harris, D. Maslany, L. K. Murdoch a další. Režie Jayson Clute",
-          "category": "Seriály"
-        },
-        {
-          "title": "Hobby naší doby",
-          "start": "2026-10-04T22:10:00Z",
-          "stop": "2026-10-04T22:36:00Z",
-          "description": "Jiřina Bohdalová v půlhodince inspirací a zajímavostí pro volný čas",
-          "category": "Magazíny"
-        },
-        {
-          "title": "Po stopách hvězd",
-          "start": "2026-10-04T22:35:00Z",
-          "stop": "2026-10-04T23:01:00Z",
-          "description": "Obrazový životopis slavných – tentokrát Jiřího Suchého, který oslavil 95. narozeniny – díky kterému si uvědomíte, jak plyne čas a jak formuje každého z nás (2008). Režie R. Šofr",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Chalupa je hra",
-          "start": "2026-10-04T23:10:00Z",
-          "stop": "2026-10-04T23:32:00Z",
-          "description": "Stylový zahradní domek ze starého včelína (2009). Magazín nejen pro chataře a chalupáře",
-          "category": "Magazíny"
-        },
-        {
-          "title": "Bydlení je hra",
-          "start": "2026-10-04T23:30:00Z",
-          "stop": "2026-10-04T23:52:00Z",
-          "description": "Nikdy není pozdě na vlastní pokoj (2008). Magazín o kultuře bydlení",
-          "category": "Magazíny"
-        },
-        {
-          "title": "Jak se vede, sousede?",
-          "start": "2026-10-04T23:55:00Z",
-          "stop": "2026-10-05T00:35:00Z",
-          "description": "Výjimeční lidé žijí všude kolem nás, jen si jich někdy ani nevšimneme. Tři zajímavé osudy, tři netradiční záliby a tři pozoruhodné osobnosti představuje Pavel Nový (2010). Režie J. Novák",
-          "category": "Magazíny"
-        },
-        {
-          "title": "Ing. Karel Holomek, ochránce slabých",
-          "start": "2026-10-05T00:35:00Z",
-          "stop": "2026-10-05T00:50:00Z",
-          "description": "O cestách k soužití mezi Romy a gádži (2005). Režie K. Fuksa",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Manéž Bolka Polívky",
-          "start": "2026-10-05T00:55:00Z",
-          "stop": "2026-10-05T02:05:00Z",
-          "description": "Spoluúčinkují: M. Lasica, J. Čvančarová, P. Malásek, M. Kocáb a jeho dcera N. Kocábová, baletní mistři O. a J. Bubeníčkovi, Barin a Fretti (2006). Režie R. Chudoba",
-          "category": "Zábava"
-        },
-        {
-          "title": "Banánové rybičky",
-          "start": "2026-10-05T02:05:00Z",
-          "stop": "2026-10-05T02:33:00Z",
-          "description": "Zábavná talk show Haliny Pawlowské, tentokrát na téma \"jak přežít touhu po vzrušení\" (2001). Spoluúčinkují J. Zelenková a L. Semelka. Režie P. Sladký a K. Czaban",
-          "category": "Zábava"
-        },
-        {
-          "title": "Vycházky do nicoty",
-          "start": "2026-10-05T02:35:00Z",
-          "stop": "2026-10-05T03:27:00Z",
-          "description": "Hudební skladatel a zakladatel Country beatu Jiří Brabec ve vzpomínkách příbuzných, N. Urbánkové, P. Bobka, K. Kahovce a dalších (2005). Režie J. Novák",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Zajímavosti z regionů",
-          "start": "2026-10-05T03:30:00Z",
-          "stop": "2026-10-05T03:55:00Z",
-          "description": "Události a informace z kraje, v němž žijete",
-          "category": "Zpravodajství"
-        },
         {
           "title": "Studio 6",
           "start": "2026-10-05T03:59:00Z",
@@ -4201,286 +4103,6 @@
       "logo": "https://www.sms.cz/kategorie/televize/bmp/loga/velka/ct2.png",
       "source": "Česká televize (API)",
       "programmes": [
-        {
-          "title": "Jindřich VIII. a muži kolem něj",
-          "start": "2026-10-04T04:00:00Z",
-          "stop": "2026-10-04T04:44:00Z",
-          "description": "Roku 1536 se králi zhroutil svět. Překonal jej jen díky mužům ve své blízkosti – od rádců a ministrů až po malíře a lékaře. Proč se tedy čím dál častěji obracel proti svým nejbližším, a oni zas proti němu. Třetí, závěrečná část britského dokumentu",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Vikingové: dějiny psané krví",
-          "start": "2026-10-04T04:45:00Z",
-          "stop": "2026-10-04T05:37:00Z",
-          "description": "Stál tento neporazitelný válečník vskutku v čele loupežné výpravy do Paříže, nebo je postava oplývající nadpřirozenou silou a schopnostmi jen výplodem středověkých kronikářů? Třetí část francouzského dokudramatu",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Ztracené špionky",
-          "start": "2026-10-04T05:40:00Z",
-          "stop": "2026-10-04T06:30:00Z",
-          "description": "Vera, která je přidělena k britské jednotce pro vyšetřování válečných zločinů v Německu, se setkává s nepředstavitelnými hrůzami. Bergovy výpovědi odhalují nebezpečný osud jejích agentek v Natzweileru, kde měly beze stopy zmizet. Německý dokudramatický cyklus",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Československý filmový týdeník 1976",
-          "start": "2026-10-04T06:30:00Z",
-          "stop": "2026-10-04T06:43:00Z",
-          "description": "jak byl promítán v kinech právě před padesáti lety",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Hledání ztraceného času",
-          "start": "2026-10-04T06:45:00Z",
-          "stop": "2026-10-04T07:03:00Z",
-          "description": "Slavná pavlač Bohumila Veselého, animovaná reklama dvojice Karla a Ireny Dodalových a píseň Tulák Karla Hašlera. Výběr z archivního žurnálu (2001). Připravili K. Čáslavský a P. Vantuch",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Historie.cs",
-          "start": "2026-10-04T07:05:00Z",
-          "stop": "2026-10-04T07:57:00Z",
-          "description": "Prohraná bitva u Moháče před 500 lety a smrt mladého krále Ludvíka Jagelonského znamenaly dynastickou výměnu na českém trůně. Co ale přinesly následné hry velké politiky v dalších zemích střední Evropy? Diskutuje P. Čech se svými hosty",
-          "category": "Publicistika"
-        },
-        {
-          "title": "Čingischánova města",
-          "start": "2026-10-04T08:00:00Z",
-          "stop": "2026-10-04T08:48:00Z",
-          "description": "Archeologové v mongolské stepi vyvrací mýty o Čingischánových kočovnících a poukazují na překvapivou multikulturní rovnost v rané mongolské říši. První část dvoudílného francouzského dokumentu",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Zlato: dar nebo prokletí?",
-          "start": "2026-10-04T08:50:00Z",
-          "stop": "2026-10-04T09:41:00Z",
-          "description": "Jak mohly být dějiny tohoto blyštivého a dokonalého kovu tak kruté? První část dvoudílného německého dokumentu",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Krásy evropského pobřeží",
-          "start": "2026-10-04T09:45:00Z",
-          "stop": "2026-10-04T09:52:00Z",
-          "description": "Jedinečné letecké pohledy ve francouzském dokumentu",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Nedej se",
-          "start": "2026-10-04T09:50:00Z",
-          "stop": "2026-10-04T10:08:00Z",
-          "description": "Blok občanské a ekologické publicistiky",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Občanské noviny",
-          "start": "2026-10-04T10:11:00Z",
-          "stop": "2026-10-04T10:19:00Z",
-          "description": "Představujeme občanské iniciativy, které bdí nad ochranou životního prostředí a dobrou správou věcí ve veřejném zájmu - kdo vám pomůže?",
-          "category": "Publicistika"
-        },
-        {
-          "title": "Křesťanský magazín",
-          "start": "2026-10-04T10:20:00Z",
-          "stop": "2026-10-04T10:46:00Z",
-          "description": "Zajímavosti ze života víry. Uvádí P. Vychodilová",
-          "category": "Náboženské"
-        },
-        {
-          "title": "Cesty víry",
-          "start": "2026-10-04T10:45:00Z",
-          "stop": "2026-10-04T11:11:00Z",
-          "description": "Dokument ze španělského města Elche nevypráví jen o tradici hudebně liturgického dramatu z 15. století, které je zapsáno na seznamu UNESCO. Ukazuje, jak hluboko je tato hra zakořeněná v životech místních lidí, a co všechno pro ně představuje. Režie S. Škoda",
-          "category": "Náboženské"
-        },
-        {
-          "title": "Na plovárně s Richardem Novákem",
-          "start": "2026-10-04T11:15:00Z",
-          "stop": "2026-10-04T11:41:00Z",
-          "description": "Rozhovor Marka Ebena s operním pěvcem, který v těchto dnech slaví 95 let (2025). Režie J. Hojtaš",
-          "category": "Zábava"
-        },
-        {
-          "title": "Jiří Suchý a jeho Perplex",
-          "start": "2026-10-04T11:40:00Z",
-          "stop": "2026-10-04T12:32:00Z",
-          "description": "Známý český divadelník a textař, který v těchto dnech oslavil 95. narozeniny, je také režisérem a producentem několika originálních filmů. O tom, jak získal filmovou zkušenost za vlastní peníze, vypráví v dokumentárním filmu (2011). Připravili: J. Suchý, P. Hlavatý a O. Reif",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Přírodní krásy světa",
-          "start": "2026-10-04T12:35:00Z",
-          "stop": "2026-10-04T13:15:00Z",
-          "description": "Propojenost celého světa a neuvěřitelnou rozmanitost krajiny lze nejlépe docenit při pohledu z ptačí perspektivy. Německý dokument",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Orlosup bradatý",
-          "start": "2026-10-04T13:20:00Z",
-          "stop": "2026-10-04T13:44:00Z",
-          "description": "Mají a nemají vousy a jsou přeborníci v rozbíjení kostí. Japonský dokumentární cyklus",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Největší apokalypsy dějin",
-          "start": "2026-10-04T13:45:00Z",
-          "stop": "2026-10-04T14:35:00Z",
-          "description": "Jejich civilizace dosáhla v prvním tisíciletí našeho letopočtu velkolepého vrcholu, ale kolem roku 900 byla velká města v guatemalských nížinách opuštěna. Proč? Epizoda z britského dokumentárního cyklu",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Honosné evropské hrady a zámky II",
-          "start": "2026-10-04T14:35:00Z",
-          "stop": "2026-10-04T15:27:00Z",
-          "description": "Majestátní hrady země na Pyrenejském poloostrově ve svých zdech po věky uchovávají příběhy odvahy, cti a nezdolnosti svých obyvatel. Španělský dokumentární cyklus",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Alsek ledová řeka",
-          "start": "2026-10-04T15:30:00Z",
-          "stop": "2026-10-04T15:56:00Z",
-          "description": "Příběh vodácké expedice spojené s pobytem v prostředí neobvyklé, drsné a netušené krásy Kanady a Aljašky (2020). Režie L. Moulis",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Příběhy staveb",
-          "start": "2026-10-04T16:00:00Z",
-          "stop": "2026-10-04T16:08:00Z",
-          "description": "Nejzajímavější stavební projekty realizované na našem území od vzniku samostatné České republiky. Připravili: A. Šubert, P. Miškejová, S. Schneeweis a V. Bělohradský",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Divočinou se Simonem Reevem",
-          "start": "2026-10-04T16:10:00Z",
-          "stop": "2026-10-04T17:09:00Z",
-          "description": "Cesta přes vyprahlou poušť jižní Afriky je dalším dobrodružstvím britského dobrodruha, během kterého poznává život lvů a slonů i neuvěřitelné umění domorodých stopařů. Britský dokumentární cyklus",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Počesku",
-          "start": "2026-10-04T17:10:00Z",
-          "stop": "2026-10-04T17:18:00Z",
-          "description": "S Václavem Žmolíkem z městečka všech dobrých rodáků na malebný hrad Svojanov (2001). Režie J. Novák",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Zajímavosti z regionů",
-          "start": "2026-10-04T17:20:00Z",
-          "stop": "2026-10-04T17:45:00Z",
-          "description": "Události a informace z kraje, v němž žijete",
-          "category": "Zpravodajství"
-        },
-        {
-          "title": "Zprávy v českém znakovém jazyce",
-          "start": "2026-10-04T17:50:00Z",
-          "stop": "2026-10-04T18:00:00Z",
-          "description": null,
-          "category": "Zpravodajství"
-        },
-        {
-          "title": "Muž zvaný Charro",
-          "start": "2026-10-04T18:00:00Z",
-          "stop": "2026-10-04T19:34:00Z",
-          "description": "Na krku musí nést cejch pro zabijáka, kolem pasu kolt na znamení pomsty. Legendární Elvis Presley jako kovboj, který čelí divoké bandě psanců poblíž mexické hranice. Americký western (1969). Dále hrají: I. Balinová, V. French, B. Werleová, S. Sturges, L. Kelloggová, J. Sikking, P. Brinegar, H. Landers a další. Režie Charles Marquis Warren",
-          "category": "Filmy"
-        },
-        {
-          "title": "Milovník války",
-          "start": "2026-10-04T19:40:00Z",
-          "stop": "2026-10-04T21:21:00Z",
-          "description": "Bombardér se stal pevnou součástí jeho těla. Steve McQueen jako elitní a sebestředný pilot, který zbožňuje jen dvě věci – ženy a létání. Britsko-americké válečné drama (1962). Dále hrají: R. Wagner, S. A. Fieldová, G. Cockrell, M. Crawford, B. Edwards, Ch. Julian, R. Easton a další. Režie Philip Leacock",
-          "category": "Filmy"
-        },
-        {
-          "title": "V pasti na dně oceánu",
-          "start": "2026-10-04T21:25:00Z",
-          "stop": "2026-10-04T22:23:00Z",
-          "description": "Harrison Okene, kuchař na lodi, přežil ve vzniklé vzduchové kapse v hloubce 30 metrů pod hladinou tři dny. Byl pouze v trenýrkách a prosil Boha o zázrak. A on se opravdu stal! Neuvěřitelný příběh trosečníka z převrácené lodi na dně oceánu, který v květnu roku 2013 obletěl svět. Dánský dokument",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Tito - nejoblíbenější světový diktátor",
-          "start": "2026-10-04T22:25:00Z",
-          "stop": "2026-10-04T23:26:00Z",
-          "description": "Třídílný historický dokument o Josipu Broz Titovi, budovateli Jugoslávie po druhé světové válce a doživotním prezidentovi, zbožňovaném i nenáviděném, lavírujícím mezi mocnostmi obou stran železné opony. Režie S. Djurkovič",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Metuzalém",
-          "start": "2026-10-04T23:25:00Z",
-          "stop": "2026-10-04T23:40:00Z",
-          "description": "Jak úspěšně stárnout. Eseje F. Koukolíka (2012). Připravil O. Reif",
-          "category": "Vzdělávání"
-        },
-        {
-          "title": "Zachraňme moudrou sovu",
-          "start": "2026-10-04T23:40:00Z",
-          "stop": "2026-10-04T23:58:00Z",
-          "description": "Dravci naší přírody ve stavu ohrožení (2004)",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Klenoty naší krajiny",
-          "start": "2026-10-05T00:00:00Z",
-          "stop": "2026-10-05T00:26:00Z",
-          "description": "Každé hory mají svá tajemství, svoje kouzlo. Šumava patří mezi ty nejmagičtější. Mirek Vladyka v dokumentárním cyklu objevuje chráněné krajinné oblasti Česka (2017). Režie A. Sirotková",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "České zázraky",
-          "start": "2026-10-05T00:30:00Z",
-          "stop": "2026-10-05T00:56:00Z",
-          "description": "Jméno výjimečného českého chemika Antonína Holého zná svět především (ale nejen) díky účinné látce proti viru HIV. Milionům lidí dal šanci žít déle. Dokumentární cyklus o Češích, kteří změnili svět (2017). Režie R. Motyčka",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Přísně tajné vraždy",
-          "start": "2026-10-05T00:55:00Z",
-          "stop": "2026-10-05T01:09:00Z",
-          "description": "Proč skončil mladý student na dně Macochy? Zabili ho, tvrdí jeho blízcí, kterým už téměř třicet let nikdo nevěří. Odhalujeme viníky případů, které měly zůstat zapomenuty (2010). Režie P. Všelichová",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Babylon",
-          "start": "2026-10-05T01:10:00Z",
-          "stop": "2026-10-05T01:36:00Z",
-          "description": "Jedinečný japanolog a folklorista Přemysl Máčel v dokumentárním cyklu o těch, kteří žijí jinde, než jsou jejich kořeny (2018). Připravili: M. Růžičková, L. Tomanová a T. Kubák",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Dopis z Indie",
-          "start": "2026-10-05T01:35:00Z",
-          "stop": "2026-10-05T01:55:00Z",
-          "description": "Český misionář a jeho přátelé v rodné zemi (2006). Režie L. Ryška",
-          "category": "Náboženské"
-        },
-        {
-          "title": "Fandím, fandíš, fandíme",
-          "start": "2026-10-05T01:55:00Z",
-          "stop": "2026-10-05T02:21:00Z",
-          "description": "Fanouškovství a fandění jako svébytný folklor městských sportovních arén i vesnických stadionů (2017). Připravili J. Slomiany a M. Hodek",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Zpátky do Rapotína",
-          "start": "2026-10-05T02:25:00Z",
-          "stop": "2026-10-05T02:51:00Z",
-          "description": "Když láska k rodné hroudě je silnější než láska k hudbě, která je obživou (2013). Režie M. Janičík",
-          "category": "Publicistika"
-        },
-        {
-          "title": "Pláž jaguárů",
-          "start": "2026-10-05T02:50:00Z",
-          "stop": "2026-10-05T03:43:00Z",
-          "description": "Na západním pobřeží Kostariky je pláž. Není určena turistům. Je daleko od civilizace, a tak nedostupná, že si ji jako svůj domov nárokuje kočkovitá šelma, která tu ještě nedávno bojovala o přežití. Návrat vrcholového predátora ovlivnil zdejší ekosystém, zejména ve vztahu k jinému druhu – mořským želvám. Rakouský dokument",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Zprávy v českém znakovém jazyce",
-          "start": "2026-10-05T03:45:00Z",
-          "stop": "2026-10-05T03:55:00Z",
-          "description": null,
-          "category": "Zpravodajství"
-        },
         {
           "title": "Dobré ráno",
           "start": "2026-10-05T03:59:00Z",
@@ -6237,6 +5859,223 @@
           "stop": "2026-10-12T03:55:00Z",
           "description": null,
           "category": "Zpravodajství"
+        },
+        {
+          "title": "Dobré ráno",
+          "start": "2026-10-12T03:59:00Z",
+          "stop": "2026-10-12T06:29:00Z",
+          "description": "Startovací dávka energie! Ranní show České televize",
+          "category": "Zábava"
+        },
+        {
+          "title": "Evropa z výšky",
+          "start": "2026-10-12T06:30:00Z",
+          "stop": "2026-10-12T07:14:00Z",
+          "description": "Kontrast mezi divokou přírodou, staletými tradicemi a moderním inženýrstvím v zemi na jihovýchodě Evropy zachycený napříč čtyřmi ročními obdobími. Britský dokumentární cyklus",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Divoká Uganda",
+          "start": "2026-10-12T07:15:00Z",
+          "stop": "2026-10-12T08:05:00Z",
+          "description": "To nejlepší z přírody africké země, která je proslulá výskytem horských goril a šimpanzů. Rakouský koprodukční dokument",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Dějiny chirurgie: Tajemství lidského těla",
+          "start": "2026-10-12T08:05:00Z",
+          "stop": "2026-10-12T08:50:00Z",
+          "description": "Po většinu historie byl vnitřek lidského těla neznámý. Cesta za jeho poznáním vedla mnohdy na hraně zákona a doslova přes mrtvoly. První část dvoudílného německo-amerického dokumentu",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Zvědavost žraloků",
+          "start": "2026-10-12T08:55:00Z",
+          "stop": "2026-10-12T09:12:00Z",
+          "description": "Putování po atraktivních místech naší planety s cestovatelem Petrem Horkým, tentokrát za podmořským dobrodružstvím se žraloky bílými a tygřími (2010). Režie P. Horký",
+          "category": "Vzdělávání"
+        },
+        {
+          "title": "Apokalypsa: 2. světová válka",
+          "start": "2026-10-12T09:15:00Z",
+          "stop": "2026-10-12T10:14:00Z",
+          "description": "Bilance nejkrvavějšího konfliktu historie: rok 1944–1945. Francouzský dokumentární cyklus",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Příběhy obrácení",
+          "start": "2026-10-12T10:20:00Z",
+          "stop": "2026-10-12T10:46:00Z",
+          "description": "Peter zažívá po rozchodu s přítelkyní smutné období, Manuela tráví zimní dny na ulici, Dan slaví své první opravdové Vánoce (2013). O lidech, kteří našli víru. Připravili: J. Fišer, M. Rozbrojová, P. Kotrla a L. Cmíral",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Klíč",
+          "start": "2026-10-12T10:45:00Z",
+          "stop": "2026-10-12T11:11:00Z",
+          "description": "Magazín nejen pro zdravotně postižené",
+          "category": "Magazíny"
+        },
+        {
+          "title": "Cesty víry",
+          "start": "2026-10-12T11:15:00Z",
+          "stop": "2026-10-12T11:41:00Z",
+          "description": "„Pomoc je jednoduchá a dokáže ji každý. Dobro se šíří rychleji než zlo,“ říká Vojtěch Sedláček. Muž, který odmítá označení filantrop. Svůj charitativní projekt nazývá „dědova štafeta“. Dokument České televize. Režie J. F. Potužník",
+          "category": "Náboženské"
+        },
+        {
+          "title": "Nacisté na útěku",
+          "start": "2026-10-12T11:40:00Z",
+          "stop": "2026-10-12T12:35:00Z",
+          "description": "Roku 1949 v Římě propukne skandál. V katolické nemocnici poblíž Vatikánu zemře pacient z Rakouska. Vyjde najevo, že za války sloužil v jednotkách SS. Francouzský dokument",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Automobil: Vzestup a pád",
+          "start": "2026-10-12T12:40:00Z",
+          "stop": "2026-10-12T13:32:00Z",
+          "description": "Automobil, symbol lidského génia, opustil dílny svých vynálezců a stal se průmyslovým výrobkem. Od prvních motorových kočárů po Ford T a následně Citroen Traction-Avant, od gumárenských plantáží v koloniích po gigantické továrny v Detroitu. Francouzský dokumentární cyklus",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Dobrodružství vědy a techniky",
+          "start": "2026-10-12T13:35:00Z",
+          "stop": "2026-10-12T14:03:00Z",
+          "description": "Co nedokáží vyvolat žádná slova. Německý dokument z cyklu Tajemství mozku",
+          "category": "Vzdělávání"
+        },
+        {
+          "title": "Letecké katastrofy",
+          "start": "2026-10-12T14:05:00Z",
+          "stop": "2026-10-12T14:48:00Z",
+          "description": "31. prosince 2017 oslavovalo v australské pobřežní restauraci Cottage Point pět britských turistů konec roku. Čekal je dvacetiminutový let do přístavu v Sydney, který měl řídit Gareth Morgan. Kanadský cyklus dokumentárních rekonstrukcí",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Samci",
+          "start": "2026-10-12T14:50:00Z",
+          "stop": "2026-10-12T15:40:00Z",
+          "description": "„Pro samce je umění okouzlit samice někdy důležitější než schopnost porazit jiné samce v boji“, prohlásil Charles Darwin v díle O původu člověka. Jihokorejský dvoudílný dokument",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Bedekr XII",
+          "start": "2026-10-12T15:40:00Z",
+          "stop": "2026-10-12T16:06:00Z",
+          "description": "Po stopách slavného fotbalisty se vydá v nové řadě cestovatelského cyklu Ivana Jirešová a Martin Písařík",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "S kuchařem kolem světa",
+          "start": "2026-10-12T16:10:00Z",
+          "stop": "2026-10-12T17:03:00Z",
+          "description": "Okouzlující gurmán Fred Chesneau se domluví v jakémkoli místě naší zeměkoule plné chutí a vůní! Francouzský cyklus",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Zašlapané projekty",
+          "start": "2026-10-12T17:05:00Z",
+          "stop": "2026-10-12T17:21:00Z",
+          "description": "Karel Kyncl s Pavlem Kohoutem chtěli dát rozhlasovému vysílání novou tvář. Dokument z cyklu o unikátních nápadech, projektech a objevech, které za minulého režimu nesměly spatřit světlo světa (2009). Připravili: J. Skalický, M. Švihálek a P. Lokaj",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Zajímavosti z regionů",
+          "start": "2026-10-12T17:20:00Z",
+          "stop": "2026-10-12T17:45:00Z",
+          "description": "Události a informace z kraje, v němž žijete",
+          "category": "Zpravodajství"
+        },
+        {
+          "title": "Zprávy v českém znakovém jazyce",
+          "start": "2026-10-12T17:50:00Z",
+          "stop": "2026-10-12T18:00:00Z",
+          "description": null,
+          "category": "Zpravodajství"
+        },
+        {
+          "title": "Občan Havel",
+          "start": "2026-10-12T18:00:00Z",
+          "stop": "2026-10-12T20:02:00Z",
+          "description": "Po roce 1989 se stal prvním nekomunistickým prezidentem Československa. 5. října letošního roku by oslavil devadesátiny. Václav Havel očima filmaře P. Kouteckého v sestřihu režiséra M. Janka. Český dokument",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Šalamoun a královna ze Sáby",
+          "start": "2026-10-12T20:10:00Z",
+          "stop": "2026-10-12T22:26:00Z",
+          "description": "Gina Lollobrigida a Yul Brynner v historické fresce o ženě, která zamotá hlavu králi Šalamounovi a zamíchá kartami celého starověkého světa (1959). Dále hrají: G. Sanders, M. Pavanová, D. Farrar, H. Andrews a další. Režie King Vidor",
+          "category": "Filmy"
+        },
+        {
+          "title": "Sisi II",
+          "start": "2026-10-12T22:25:00Z",
+          "stop": "2026-10-12T23:16:00Z",
+          "description": "Mladou císařovnu čekají další osudové zvraty v lásce i boji o postavení monarchie. Druhá řada výpravného romantického seriálu (2022). Hrají: D. Devenportová, J. Schümann, P. Rénevierová, G. Funiati, D. Korbmann, D. Nosbuschová a další. Režie Sven Bohse",
+          "category": "Seriály"
+        },
+        {
+          "title": "Hamás: Organizace, která chce zničit Izrael",
+          "start": "2026-10-12T23:20:00Z",
+          "stop": "2026-10-13T00:20:00Z",
+          "description": "Izraelské obranné síly zahájily pozemní invazi na palestinské území v předvečer 26. října 2023. Jsou odhodlány zlikvidovat Hamás, který je zodpovědný i za masakr v Izraeli ze 7. října téhož roku. Francouzský dokument",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Tajemné opice ze Šangri-la",
+          "start": "2026-10-13T00:20:00Z",
+          "stop": "2026-10-13T01:11:00Z",
+          "description": "Skrytě žijící primáti jsou kromě svých zvláštních nosů typičtí také nápadnými kučerami nad čelem. Čínský koprodukční dokument",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "České zázraky II",
+          "start": "2026-10-13T01:15:00Z",
+          "stop": "2026-10-13T01:41:00Z",
+          "description": "Kněz Prokop Diviš vynalezl bleskosvod. Přesto se uznání nedočkal. Čím si znepřátelil církev? Dokumentární cyklus o Češích, kteří změnili svět (2020). Režie P. Všelichová",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Tajné akce StB",
+          "start": "2026-10-13T01:40:00Z",
+          "stop": "2026-10-13T01:54:00Z",
+          "description": "Ztráta kontroly nad televizním a rozhlasovým vysíláním byla noční můrou totalitního systému. Ondřej Vetchý uvádí dokumentární cyklus o metodách komunistické tajné policie v bývalém Československu (2009). Režie P. Křemen",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Před půlnocí",
+          "start": "2026-10-13T01:55:00Z",
+          "stop": "2026-10-13T02:21:00Z",
+          "description": "Povídání se zajímavými osobnostmi, tentokrát se spisovatelem Arnoštem Lustigem (2008). Uvádí Š. Bednářová. Režie J. Flak",
+          "category": "Publicistika"
+        },
+        {
+          "title": "Podruhé na K2",
+          "start": "2026-10-13T02:25:00Z",
+          "stop": "2026-10-13T02:51:00Z",
+          "description": "Na vrcholu nejnebezpečnější hory světa stanul v roce 2007 teprve druhý Čech – Libor Uher. Dokument o ostravské expedici Leopolda Sulovského připravili M. Horsáková, M. Keteleš a S. Kleková",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Televizní klub neslyšících",
+          "start": "2026-10-13T02:50:00Z",
+          "stop": "2026-10-13T03:16:00Z",
+          "description": "Jaké možnosti dnes nabízejí vysoké školy pro studenty se sluchovým postižením? Pořad pro neslyšící a jejich přátele (2023). Režie A. Lederer",
+          "category": "Magazíny"
+        },
+        {
+          "title": "Přírodní divy Bílých Karpat",
+          "start": "2026-10-13T03:15:00Z",
+          "stop": "2026-10-13T03:41:00Z",
+          "description": "Fascinující přírodní bohatství na hranici dvou zemí v novém dokumentárním cyklu. Režie P. Jurda",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Zprávy v českém znakovém jazyce",
+          "start": "2026-10-13T03:45:00Z",
+          "stop": "2026-10-13T03:55:00Z",
+          "description": null,
+          "category": "Zpravodajství"
         }
       ]
     },
@@ -6246,146 +6085,6 @@
       "logo": "https://www.sms.cz/kategorie/televize/bmp/loga/velka/ct4.png",
       "source": "Česká televize (API)",
       "programmes": [
-        {
-          "title": "Janev Cup 2026",
-          "start": "2026-10-04T04:00:00Z",
-          "stop": "2026-10-04T05:21:00Z",
-          "description": "Záznam 1. závodu domácího poháru",
-          "category": "Sport"
-        },
-        {
-          "title": "Panorama",
-          "start": "2026-10-04T05:30:00Z",
-          "stop": "2026-10-04T06:00:00Z",
-          "description": "Aktuální povětrnostní zpravodajství pohledem panoramatických kamer",
-          "category": null
-        },
-        {
-          "title": "BBV po 25 letech",
-          "start": "2026-10-04T06:00:00Z",
-          "stop": "2026-10-04T06:08:00Z",
-          "description": "Takové bylo sportovní zpravodajství před čtvrtstoletím...",
-          "category": "Sport"
-        },
-        {
-          "title": "Archiv D",
-          "start": "2026-10-04T06:15:00Z",
-          "stop": "2026-10-04T06:37:00Z",
-          "description": "V průběhu dostihu 102. Velké pardubické v roce 1992 pronikli do cesty koním a jezdcům aktivisté za práva zvířat",
-          "category": "Sport"
-        },
-        {
-          "title": "Cyklotoulky",
-          "start": "2026-10-04T06:40:00Z",
-          "stop": "2026-10-04T06:50:00Z",
-          "description": "Vydejte se s námi za těmi nejkrásnějšími místy na Slovensku. Tentokrát navštívíme Čergov v regionu Šariš, tak neváhejte a pojeďte s námi!",
-          "category": "Sport"
-        },
-        {
-          "title": "Mezinárodní maraton míru 2026 Slovensko",
-          "start": "2026-10-04T06:55:00Z",
-          "stop": "2026-10-04T09:35:00Z",
-          "description": "Přímý přenos nejstaršího evropského maratonu",
-          "category": "Sport"
-        },
-        {
-          "title": "L'Etape Czech Republic by Tour de France 2026",
-          "start": "2026-10-04T09:40:00Z",
-          "stop": "2026-10-04T09:55:00Z",
-          "description": "Sestřih ze závodu",
-          "category": "Sport"
-        },
-        {
-          "title": "Zlatá přilba 2026",
-          "start": "2026-10-04T10:00:00Z",
-          "stop": "2026-10-04T15:00:00Z",
-          "description": "Přímý přenos tradičního plochodrážního závodu",
-          "category": "Sport"
-        },
-        {
-          "title": "Liga národů UEFA mužů 2026/2027",
-          "start": "2026-10-04T15:05:00Z",
-          "stop": "2026-10-04T15:55:00Z",
-          "description": "Sestřih utkání 3. kola Ligy A (Oviedo)",
-          "category": "Sport"
-        },
-        {
-          "title": "Tipsport ELH 2026/2027",
-          "start": "2026-10-04T16:00:00Z",
-          "stop": "2026-10-04T19:18:00Z",
-          "description": "Přímý přenos utkání 8. kola nejvyšší ligy mužů",
-          "category": "Sport"
-        },
-        {
-          "title": "Liga národů UEFA mužů 2026/2027",
-          "start": "2026-10-04T19:35:00Z",
-          "stop": "2026-10-04T19:55:00Z",
-          "description": "Aktuální informace před nadcházejícím utkáním",
-          "category": "Sport"
-        },
-        {
-          "title": "SP horských kol 2026",
-          "start": "2026-10-04T20:00:00Z",
-          "stop": "2026-10-04T21:00:00Z",
-          "description": "Záznam DHI žen (Lake Placid)",
-          "category": "Sport"
-        },
-        {
-          "title": "Liga národů UEFA mužů 2026/2027",
-          "start": "2026-10-04T21:05:00Z",
-          "stop": "2026-10-04T21:35:00Z",
-          "description": "Sestřih utkání 4. kola",
-          "category": "Sport"
-        },
-        {
-          "title": "SP horských kol 2026",
-          "start": "2026-10-04T21:40:00Z",
-          "stop": "2026-10-04T23:20:00Z",
-          "description": "Záznam DHI mužů (Lake Placid)",
-          "category": "Sport"
-        },
-        {
-          "title": "Branky, body, vteřiny",
-          "start": "2026-10-04T23:25:00Z",
-          "stop": "2026-10-04T23:38:00Z",
-          "description": null,
-          "category": "Sport"
-        },
-        {
-          "title": "Tipsport ELH 2026/2027",
-          "start": "2026-10-04T23:40:00Z",
-          "stop": "2026-10-05T01:33:00Z",
-          "description": "Záznam utkání 8. kola nejvyšší ligy mužů - jen hra",
-          "category": "Sport"
-        },
-        {
-          "title": "Branky, body, vteřiny",
-          "start": "2026-10-05T01:40:00Z",
-          "stop": "2026-10-05T01:53:00Z",
-          "description": null,
-          "category": "Sport"
-        },
-        {
-          "title": "Janev Cup 2026",
-          "start": "2026-10-05T01:55:00Z",
-          "stop": "2026-10-05T03:16:00Z",
-          "description": "Záznam 1. závodu domácího poháru",
-          "category": "Sport"
-        },
-        {
-          "title": "Cyklotoulky",
-          "start": "2026-10-05T03:30:00Z",
-          "stop": "2026-10-05T03:40:00Z",
-          "description": "Vydejte se s námi za těmi nejkrásnějšími místy na Slovensku. Tentokrát navštívíme Čergov v regionu Šariš, tak neváhejte a pojeďte s námi!",
-          "category": "Sport"
-        },
-        {
-          "title": "Branky, body, vteřiny",
-          "start": "2026-10-05T03:40:00Z",
-          "stop": "2026-10-05T03:53:00Z",
-          "description": null,
-          "category": "Sport"
-        },
         {
           "title": "Euro Hockey Tour žen 2026/2027",
           "start": "2026-10-05T04:00:00Z",
@@ -6473,7 +6172,7 @@
         {
           "title": "Memoriál Luboše Tomíčka 2026",
           "start": "2026-10-05T16:00:00Z",
-          "stop": "2026-10-05T18:25:00Z",
+          "stop": "2026-10-05T18:26:00Z",
           "description": "Přímý přenos tradičního závodu (stadion Markéta)",
           "category": "Sport"
         },
@@ -6536,7 +6235,7 @@
         {
           "title": "SP horských kol 2026",
           "start": "2026-10-06T01:00:00Z",
-          "stop": "2026-10-06T02:40:00Z",
+          "stop": "2026-10-06T02:47:00Z",
           "description": "Záznam DHI mužů (Lake Placid)",
           "category": "Sport"
         },
@@ -6569,39 +6268,53 @@
           "category": "Sport"
         },
         {
-          "title": "Liga národů UEFA mužů 2026/2027",
+          "title": "Memoriál Luboše Tomíčka 2026",
           "start": "2026-10-06T04:00:00Z",
-          "stop": "2026-10-06T05:45:00Z",
-          "description": "Záznam utkání 3. kola Ligy A (Oviedo) - jen hra",
+          "stop": "2026-10-06T08:13:00Z",
+          "description": "Záznam tradičního závodu (stadion Markéta)",
           "category": "Sport"
         },
         {
           "title": "Panorama",
-          "start": "2026-10-06T05:45:00Z",
-          "stop": "2026-10-06T06:15:00Z",
+          "start": "2026-10-06T06:30:00Z",
+          "stop": "2026-10-06T07:00:00Z",
           "description": "Aktuální povětrnostní zpravodajství pohledem panoramatických kamer",
           "category": null
         },
         {
           "title": "BBV po 25 letech",
-          "start": "2026-10-06T06:20:00Z",
-          "stop": "2026-10-06T06:33:00Z",
+          "start": "2026-10-06T07:05:00Z",
+          "stop": "2026-10-06T07:18:00Z",
           "description": "Takové bylo sportovní zpravodajství před čtvrtstoletím...",
           "category": "Sport"
         },
         {
           "title": "Liga národů UEFA mužů 2026/2027",
-          "start": "2026-10-06T06:35:00Z",
-          "stop": "2026-10-06T06:55:00Z",
+          "start": "2026-10-06T07:20:00Z",
+          "stop": "2026-10-06T07:40:00Z",
           "description": "Aktuální informace před nadcházejícím utkáním",
           "category": "Sport"
         },
         {
-          "title": "Studio ČT sport",
-          "start": "2026-10-06T07:00:00Z",
-          "stop": "2026-10-06T10:25:00Z",
-          "description": "Kontinuální přehled dosavadního i očekávaného dění",
+          "title": "Liga národů UEFA mužů 2026/2027",
+          "start": "2026-10-06T07:45:00Z",
+          "stop": "2026-10-06T09:28:00Z",
+          "description": "Záznam utkání 3. kola Ligy A (Oviedo) - jen hra",
           "category": "Sport"
+        },
+        {
+          "title": "Liga národů UEFA mužů 2026/2027",
+          "start": "2026-10-06T09:35:00Z",
+          "stop": "2026-10-06T10:05:00Z",
+          "description": "Sestřih utkání 4. kola",
+          "category": "Sport"
+        },
+        {
+          "title": "Panorama",
+          "start": "2026-10-06T10:05:00Z",
+          "stop": "2026-10-06T10:20:00Z",
+          "description": "Aktuální povětrnostní zpravodajství pohledem panoramatických kamer",
+          "category": null
         },
         {
           "title": "Sportovní zprávy",
@@ -6620,35 +6333,35 @@
         {
           "title": "Studio ČT sport",
           "start": "2026-10-06T10:35:00Z",
-          "stop": "2026-10-06T15:15:00Z",
+          "stop": "2026-10-06T15:10:00Z",
           "description": "Kontinuální přehled dosavadního i očekávaného dění",
           "category": "Sport"
         },
         {
           "title": "Velká pardubická 2026",
-          "start": "2026-10-06T15:15:00Z",
-          "stop": "2026-10-06T15:35:00Z",
+          "start": "2026-10-06T15:10:00Z",
+          "stop": "2026-10-06T15:30:00Z",
           "description": "Aktuální informace před nejtěžším evropským překážkovým dostihem",
           "category": "Sport"
         },
         {
           "title": "Studio ČT sport",
-          "start": "2026-10-06T15:35:00Z",
-          "stop": "2026-10-06T16:15:00Z",
+          "start": "2026-10-06T15:30:00Z",
+          "stop": "2026-10-06T16:10:00Z",
           "description": "Kontinuální přehled dosavadního i očekávaného dění",
           "category": "Sport"
         },
         {
           "title": "Kvalifikace EURO U21 mužů 2027",
           "start": "2026-10-06T16:15:00Z",
-          "stop": "2026-10-06T18:29:00Z",
+          "stop": "2026-10-06T18:24:00Z",
           "description": "Přímý přenos utkání (Leiria)",
           "category": "Sport"
         },
         {
           "title": "Liga národů UEFA mužů 2026/2027",
           "start": "2026-10-06T18:30:00Z",
-          "stop": "2026-10-06T21:44:00Z",
+          "stop": "2026-10-06T21:32:00Z",
           "description": "Přímý přenos utkání 4. kola Ligy A (Londýn, Wembley)",
           "category": "Sport"
         },
@@ -6676,7 +6389,7 @@
         {
           "title": "SP horských kol 2026",
           "start": "2026-10-07T00:10:00Z",
-          "stop": "2026-10-07T01:10:00Z",
+          "stop": "2026-10-07T01:13:00Z",
           "description": "Záznam DHI žen (Lake Placid)",
           "category": "Sport"
         },
@@ -6690,7 +6403,7 @@
         {
           "title": "Rock Master 2026 Itálie",
           "start": "2026-10-07T01:25:00Z",
-          "stop": "2026-10-07T03:00:00Z",
+          "stop": "2026-10-07T02:59:00Z",
           "description": "Záznam tradičního závodu",
           "category": "Sport"
         },
@@ -6753,7 +6466,7 @@
         {
           "title": "SP horských kol 2026",
           "start": "2026-10-07T08:30:00Z",
-          "stop": "2026-10-07T10:00:00Z",
+          "stop": "2026-10-07T10:06:00Z",
           "description": "Záznam XCO mužů (Lake Placid)",
           "category": "Sport"
         },
@@ -6872,7 +6585,7 @@
         {
           "title": "SP horských kol 2026",
           "start": "2026-10-08T01:45:00Z",
-          "stop": "2026-10-08T03:15:00Z",
+          "stop": "2026-10-08T03:21:00Z",
           "description": "Záznam XCO mužů (Lake Placid)",
           "category": "Sport"
         },
@@ -6977,7 +6690,7 @@
         {
           "title": "Maxa liga 2026/2027",
           "start": "2026-10-08T12:10:00Z",
-          "stop": "2026-10-08T14:05:00Z",
+          "stop": "2026-10-08T14:04:00Z",
           "description": "Záznam utkání 11. kola druhé nejvyšší ligy mužů - jen hra",
           "category": "Sport"
         },
@@ -7180,34 +6893,34 @@
         {
           "title": "V šachu",
           "start": "2026-10-09T12:00:00Z",
-          "stop": "2026-10-09T12:30:00Z",
+          "stop": "2026-10-09T12:28:00Z",
           "description": "Magazín jedné z nejpopulárnějších her světa",
           "category": "Sport"
         },
         {
           "title": "Studio ČT sport",
           "start": "2026-10-09T12:30:00Z",
-          "stop": "2026-10-09T14:00:00Z",
+          "stop": "2026-10-09T13:00:00Z",
           "description": "Kontinuální přehled dosavadního i očekávaného dění",
           "category": "Sport"
         },
         {
           "title": "ME ve sportovní střelbě 2026",
-          "start": "2026-10-09T14:00:00Z",
-          "stop": "2026-10-09T15:00:00Z",
+          "start": "2026-10-09T13:00:00Z",
+          "stop": "2026-10-09T14:00:00Z",
           "description": "Přímý přenos finále trapu (Athény)",
           "category": "Sport"
         },
         {
           "title": "Studio ČT sport",
-          "start": "2026-10-09T15:00:00Z",
-          "stop": "2026-10-09T16:35:00Z",
+          "start": "2026-10-09T14:00:00Z",
+          "stop": "2026-10-09T16:30:00Z",
           "description": "Kontinuální přehled dosavadního i očekávaného dění",
           "category": "Sport"
         },
         {
           "title": "Kvalifikace MS žen 2027",
-          "start": "2026-10-09T16:40:00Z",
+          "start": "2026-10-09T16:35:00Z",
           "stop": "2026-10-09T19:10:00Z",
           "description": "Přímý přenos 1. utkání 1. kola baráže (Pardubice)",
           "category": "Sport"
@@ -7545,6 +7258,146 @@
           "title": "Branky, body, vteřiny",
           "start": "2026-10-12T03:40:00Z",
           "stop": "2026-10-12T03:53:00Z",
+          "description": null,
+          "category": "Sport"
+        },
+        {
+          "title": "Tipsport ELH 2026/2027",
+          "start": "2026-10-12T04:00:00Z",
+          "stop": "2026-10-12T05:55:00Z",
+          "description": "Záznam utkání 10. kola nejvyšší ligy mužů - jen hra",
+          "category": "Sport"
+        },
+        {
+          "title": "Panorama",
+          "start": "2026-10-12T05:55:00Z",
+          "stop": "2026-10-12T06:25:00Z",
+          "description": "Aktuální povětrnostní zpravodajství pohledem panoramatických kamer",
+          "category": null
+        },
+        {
+          "title": "Cyklotoulky",
+          "start": "2026-10-12T06:30:00Z",
+          "stop": "2026-10-12T06:40:00Z",
+          "description": "Vydejte se s námi za těmi nejkrásnějšími místy na Slovensku. Tentokrát navštívíme Región Horehronie, tak neváhejte a pojeďte s námi!",
+          "category": "Sport"
+        },
+        {
+          "title": "BBV po 25 letech",
+          "start": "2026-10-12T06:45:00Z",
+          "stop": "2026-10-12T06:54:00Z",
+          "description": "Takové bylo sportovní zpravodajství před čtvrtstoletím...",
+          "category": "Sport"
+        },
+        {
+          "title": "Studio ČT sport",
+          "start": "2026-10-12T07:00:00Z",
+          "stop": "2026-10-12T10:25:00Z",
+          "description": "Kontinuální přehled dosavadního i očekávaného dění",
+          "category": "Sport"
+        },
+        {
+          "title": "Sportovní zprávy",
+          "start": "2026-10-12T10:25:00Z",
+          "stop": "2026-10-12T10:30:00Z",
+          "description": "Výsledky, informace, aktuality",
+          "category": "Sport"
+        },
+        {
+          "title": "Sportovní zprávy",
+          "start": "2026-10-12T10:30:00Z",
+          "stop": "2026-10-12T10:35:00Z",
+          "description": "Další výsledky, informace a aktuality",
+          "category": "Sport"
+        },
+        {
+          "title": "Studio ČT sport",
+          "start": "2026-10-12T10:35:00Z",
+          "stop": "2026-10-12T13:00:00Z",
+          "description": "Kontinuální přehled dosavadního i očekávaného dění",
+          "category": "Sport"
+        },
+        {
+          "title": "Volejbalový magazín",
+          "start": "2026-10-12T13:00:00Z",
+          "stop": "2026-10-12T13:15:00Z",
+          "description": "Novinky a aktuální informace",
+          "category": "Sport"
+        },
+        {
+          "title": "Studio ČT sport",
+          "start": "2026-10-12T13:15:00Z",
+          "stop": "2026-10-12T14:50:00Z",
+          "description": "Kontinuální přehled dosavadního i očekávaného dění",
+          "category": "Sport"
+        },
+        {
+          "title": "Chance Národní Liga 2026/2027",
+          "start": "2026-10-12T14:50:00Z",
+          "stop": "2026-10-12T17:05:00Z",
+          "description": "Přímý přenos utkání 10. kola druhé nejvyšší ligy mužů",
+          "category": "Sport"
+        },
+        {
+          "title": "Livesport Superliga 2026/2027",
+          "start": "2026-10-12T17:05:00Z",
+          "stop": "2026-10-12T19:30:00Z",
+          "description": "Přímý přenos utkání 6. kola nejvyšší ligy mužů",
+          "category": "Sport"
+        },
+        {
+          "title": "Velká pardubická 2026",
+          "start": "2026-10-12T19:35:00Z",
+          "stop": "2026-10-12T20:35:00Z",
+          "description": "Debata po 136. Velké pardubické se Slavia pojišťovnou",
+          "category": "Sport"
+        },
+        {
+          "title": "Chance Národní Liga 2026/2027",
+          "start": "2026-10-12T20:40:00Z",
+          "stop": "2026-10-12T22:25:00Z",
+          "description": "Záznam utkání 10. kola druhé nejvyšší ligy mužů - jen hra",
+          "category": "Sport"
+        },
+        {
+          "title": "Branky, body, vteřiny",
+          "start": "2026-10-12T22:25:00Z",
+          "stop": "2026-10-12T22:35:00Z",
+          "description": null,
+          "category": "Sport"
+        },
+        {
+          "title": "Livesport Superliga 2026/2027",
+          "start": "2026-10-12T22:40:00Z",
+          "stop": "2026-10-13T01:05:00Z",
+          "description": "Záznam utkání 6. kola nejvyšší ligy mužů",
+          "category": "Sport"
+        },
+        {
+          "title": "Branky, body, vteřiny",
+          "start": "2026-10-13T01:05:00Z",
+          "stop": "2026-10-13T01:15:00Z",
+          "description": null,
+          "category": "Sport"
+        },
+        {
+          "title": "Rugby Europe Superpohár 2026/2027",
+          "start": "2026-10-13T01:20:00Z",
+          "stop": "2026-10-13T03:20:00Z",
+          "description": "Záznam 1. utkání základní skupiny (Praha)",
+          "category": "Sport"
+        },
+        {
+          "title": "Archiv D",
+          "start": "2026-10-13T03:20:00Z",
+          "stop": "2026-10-13T03:37:00Z",
+          "description": "Portrét z roku 2005 věnovaný slavnému fotbalovému brankáři, jenž v té době hájil v anglické Premier League barvy Chelsea FC",
+          "category": "Sport"
+        },
+        {
+          "title": "Branky, body, vteřiny",
+          "start": "2026-10-13T03:45:00Z",
+          "stop": "2026-10-13T03:55:00Z",
           "description": null,
           "category": "Sport"
         }
