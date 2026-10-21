@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T09:54:46Z",
+  "generated_at": "2026-10-21T09:56:54Z",
   "sources": {
     "ct": "https://www.ceskatelevize.cz/services-old/programme/xml/schedule.php?user=test&date={date}&channel={channel}&json=1",
     "xmltv": "https://iptv-epg.org/files/epg-cz.xml.gz"
@@ -13,174 +13,6 @@
       "programmes": [
         {
           "title": "No Data",
-          "start": "2026-10-20T09:00:00Z",
-          "stop": "2026-10-20T10:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T10:00:00Z",
-          "stop": "2026-10-20T11:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T11:00:00Z",
-          "stop": "2026-10-20T12:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T12:00:00Z",
-          "stop": "2026-10-20T13:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T13:00:00Z",
-          "stop": "2026-10-20T14:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T14:00:00Z",
-          "stop": "2026-10-20T15:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T15:00:00Z",
-          "stop": "2026-10-20T16:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T16:00:00Z",
-          "stop": "2026-10-20T17:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T17:00:00Z",
-          "stop": "2026-10-20T18:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T18:00:00Z",
-          "stop": "2026-10-20T19:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T19:00:00Z",
-          "stop": "2026-10-20T20:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T20:00:00Z",
-          "stop": "2026-10-20T21:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T21:00:00Z",
-          "stop": "2026-10-20T22:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T22:00:00Z",
-          "stop": "2026-10-20T23:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T23:00:00Z",
-          "stop": "2026-10-21T00:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-21T00:00:00Z",
-          "stop": "2026-10-21T01:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-21T01:00:00Z",
-          "stop": "2026-10-21T02:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-21T02:00:00Z",
-          "stop": "2026-10-21T03:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-21T03:00:00Z",
-          "stop": "2026-10-21T04:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-21T04:00:00Z",
-          "stop": "2026-10-21T05:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-21T05:00:00Z",
-          "stop": "2026-10-21T06:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-21T06:00:00Z",
-          "stop": "2026-10-21T07:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-21T07:00:00Z",
-          "stop": "2026-10-21T08:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-21T08:00:00Z",
-          "stop": "2026-10-21T09:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
           "start": "2026-10-21T09:00:00Z",
           "stop": "2026-10-21T10:00:00Z",
           "description": "https://iptv-epg.org/help",
@@ -512,6 +344,174 @@
           "title": "No Data",
           "start": "2026-10-23T08:00:00Z",
           "stop": "2026-10-23T09:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T09:00:00Z",
+          "stop": "2026-10-23T10:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T10:00:00Z",
+          "stop": "2026-10-23T11:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T11:00:00Z",
+          "stop": "2026-10-23T12:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T12:00:00Z",
+          "stop": "2026-10-23T13:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T13:00:00Z",
+          "stop": "2026-10-23T14:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T14:00:00Z",
+          "stop": "2026-10-23T15:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T15:00:00Z",
+          "stop": "2026-10-23T16:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T16:00:00Z",
+          "stop": "2026-10-23T17:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T17:00:00Z",
+          "stop": "2026-10-23T18:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T18:00:00Z",
+          "stop": "2026-10-23T19:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T19:00:00Z",
+          "stop": "2026-10-23T20:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T20:00:00Z",
+          "stop": "2026-10-23T21:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T21:00:00Z",
+          "stop": "2026-10-23T22:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T22:00:00Z",
+          "stop": "2026-10-23T23:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T23:00:00Z",
+          "stop": "2026-10-24T00:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-24T00:00:00Z",
+          "stop": "2026-10-24T01:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-24T01:00:00Z",
+          "stop": "2026-10-24T02:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-24T02:00:00Z",
+          "stop": "2026-10-24T03:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-24T03:00:00Z",
+          "stop": "2026-10-24T04:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-24T04:00:00Z",
+          "stop": "2026-10-24T05:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-24T05:00:00Z",
+          "stop": "2026-10-24T06:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-24T06:00:00Z",
+          "stop": "2026-10-24T07:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-24T07:00:00Z",
+          "stop": "2026-10-24T08:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-24T08:00:00Z",
+          "stop": "2026-10-24T09:00:00Z",
           "description": "https://iptv-epg.org/help",
           "category": null
         }
@@ -525,174 +525,6 @@
       "programmes": [
         {
           "title": "No Data",
-          "start": "2026-10-20T09:00:00Z",
-          "stop": "2026-10-20T10:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T10:00:00Z",
-          "stop": "2026-10-20T11:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T11:00:00Z",
-          "stop": "2026-10-20T12:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T12:00:00Z",
-          "stop": "2026-10-20T13:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T13:00:00Z",
-          "stop": "2026-10-20T14:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T14:00:00Z",
-          "stop": "2026-10-20T15:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T15:00:00Z",
-          "stop": "2026-10-20T16:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T16:00:00Z",
-          "stop": "2026-10-20T17:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T17:00:00Z",
-          "stop": "2026-10-20T18:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T18:00:00Z",
-          "stop": "2026-10-20T19:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T19:00:00Z",
-          "stop": "2026-10-20T20:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T20:00:00Z",
-          "stop": "2026-10-20T21:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T21:00:00Z",
-          "stop": "2026-10-20T22:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T22:00:00Z",
-          "stop": "2026-10-20T23:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T23:00:00Z",
-          "stop": "2026-10-21T00:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-21T00:00:00Z",
-          "stop": "2026-10-21T01:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-21T01:00:00Z",
-          "stop": "2026-10-21T02:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-21T02:00:00Z",
-          "stop": "2026-10-21T03:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-21T03:00:00Z",
-          "stop": "2026-10-21T04:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-21T04:00:00Z",
-          "stop": "2026-10-21T05:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-21T05:00:00Z",
-          "stop": "2026-10-21T06:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-21T06:00:00Z",
-          "stop": "2026-10-21T07:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-21T07:00:00Z",
-          "stop": "2026-10-21T08:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-21T08:00:00Z",
-          "stop": "2026-10-21T09:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
           "start": "2026-10-21T09:00:00Z",
           "stop": "2026-10-21T10:00:00Z",
           "description": "https://iptv-epg.org/help",
@@ -1024,6 +856,174 @@
           "title": "No Data",
           "start": "2026-10-23T08:00:00Z",
           "stop": "2026-10-23T09:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T09:00:00Z",
+          "stop": "2026-10-23T10:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T10:00:00Z",
+          "stop": "2026-10-23T11:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T11:00:00Z",
+          "stop": "2026-10-23T12:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T12:00:00Z",
+          "stop": "2026-10-23T13:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T13:00:00Z",
+          "stop": "2026-10-23T14:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T14:00:00Z",
+          "stop": "2026-10-23T15:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T15:00:00Z",
+          "stop": "2026-10-23T16:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T16:00:00Z",
+          "stop": "2026-10-23T17:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T17:00:00Z",
+          "stop": "2026-10-23T18:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T18:00:00Z",
+          "stop": "2026-10-23T19:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T19:00:00Z",
+          "stop": "2026-10-23T20:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T20:00:00Z",
+          "stop": "2026-10-23T21:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T21:00:00Z",
+          "stop": "2026-10-23T22:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T22:00:00Z",
+          "stop": "2026-10-23T23:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T23:00:00Z",
+          "stop": "2026-10-24T00:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-24T00:00:00Z",
+          "stop": "2026-10-24T01:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-24T01:00:00Z",
+          "stop": "2026-10-24T02:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-24T02:00:00Z",
+          "stop": "2026-10-24T03:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-24T03:00:00Z",
+          "stop": "2026-10-24T04:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-24T04:00:00Z",
+          "stop": "2026-10-24T05:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-24T05:00:00Z",
+          "stop": "2026-10-24T06:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-24T06:00:00Z",
+          "stop": "2026-10-24T07:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-24T07:00:00Z",
+          "stop": "2026-10-24T08:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-24T08:00:00Z",
+          "stop": "2026-10-24T09:00:00Z",
           "description": "https://iptv-epg.org/help",
           "category": null
         }
@@ -1037,174 +1037,6 @@
       "programmes": [
         {
           "title": "No Data",
-          "start": "2026-10-20T09:00:00Z",
-          "stop": "2026-10-20T10:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T10:00:00Z",
-          "stop": "2026-10-20T11:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T11:00:00Z",
-          "stop": "2026-10-20T12:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T12:00:00Z",
-          "stop": "2026-10-20T13:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T13:00:00Z",
-          "stop": "2026-10-20T14:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T14:00:00Z",
-          "stop": "2026-10-20T15:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T15:00:00Z",
-          "stop": "2026-10-20T16:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T16:00:00Z",
-          "stop": "2026-10-20T17:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T17:00:00Z",
-          "stop": "2026-10-20T18:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T18:00:00Z",
-          "stop": "2026-10-20T19:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T19:00:00Z",
-          "stop": "2026-10-20T20:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T20:00:00Z",
-          "stop": "2026-10-20T21:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T21:00:00Z",
-          "stop": "2026-10-20T22:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T22:00:00Z",
-          "stop": "2026-10-20T23:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-20T23:00:00Z",
-          "stop": "2026-10-21T00:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-21T00:00:00Z",
-          "stop": "2026-10-21T01:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-21T01:00:00Z",
-          "stop": "2026-10-21T02:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-21T02:00:00Z",
-          "stop": "2026-10-21T03:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-21T03:00:00Z",
-          "stop": "2026-10-21T04:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-21T04:00:00Z",
-          "stop": "2026-10-21T05:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-21T05:00:00Z",
-          "stop": "2026-10-21T06:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-21T06:00:00Z",
-          "stop": "2026-10-21T07:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-21T07:00:00Z",
-          "stop": "2026-10-21T08:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
-          "start": "2026-10-21T08:00:00Z",
-          "stop": "2026-10-21T09:00:00Z",
-          "description": "https://iptv-epg.org/help",
-          "category": null
-        },
-        {
-          "title": "No Data",
           "start": "2026-10-21T09:00:00Z",
           "stop": "2026-10-21T10:00:00Z",
           "description": "https://iptv-epg.org/help",
@@ -1538,6 +1370,174 @@
           "stop": "2026-10-23T09:00:00Z",
           "description": "https://iptv-epg.org/help",
           "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T09:00:00Z",
+          "stop": "2026-10-23T10:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T10:00:00Z",
+          "stop": "2026-10-23T11:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T11:00:00Z",
+          "stop": "2026-10-23T12:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T12:00:00Z",
+          "stop": "2026-10-23T13:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T13:00:00Z",
+          "stop": "2026-10-23T14:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T14:00:00Z",
+          "stop": "2026-10-23T15:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T15:00:00Z",
+          "stop": "2026-10-23T16:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T16:00:00Z",
+          "stop": "2026-10-23T17:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T17:00:00Z",
+          "stop": "2026-10-23T18:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T18:00:00Z",
+          "stop": "2026-10-23T19:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T19:00:00Z",
+          "stop": "2026-10-23T20:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T20:00:00Z",
+          "stop": "2026-10-23T21:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T21:00:00Z",
+          "stop": "2026-10-23T22:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T22:00:00Z",
+          "stop": "2026-10-23T23:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-23T23:00:00Z",
+          "stop": "2026-10-24T00:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-24T00:00:00Z",
+          "stop": "2026-10-24T01:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-24T01:00:00Z",
+          "stop": "2026-10-24T02:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-24T02:00:00Z",
+          "stop": "2026-10-24T03:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-24T03:00:00Z",
+          "stop": "2026-10-24T04:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-24T04:00:00Z",
+          "stop": "2026-10-24T05:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-24T05:00:00Z",
+          "stop": "2026-10-24T06:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-24T06:00:00Z",
+          "stop": "2026-10-24T07:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-24T07:00:00Z",
+          "stop": "2026-10-24T08:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
+        },
+        {
+          "title": "No Data",
+          "start": "2026-10-24T08:00:00Z",
+          "stop": "2026-10-24T09:00:00Z",
+          "description": "https://iptv-epg.org/help",
+          "category": null
         }
       ]
     },
@@ -1547,258 +1547,6 @@
       "logo": "https://www.sms.cz/kategorie/televize/bmp/loga/velka/ct1.png",
       "source": "Česká televize (API)",
       "programmes": [
-        {
-          "title": "Studio 6",
-          "start": "2026-10-20T03:59:00Z",
-          "stop": "2026-10-20T07:00:00Z",
-          "description": "Zpravodajský náskok do nového dne. Ranní infoservis ČT",
-          "category": "Zpravodajství"
-        },
-        {
-          "title": "Nautilus",
-          "start": "2026-10-20T07:00:00Z",
-          "stop": "2026-10-20T07:52:00Z",
-          "description": "První plavba legendární ponorky a jejího bezejmenného kapitána. Britský dobrodružný seriál inspirovaný dílem Julese Verna (2024). Hrají: S. Latif, T. Frémont, G. Floodová, C. Menvilleová, J. Collins-Levy, K. Price, A. Green, T. Ngatai, L. Cooper Tangová, P. Mzembe, A. Kumar, L. Arnold a další. Režie Michael Matthews",
-          "category": "Seriály"
-        },
-        {
-          "title": "Objektiv",
-          "start": "2026-10-20T07:55:00Z",
-          "stop": "2026-10-20T08:23:00Z",
-          "description": "Magazín zahraničních zajímavostí",
-          "category": "Magazíny"
-        },
-        {
-          "title": "Postřehy odjinud",
-          "start": "2026-10-20T08:25:00Z",
-          "stop": "2026-10-20T08:31:00Z",
-          "description": "Dvě tváře Výmaru",
-          "category": "Zábava"
-        },
-        {
-          "title": "Hercule Poirot",
-          "start": "2026-10-20T08:30:00Z",
-          "stop": "2026-10-20T09:20:00Z",
-          "description": "Je nebezpečné scházet se v zoo s anonymními ženami. David Suchet v hlavní roli britského seriálu, natočeného podle literární předlohy Agathy Christie (1989). Dále hrají: H. Fraser, P. Jackson, P. Moranová, J. Stride, C. Maddenová, C. Du Sautoyová, J. Carson a další. Režie Edward Bennett",
-          "category": "Seriály"
-        },
-        {
-          "title": "AZ-kvíz",
-          "start": "2026-10-20T09:25:00Z",
-          "stop": "2026-10-20T09:50:00Z",
-          "description": "Soutěž pro každého",
-          "category": "Zábava"
-        },
-        {
-          "title": "StarDance XIV... kolem dokola",
-          "start": "2026-10-20T09:50:00Z",
-          "stop": "2026-10-20T09:54:00Z",
-          "description": "Exkluzivní pohled do zákulisí taneční show",
-          "category": "Zábava"
-        },
-        {
-          "title": "Zprávy ve 12",
-          "start": "2026-10-20T10:00:00Z",
-          "stop": "2026-10-20T10:20:00Z",
-          "description": "Nejdůležitější události dne v ČR i ve světě",
-          "category": "Zpravodajství"
-        },
-        {
-          "title": "Předpověď počasí, sportovní zprávy",
-          "start": "2026-10-20T10:20:00Z",
-          "stop": "2026-10-20T10:29:00Z",
-          "description": "Souhrn meteorologických informací uplynulých 24 hodin a prognóza vývoje počasí na příští dny",
-          "category": null
-        },
-        {
-          "title": "Sama doma",
-          "start": "2026-10-20T10:30:00Z",
-          "stop": "2026-10-20T12:00:00Z",
-          "description": "Být doma neznamená samotu. Harmonie vztahů a rodiny",
-          "category": "Zábava"
-        },
-        {
-          "title": "Pečení na neděli",
-          "start": "2026-10-20T12:00:00Z",
-          "stop": "2026-10-20T12:37:00Z",
-          "description": "Petra Burianová, známá vítězka první řady soutěže Peče celá země, cestuje po českém a moravském venkově, poslouchá vyprávění pamětnic, a především pátrá po unikátních receptech na pečení. Tentokrát se vypravíme na Brněnsko (2025). Režie Z. Fiala",
-          "category": "Magazíny"
-        },
-        {
-          "title": "Nemocnice na kraji města",
-          "start": "2026-10-20T12:40:00Z",
-          "stop": "2026-10-20T13:39:00Z",
-          "description": "Mladý doktor Peterka dostává během svého působení jednu drsnější lekci za druhou. Na základě stížnosti paní Dobiášové přijíždí do nemocnice krajský ortoped... Legendární český seriál o lékařích, sestrách a pacientech (1981). Hrají: L. Chudík, M. Kopecký, L. Frej, E. Balzerová, J. Abrhám, O. Kaiser, I. Janžurová, J. Hanzlík, J. Dvořák, A. Čunderlíková, J. Štěpánková, D. Medřická, H. Maciuchová, Z. Burianová, N. Popelíková, L. Pešek, F. Němec a další. Scénář J. Dietl. Kamera J. Novotný. Režie J. Dudek",
-          "category": "Seriály"
-        },
-        {
-          "title": "U Hany Hegerové",
-          "start": "2026-10-20T13:40:00Z",
-          "stop": "2026-10-20T13:55:00Z",
-          "description": "Návštěva u slavné šansoniérky a její vzpomínka na vystoupení v pařížské Olympii. Pořadem si připomínáme dnešní nedožité 95. narozeniny této výjimečné zpěvačky (1968). Režie Z. Kopáč",
-          "category": "Zábava"
-        },
-        {
-          "title": "Nautilus",
-          "start": "2026-10-20T13:55:00Z",
-          "stop": "2026-10-20T14:45:00Z",
-          "description": "První plavba legendární ponorky a jejího bezejmenného kapitána. Britský dobrodružný seriál inspirovaný dílem Julese Verna (2024). Hrají: S. Latif, T. Frémont, G. Floodová, C. Menvilleová, J. Collins-Levy, K. Price, A. Green, T. Ngatai, L. Cooper Tangová, P. Mzembe, A. Kumar, L. Arnold a další. Režie Michael Matthews",
-          "category": "Seriály"
-        },
-        {
-          "title": "Na cestě po západním Grónsku",
-          "start": "2026-10-20T14:45:00Z",
-          "stop": "2026-10-20T15:10:00Z",
-          "description": "S Jiřím Bartoškou a Miroslavem Donutilem letadlem, pěšky i lodí po západním Grónsku. Putování mezi ledovci i velrybami po ostrově, kde je každý rok o něco tepleji, a není to dobrá zpráva (2017). Režie M. Dušek",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "AZ-kvíz",
-          "start": "2026-10-20T15:15:00Z",
-          "stop": "2026-10-20T15:40:00Z",
-          "description": "Soutěž pro každého",
-          "category": "Zábava"
-        },
-        {
-          "title": "Černé ovce",
-          "start": "2026-10-20T15:40:00Z",
-          "stop": "2026-10-20T15:53:00Z",
-          "description": "OCHUTNÁVKA - MASOVÉ POMAZÁNKY - Používáme je na rychlou večeři nebo při oslavách. Víme ale, co obsahují?",
-          "category": "Magazíny"
-        },
-        {
-          "title": "Události v regionech",
-          "start": "2026-10-20T16:00:00Z",
-          "stop": "2026-10-20T16:25:00Z",
-          "description": "Hlavní regionální zpravodajská relace České televize. Souhrn nejdůležitějších událostí v krajích České republiky",
-          "category": "Zpravodajství"
-        },
-        {
-          "title": "Kde domov můj?",
-          "start": "2026-10-20T16:25:00Z",
-          "stop": "2026-10-20T16:50:00Z",
-          "description": "Zábavná vědomostní soutěž. Moderuje Aleš Háma. Režie Z. Fiala",
-          "category": "Zábava"
-        },
-        {
-          "title": "Události za okamžik a počasí",
-          "start": "2026-10-20T16:55:00Z",
-          "stop": "2026-10-20T17:00:00Z",
-          "description": "Hlavní události a předpověď počasí",
-          "category": null
-        },
-        {
-          "title": "Události",
-          "start": "2026-10-20T17:00:00Z",
-          "stop": "2026-10-20T17:54:00Z",
-          "description": "Hlavní zpravodajská relace České televize. Souhrn nejdůležitějších událostí dne v ČR i ve světě",
-          "category": "Zpravodajství"
-        },
-        {
-          "title": "Branky, body, vteřiny",
-          "start": "2026-10-20T17:56:00Z",
-          "stop": "2026-10-20T18:06:00Z",
-          "description": null,
-          "category": "Sport"
-        },
-        {
-          "title": "StarDance XIV... kolem dokola",
-          "start": "2026-10-20T18:05:00Z",
-          "stop": "2026-10-20T18:09:00Z",
-          "description": "Exkluzivní pohled do zákulisí taneční show",
-          "category": "Zábava"
-        },
-        {
-          "title": "Komisař Dupin",
-          "start": "2026-10-20T18:15:00Z",
-          "stop": "2026-10-20T19:43:00Z",
-          "description": "Špičkový vyšetřovatel je převelen z Paříže do Bretaně, kde vedle zločinu svádí boj i se svérázem místních obyvatel. Německý kriminální seriál podle úspěšné předlohy (2014). Hrají: P. Aleardi, J. G. Schütte, A. Blendlová, L. Blochberger a další. Režie Matthias Tiefenbacher",
-          "category": "Seriály"
-        },
-        {
-          "title": "Rozpleteno",
-          "start": "2026-10-20T19:45:00Z",
-          "stop": "2026-10-20T20:13:00Z",
-          "description": "Pandemii COVID-19 způsobil netopýří koronavirus. Dnes jeho původ vyšetřuje Senát Spojených států amerických. Kdo byl pacient 0? Nakazil se virem z přírody nebo z laboratoře? Režie M. Tuma",
-          "category": "Publicistika"
-        },
-        {
-          "title": "Výsledky losování Šťastných 10 a Euromiliony",
-          "start": "2026-10-20T20:14:00Z",
-          "stop": "2026-10-20T20:15:00Z",
-          "description": null,
-          "category": "Zábava"
-        },
-        {
-          "title": "Panoptikum Města pražského",
-          "start": "2026-10-20T20:15:00Z",
-          "stop": "2026-10-20T21:12:00Z",
-          "description": "Jiří Adamíra jako policejní rada Korejs spolu s pány detektivy z pražské \"čtyřky\" řeší malé i velké zločiny. Tentokrát půjde o případ neobvyklé smrti mladičkého děvčete (1987). Dále hrají: O. Havelka, J. Vinklář, J. Bláha, O. Sklenčka, J. Krampol, V. Vydra, J. Švehlová, Z. Martínek, L. Kostelka, L. Kazda, D. Klapka a další. Scénář J. Marek. Kamera J. Šámal. Režie A. Moskalyk",
-          "category": "Seriály"
-        },
-        {
-          "title": "Na kus řeči",
-          "start": "2026-10-20T21:15:00Z",
-          "stop": "2026-10-20T21:59:00Z",
-          "description": "V pořadu Miroslava Donutila se sešlo výrazné autorské spojení tří osobitých umělců – Michala Horáčka, Petra Hapky a Hany Hegerové, která by dnes oslavila 95. narozeniny (2002). Režie A. Vomáčka",
-          "category": "Zábava"
-        },
-        {
-          "title": "Ve výkonu služby II",
-          "start": "2026-10-20T22:00:00Z",
-          "stop": "2026-10-20T22:59:00Z",
-          "description": "Nechtějte se jim dostat do hledáčku. Policejní protikorupční jednotka PK-12 při vyšetřování nezná bratra. Mnoha cenami ověnčený britský krimi seriál (2013). Hrají: A. Dunbar, M. Compston, V. McLureová, K. Hawesová, M. Bonnar, A. McKenzieová, A. Irvineová, S. Toussaint a další. Režie Douglas Mackinnon",
-          "category": "Seriály"
-        },
-        {
-          "title": "AZ-kvíz",
-          "start": "2026-10-20T23:00:00Z",
-          "stop": "2026-10-20T23:25:00Z",
-          "description": "Soutěž pro každého",
-          "category": "Zábava"
-        },
-        {
-          "title": "Zajímavosti z regionů",
-          "start": "2026-10-20T23:30:00Z",
-          "stop": "2026-10-20T23:55:00Z",
-          "description": "Události a informace z kraje, v němž žijete",
-          "category": "Zpravodajství"
-        },
-        {
-          "title": "Do nitra Turoldu",
-          "start": "2026-10-20T23:55:00Z",
-          "stop": "2026-10-21T00:13:00Z",
-          "description": "Arnošt Goldflam s Josefem Poláškem opět míří do hlubin země. Tentokrát se vydali do Mikulova, kde se kromě vinných sklípků nachází také unikátní jeskyně Na Turoldu (2008). Režie P. Jirásek",
-          "category": "Vzdělávání"
-        },
-        {
-          "title": "Dobré ráno",
-          "start": "2026-10-21T00:15:00Z",
-          "stop": "2026-10-21T02:45:00Z",
-          "description": null,
-          "category": "Zábava"
-        },
-        {
-          "title": "Grilování bez rodičů",
-          "start": "2026-10-21T02:45:00Z",
-          "stop": "2026-10-21T03:11:00Z",
-          "description": "Dvacetiletý Jakub pořádá utajenou grilovací party a náš tým vyjíždí tomuto nezkušenému kuchaři poradit s výběrem i přípravou menu, které uspokojí i kamarády – vegetariány (2008)",
-          "category": "Vzdělávání"
-        },
-        {
-          "title": "Černé ovce",
-          "start": "2026-10-21T03:15:00Z",
-          "stop": "2026-10-21T03:28:00Z",
-          "description": "OCHUTNÁVKA - MASOVÉ POMAZÁNKY - Používáme je na rychlou večeři nebo při oslavách. Víme ale, co obsahují?",
-          "category": "Magazíny"
-        },
-        {
-          "title": "Události v regionech",
-          "start": "2026-10-21T03:30:00Z",
-          "stop": "2026-10-21T03:55:00Z",
-          "description": "Hlavní regionální zpravodajská relace České televize. Souhrn nejdůležitějších událostí v krajích České republiky",
-          "category": "Zpravodajství"
-        },
         {
           "title": "Studio 6",
           "start": "2026-10-21T03:59:00Z",
@@ -1871,8 +1619,8 @@
         },
         {
           "title": "StarDance XIV... když hvězdy tančí - Rozhodnutí",
-          "start": "2026-10-21T13:45:00Z",
-          "stop": "2026-10-21T14:04:00Z",
+          "start": "2026-10-21T13:50:00Z",
+          "stop": "2026-10-21T14:09:00Z",
           "description": null,
           "category": "Zábava"
         },
@@ -2034,6 +1782,279 @@
           "title": "Události v regionech",
           "start": "2026-10-22T03:30:00Z",
           "stop": "2026-10-22T03:55:00Z",
+          "description": "Hlavní regionální zpravodajská relace České televize. Souhrn nejdůležitějších událostí v krajích České republiky",
+          "category": "Zpravodajství"
+        },
+        {
+          "title": "Studio 6",
+          "start": "2026-10-22T03:59:00Z",
+          "stop": "2026-10-22T07:00:00Z",
+          "description": "Zpravodajský náskok do nového dne. Ranní infoservis ČT",
+          "category": "Zpravodajství"
+        },
+        {
+          "title": "Nautilus",
+          "start": "2026-10-22T07:00:00Z",
+          "stop": "2026-10-22T07:46:00Z",
+          "description": "První plavba legendární ponorky a jejího bezejmenného kapitána. Britský dobrodružný seriál inspirovaný dílem Julese Verna (2024). Hrají: S. Latif, T. Frémont, G. Floodová, C. Menvilleová, J. Collins-Levy, K. Price, A. Green, T. Ngatai, L. Cooper Tangová, P. Mzembe, A. Kumar, L. Arnold a další. Režie Ben C. Lucas",
+          "category": "Seriály"
+        },
+        {
+          "title": "Kluci v akci",
+          "start": "2026-10-22T07:45:00Z",
+          "stop": "2026-10-22T08:10:00Z",
+          "description": "Ve zlínské Čiperově vile budou Ondřej Slanina a Pavel Mareš vařit z vítězných regionálních potravin Zlínského kraje. Překvapí nás třeba skvělými flambovanými palačinkami z pohankové mouky a vloček a mirabelkami s tvarohem a čerstvou mátou. Režie M. Froyda",
+          "category": "Magazíny"
+        },
+        {
+          "title": "Příběhy slavných",
+          "start": "2026-10-22T08:20:00Z",
+          "stop": "2026-10-22T09:12:00Z",
+          "description": "Skvělý režisér nestárnoucích filmových komedií Oldřich Lipský ve vzpomínkách příbuzných, přátel i kolegů, L. Lipského, D. Lipského, M. Lasici, Z. Svěráka, K. Fialové a dalších (2005). Režie S. Lazarová",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Chvíle pro písničku",
+          "start": "2026-10-22T09:15:00Z",
+          "stop": "2026-10-22T09:25:00Z",
+          "description": "Hity své doby zpívají W. Matuška, K. Gott a M. Voborníková (1975)",
+          "category": "Hudba"
+        },
+        {
+          "title": "AZ-kvíz",
+          "start": "2026-10-22T09:25:00Z",
+          "stop": "2026-10-22T09:50:00Z",
+          "description": "Soutěž pro každého",
+          "category": "Zábava"
+        },
+        {
+          "title": "StarDance XIV... kolem dokola",
+          "start": "2026-10-22T09:50:00Z",
+          "stop": "2026-10-22T09:54:00Z",
+          "description": "Exkluzivní pohled do zákulisí taneční show",
+          "category": "Zábava"
+        },
+        {
+          "title": "Zprávy ve 12",
+          "start": "2026-10-22T10:00:00Z",
+          "stop": "2026-10-22T10:20:00Z",
+          "description": "Nejdůležitější události dne v ČR i ve světě",
+          "category": "Zpravodajství"
+        },
+        {
+          "title": "Předpověď počasí, sportovní zprávy",
+          "start": "2026-10-22T10:20:00Z",
+          "stop": "2026-10-22T10:29:00Z",
+          "description": "Souhrn meteorologických informací uplynulých 24 hodin a prognóza vývoje počasí na příští dny",
+          "category": null
+        },
+        {
+          "title": "Sama doma",
+          "start": "2026-10-22T10:30:00Z",
+          "stop": "2026-10-22T12:00:00Z",
+          "description": "Být doma neznamená být bez práce. Tisíc rolí ženy",
+          "category": "Zábava"
+        },
+        {
+          "title": "Hercule Poirot",
+          "start": "2026-10-22T12:00:00Z",
+          "stop": "2026-10-22T12:50:00Z",
+          "description": "Je nebezpečné scházet se v zoo s anonymními ženami. David Suchet v hlavní roli britského seriálu, natočeného podle literární předlohy Agathy Christie (1989). Dále hrají: H. Fraser, P. Jackson, P. Moranová, J. Stride, C. Maddenová, C. Du Sautoyová, J. Carson a další. Režie Edward Bennett",
+          "category": "Seriály"
+        },
+        {
+          "title": "Písničky z jednoho města",
+          "start": "2026-10-22T12:50:00Z",
+          "stop": "2026-10-22T13:04:00Z",
+          "description": "Sestřih několika písní z populárního cyklického pořadu v interpretaci K. Černocha, J. Zelenkové, M. Davida, P. Černocké a Z. Merty (1984)",
+          "category": "Hudba"
+        },
+        {
+          "title": "Výborná SHOW",
+          "start": "2026-10-22T13:05:00Z",
+          "stop": "2026-10-22T13:50:00Z",
+          "description": "Talk show Lucie Výborné s mimem Radimem Vizvárym, baletkou Nikolou Márovou a fyzioterapeutem Michalem Novotným na téma \"Tělo jako nástroj\". Režie J. Sommer",
+          "category": "Zábava"
+        },
+        {
+          "title": "Nautilus",
+          "start": "2026-10-22T13:55:00Z",
+          "stop": "2026-10-22T14:45:00Z",
+          "description": "První plavba legendární ponorky a jejího bezejmenného kapitána. Britský dobrodružný seriál inspirovaný dílem Julese Verna (2024). Hrají: S. Latif, T. Frémont, G. Floodová, C. Menvilleová, J. Collins-Levy, K. Price, A. Green, T. Ngatai, L. Cooper Tangová, P. Mzembe, A. Kumar, L. Arnold a další. Režie Ben C. Lucas",
+          "category": "Seriály"
+        },
+        {
+          "title": "Rozpleteno",
+          "start": "2026-10-22T14:45:00Z",
+          "stop": "2026-10-22T15:13:00Z",
+          "description": "Pandemii COVID-19 způsobil netopýří koronavirus. Dnes jeho původ vyšetřuje Senát Spojených států amerických. Kdo byl pacient 0? Nakazil se virem z přírody nebo z laboratoře? Režie M. Tuma",
+          "category": "Publicistika"
+        },
+        {
+          "title": "AZ-kvíz",
+          "start": "2026-10-22T15:15:00Z",
+          "stop": "2026-10-22T15:40:00Z",
+          "description": "Soutěž pro každého",
+          "category": "Zábava"
+        },
+        {
+          "title": "Černé ovce",
+          "start": "2026-10-22T15:40:00Z",
+          "stop": "2026-10-22T15:53:00Z",
+          "description": "PŮDA - Majitelka bytu se nemůže dostat na půdu. Její soused si tam zřídil dvě obytné místnosti. Jak probíhá odstranění černé stavby?",
+          "category": "Magazíny"
+        },
+        {
+          "title": "Události v regionech",
+          "start": "2026-10-22T16:00:00Z",
+          "stop": "2026-10-22T16:25:00Z",
+          "description": "Hlavní regionální zpravodajská relace České televize. Souhrn nejdůležitějších událostí v krajích České republiky",
+          "category": "Zpravodajství"
+        },
+        {
+          "title": "Kde domov můj?",
+          "start": "2026-10-22T16:25:00Z",
+          "stop": "2026-10-22T16:50:00Z",
+          "description": "Zábavná vědomostní soutěž. Moderuje Aleš Háma. Režie Z. Fiala",
+          "category": "Zábava"
+        },
+        {
+          "title": "Události za okamžik a počasí",
+          "start": "2026-10-22T16:55:00Z",
+          "stop": "2026-10-22T17:00:00Z",
+          "description": "Hlavní události a předpověď počasí",
+          "category": null
+        },
+        {
+          "title": "Události",
+          "start": "2026-10-22T17:00:00Z",
+          "stop": "2026-10-22T17:54:00Z",
+          "description": "Hlavní zpravodajská relace České televize. Souhrn nejdůležitějších událostí dne v ČR i ve světě",
+          "category": "Zpravodajství"
+        },
+        {
+          "title": "Branky, body, vteřiny",
+          "start": "2026-10-22T17:56:00Z",
+          "stop": "2026-10-22T18:06:00Z",
+          "description": null,
+          "category": "Sport"
+        },
+        {
+          "title": "StarDance XIV... kolem dokola",
+          "start": "2026-10-22T18:05:00Z",
+          "stop": "2026-10-22T18:09:00Z",
+          "description": "Exkluzivní pohled do zákulisí taneční show",
+          "category": "Zábava"
+        },
+        {
+          "title": "Patience",
+          "start": "2026-10-22T18:15:00Z",
+          "stop": "2026-10-22T19:02:00Z",
+          "description": "Zkušená vyšetřovatelka spojí síly s metodickou archivářkou a společně vyřeší i ty nejzáludnější případy vražd. Premiéra britského detektivního seriálu (2025). Hrají: E. M. Purvisová, L. Fraserová, M. Benton, N. Welsh, A. Ariaie, L. Sadovy, T. Lewis, C. Curren a další. Režie Maarten Moerkerke",
+          "category": "Seriály"
+        },
+        {
+          "title": "Toulky Českem budoucnosti VI.",
+          "start": "2026-10-22T19:05:00Z",
+          "stop": "2026-10-22T19:31:00Z",
+          "description": "V podzimním speciálu Toulavé kamery se moderátorská dvojice Iveta Toušlová a Josef Maršál přenese do Česka budoucnosti. Zavede vás za firmami a vědci, kteří předběhli dobu a svými objevy a prací mění svět a hrají v něm prim",
+          "category": "Magazíny"
+        },
+        {
+          "title": "Máte slovo s M. Jílkovou",
+          "start": "2026-10-22T19:35:00Z",
+          "stop": "2026-10-22T20:31:00Z",
+          "description": "Tváří v tvář problému. Živě s M. Jílkovou. Dále připravili: K. Dušková, J. Smrž a R. Kudrnáček",
+          "category": "Publicistika"
+        },
+        {
+          "title": "Na stopě",
+          "start": "2026-10-22T20:30:00Z",
+          "stop": "2026-10-22T20:52:00Z",
+          "description": "Zločin nelze vymýtit. S vaší pomocí se mu však můžeme bránit. Moderuje Roman Svoboda. Sledujte také na www.ct1.cz/nastope",
+          "category": "Publicistika"
+        },
+        {
+          "title": "Výsledky losování Šťastných 10 a Extra Renty",
+          "start": "2026-10-22T20:54:00Z",
+          "stop": "2026-10-22T20:55:00Z",
+          "description": null,
+          "category": "Zábava"
+        },
+        {
+          "title": "Po stopách hvězd",
+          "start": "2026-10-22T20:55:00Z",
+          "stop": "2026-10-22T21:21:00Z",
+          "description": "Obrazový životopis slavných – tentokrát Jany Hlaváčové – díky kterému si uvědomíte, jak plyne čas a jak formuje každého z nás (2009). Režie R. Šofr",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Případy detektiva Murdocha XVII",
+          "start": "2026-10-22T21:25:00Z",
+          "stop": "2026-10-22T22:07:00Z",
+          "description": "Britsko-kanadský kriminální seriál o muži, který ví, že pokrok nezastavíš (2023). Hrají: Y. Bisson, T. Craig, H. Joyová, J. Harris, D. Maslany, L. K. Murdoch a další. Režie Jennifer Liaová",
+          "category": "Seriály"
+        },
+        {
+          "title": "AZ-kvíz",
+          "start": "2026-10-22T22:15:00Z",
+          "stop": "2026-10-22T22:40:00Z",
+          "description": "Soutěž pro každého",
+          "category": "Zábava"
+        },
+        {
+          "title": "Koptashow",
+          "start": "2026-10-22T22:40:00Z",
+          "stop": "2026-10-22T23:06:00Z",
+          "description": "Známí lidé, jak je neznáte. Vašek Kopta zpovídá J. Plodkovou, P. Poláška a M. Hrůzu (2019). Režie R. Petrenko",
+          "category": "Zábava"
+        },
+        {
+          "title": "Pozor, kozy!",
+          "start": "2026-10-22T23:05:00Z",
+          "stop": "2026-10-22T23:28:00Z",
+          "description": "Šikovné kuklovské kozy nejsou k udržení a v čele s kozlem Smraďochem se neustále pokoušejí o útěk. Vyjde jim? (2012)",
+          "category": "Magazíny"
+        },
+        {
+          "title": "Zajíc jako od maminky",
+          "start": "2026-10-22T23:30:00Z",
+          "stop": "2026-10-22T23:56:00Z",
+          "description": "Zdenčin manžel vzpomíná, jak skvěle chutnal zajíc, kterého připravovala jeho maminka před mnoha lety. Pomůže tým Zdence zvládnout tento pokrm stejně dobře? (2011)",
+          "category": "Vzdělávání"
+        },
+        {
+          "title": "V kondici",
+          "start": "2026-10-22T23:55:00Z",
+          "stop": "2026-10-23T00:12:00Z",
+          "description": "Magazín o zdravém životním stylu (2007). Moderuje Olga Šípková",
+          "category": "Magazíny"
+        },
+        {
+          "title": "Dobré ráno",
+          "start": "2026-10-23T00:15:00Z",
+          "stop": "2026-10-23T02:45:00Z",
+          "description": null,
+          "category": "Zábava"
+        },
+        {
+          "title": "Hobby naší doby",
+          "start": "2026-10-23T02:45:00Z",
+          "stop": "2026-10-23T03:11:00Z",
+          "description": "Jiřina Bohdalová v půlhodince inspirací a zajímavostí pro volný čas",
+          "category": "Magazíny"
+        },
+        {
+          "title": "Černé ovce",
+          "start": "2026-10-23T03:15:00Z",
+          "stop": "2026-10-23T03:28:00Z",
+          "description": "PŮDA - Majitelka bytu se nemůže dostat na půdu. Její soused si tam zřídil dvě obytné místnosti. Jak probíhá odstranění černé stavby?",
+          "category": "Magazíny"
+        },
+        {
+          "title": "Události v regionech",
+          "start": "2026-10-23T03:30:00Z",
+          "stop": "2026-10-23T03:55:00Z",
           "description": "Hlavní regionální zpravodajská relace České televize. Souhrn nejdůležitějších událostí v krajích České republiky",
           "category": "Zpravodajství"
         },
@@ -2446,35 +2467,35 @@
         {
           "title": "StarDance XIV... když hvězdy tančí",
           "start": "2026-10-24T18:10:00Z",
-          "stop": "2026-10-24T19:50:00Z",
+          "stop": "2026-10-24T19:45:00Z",
           "description": "Čtrnáctá řada velkolepé taneční show. Přímým přenosem provázejí Tereza Kostková a Marek Eben. Zbývající soutěžní páry se předvedou v tancích jive, valčík anebo samba. Podpořte svůj hvězdný taneční pár! Režie V. Bělohradský",
           "category": "Zábava"
         },
         {
           "title": "StarDance XIV... když hvězdy tančí - Rozhodnutí",
-          "start": "2026-10-24T19:55:00Z",
-          "stop": "2026-10-24T20:12:00Z",
+          "start": "2026-10-24T19:50:00Z",
+          "stop": "2026-10-24T20:07:00Z",
           "description": null,
           "category": "Zábava"
         },
         {
           "title": "Všechnopárty",
-          "start": "2026-10-24T20:20:00Z",
-          "stop": "2026-10-24T21:12:00Z",
+          "start": "2026-10-24T20:15:00Z",
+          "stop": "2026-10-24T21:07:00Z",
           "description": "Zábavná talk show Karla Šípa. Hosty budou herec Jiří Krampol, herečka Petra Nesvačilová a hráč curlingu Lukáš Klíma (2023). Režie M. Čech",
           "category": "Zábava"
         },
         {
           "title": "Výsledky losování Šťastných 10 a Euromiliony",
-          "start": "2026-10-24T21:14:00Z",
-          "stop": "2026-10-24T21:15:00Z",
+          "start": "2026-10-24T21:09:00Z",
+          "stop": "2026-10-24T21:10:00Z",
           "description": null,
           "category": "Zábava"
         },
         {
           "title": "Komisař Montalbano",
-          "start": "2026-10-24T21:15:00Z",
-          "stop": "2026-10-24T23:05:00Z",
+          "start": "2026-10-24T21:10:00Z",
+          "stop": "2026-10-24T23:00:00Z",
           "description": "Ve starém archivu se ve vzduchu mísí vůně zapomenutých rukopisů a pach mrtvé archivářky… Epizoda z italského kriminálního cyklu (2020). Hrají: L. Zingaretti, C. Bocci, P. Mazzotta, A. Russo, K. Grecová, F. Costanzo, R. Lisma, L. Scarpa, F. De Benedittis a další. Režie Alberto Sironi a Luca Zingaretti",
           "category": "Seriály"
         },
@@ -3303,6 +3324,216 @@
           "stop": "2026-10-28T04:55:00Z",
           "description": "Hlavní regionální zpravodajská relace České televize. Souhrn nejdůležitějších událostí v krajích České republiky",
           "category": "Zpravodajství"
+        },
+        {
+          "title": "Neohrožený Mikeš",
+          "start": "2026-10-28T05:00:00Z",
+          "stop": "2026-10-28T05:29:00Z",
+          "description": "Pohádka podle Boženy Němcové o nebojácném chasníkovi, který přemohl zlého kouzelníka a ubránil se i úkladům svých proradných přátel (1969). Hrají: V. Hašek, L. Trojan, E. Cupák, M. Růžek, K. Jerneková a další. Scénář B. Šimková. Kamera B. Turek. Režie L. Ráža",
+          "category": "Filmy"
+        },
+        {
+          "title": "Drobínek",
+          "start": "2026-10-28T05:30:00Z",
+          "stop": "2026-10-28T06:56:00Z",
+          "description": "Jan Tříska v pohádce o mladém ševci, kterému se všichni posmívali, že je droboučký a bázlivý (1970). Dále hrají: N. Gollová, F. Krůta, J. Kotrbová, F. Kovařík, V. Chramostová, S. Fišer, L. Lipský, D. Kolářová a další. Scénář J. Procházka a L. Vilímová. Kamera V. Štinglová. Režie L. Ráža",
+          "category": "Filmy"
+        },
+        {
+          "title": "Zlatý chléb",
+          "start": "2026-10-28T06:55:00Z",
+          "stop": "2026-10-28T08:04:00Z",
+          "description": "Koprodukční slovensko-česká pohádka o pyšné Ľubce, která se naučila lásce a pokoře (2001). Hrají: E. Leimbergerová, K. Magálová, M. Igonda, J. Fila, J. Gallovič, O. Kovaľ a další. Scénář J. Lenhart. Kamera J. Ďuriš. Režie J. Zeman",
+          "category": "Filmy"
+        },
+        {
+          "title": "Předeme, předeme zlatou nitku",
+          "start": "2026-10-28T08:05:00Z",
+          "stop": "2026-10-28T09:14:00Z",
+          "description": "Pohádka o třech kmotřičkách, které spředly nit osudu prince a dcerky hajného (1981). Hrají: J. Adamová, S. Zázvorková, B. Holišová, A. Navrátil, M. Bičíková, J. Jurištová, J. Zahajský, J. Březinová a další. Scénář K. Kuršová. Kamera V. Štinglová. Režie V. Janečková",
+          "category": "Děti a mládež"
+        },
+        {
+          "title": "O Všudybylovi",
+          "start": "2026-10-28T09:15:00Z",
+          "stop": "2026-10-28T10:09:00Z",
+          "description": "O zlé soví královně a lásce, která její nástrahy překoná. Pohádka podle F. Hrubína (1976). Hrají: P. Svoboda, J. Švehlová, E. Balzerová, J. Adamová, M. Moravec, D. Medřická, J. Přeučil, F. Krůta a další. Scénář K. Šiktanc. Kamera V. Štinglová. Režie S. Simonová",
+          "category": "Děti a mládež"
+        },
+        {
+          "title": "Prsten krále řeky",
+          "start": "2026-10-28T10:15:00Z",
+          "stop": "2026-10-28T11:12:00Z",
+          "description": "Radoslav Brzobohatý v pohádce o lásce, ale i závisti a úkladech, které jsou mocným vládcem řeky po zásluze potrestány (2004). Dále hrají: M. Šimůnek, K. Filipová, B. Štěpánová, P. Zedníček, F. Blažek a další. Scénář Š. Kosková. Kamera P. Polák. Režie O. Kosek",
+          "category": "Děti a mládež"
+        },
+        {
+          "title": "O podezíravém králi",
+          "start": "2026-10-28T11:10:00Z",
+          "stop": "2026-10-28T12:34:00Z",
+          "description": "Pohádka o žárlivosti a pomluvě, které pravá láska přemůže (1989). Hrají: M. Bočanová, P. Štěpánek, B. Bohdanová, M. Vašut, P. Kostka, J. Bek, S. Postlerová a další. Kamera V. Štinglová. Scénář a režie V. Janečková",
+          "category": "Děti a mládež"
+        },
+        {
+          "title": "Chladné srdce",
+          "start": "2026-10-28T12:40:00Z",
+          "stop": "2026-10-28T13:47:00Z",
+          "description": "Martin Dejdar a Aťka Janoušková v pohádce o uhlíři Petrovi a skřítku Sklenáříčkovi (1996). Dále hrají: V. Kratina, M. Chrzová, O. Schmidtová, Z. Žák, P. Vacek, J. Skopeček a další. Podle W. Hauffa napsal J. Bednář. Kamera P. Beňa. Režie M. Sobota",
+          "category": "Děti a mládež"
+        },
+        {
+          "title": "Sluníčko na houpačce",
+          "start": "2026-10-28T13:45:00Z",
+          "stop": "2026-10-28T15:08:00Z",
+          "description": "Televizní film o chlapci, který hledá domov (1981). Hrají: M. Vančurová, J. Bartoška, M. Mikuláš, P. Čepek, O. Sklenčka, B. Prokoš, K. Heřmánek, E. Balzerová, D. Veškrnová, L. Trojan, M. Dvorská, L. Skořepová a další. Scénář M. Mathausová. Kamera I. Šlapeta. Režie J. Adamec. Snímek uvádíme u příležitosti životního jubilea M. Mathausové",
+          "category": "Filmy"
+        },
+        {
+          "title": "O moudré Sorfarině",
+          "start": "2026-10-28T15:10:00Z",
+          "stop": "2026-10-28T16:18:00Z",
+          "description": "Pohádka o tvrdohlavých snoubencích (1995). Hrají: M. Kuklová, M. Kubec, J. Preissová, P. Štěpánek, P. Kostka, K. Issová a další. Kamera M. Dostál. Scénář a režie V. Janečková",
+          "category": "Děti a mládež"
+        },
+        {
+          "title": "O Janovi a podivuhodném příteli",
+          "start": "2026-10-28T16:20:00Z",
+          "stop": "2026-10-28T17:50:00Z",
+          "description": "Výpravná pohádka o tom, jak si mládenec poradil s nástrahami kouzelníka Magnuse a vysvobodil princeznu Agnes ze zajetí (1990). Hrají: E. Vejmělková, T. Valík, J. Kemr, J. Vinklář, R. Brzobohatý, F. Bachsmidt, M. Dejdar, M. Labuda, P. Zedníček, V. Galatíková a další. Scénář podle pohádky H. Ch. Andersena napsali M. Schulz a L. Ráža. Kamera J. Macák. Režie L. Ráža",
+          "category": "Děti a mládež"
+        },
+        {
+          "title": "Události za okamžik a počasí",
+          "start": "2026-10-28T17:55:00Z",
+          "stop": "2026-10-28T18:00:00Z",
+          "description": "Hlavní události a předpověď počasí",
+          "category": null
+        },
+        {
+          "title": "Události",
+          "start": "2026-10-28T18:00:00Z",
+          "stop": "2026-10-28T18:46:00Z",
+          "description": "Hlavní zpravodajská relace České televize. Souhrn nejdůležitějších událostí dne v ČR i ve světě",
+          "category": "Zpravodajství"
+        },
+        {
+          "title": "Branky, body, vteřiny",
+          "start": "2026-10-28T18:48:00Z",
+          "stop": "2026-10-28T18:58:00Z",
+          "description": null,
+          "category": "Sport"
+        },
+        {
+          "title": "Předávání státních vyznamenání prezidentem republiky",
+          "start": "2026-10-28T19:00:00Z",
+          "stop": "2026-10-28T20:10:00Z",
+          "description": "Přímý přenos z Vladislavského sálu Pražského hradu",
+          "category": "Zpravodajství"
+        },
+        {
+          "title": "Losování Sportky a Šance",
+          "start": "2026-10-28T20:10:00Z",
+          "stop": "2026-10-28T20:14:00Z",
+          "description": null,
+          "category": "Zábava"
+        },
+        {
+          "title": "Talk show Na jednoho",
+          "start": "2026-10-28T20:15:00Z",
+          "stop": "2026-10-28T20:55:00Z",
+          "description": "Doposud neodvysílané momenty z osmi rozhovorů bez filtrů a naučených odpovědí. Nová zábavná talk show, kde redaktorky a redaktoři na autistickém spektru zpovídají známé osobnosti. Režie J. Bártek",
+          "category": "Zábava"
+        },
+        {
+          "title": "České století",
+          "start": "2026-10-28T20:55:00Z",
+          "stop": "2026-10-28T22:09:00Z",
+          "description": "Zrušení monarchie a vznik demokratické republiky. Jaké drama tomu předcházelo? Co prožíval Masaryk a ti druzí? Televizní film z unikátní série, která rozkrývá tabu klíčových událostí našich moderních dějin (2013). Hrají: M. Huba, M. Donutil, M. Finger, D. Kolářová, I. Bareš, J. Bábek, J. Nosek, I. Novák, I. Uhlířová, P. Rímský a další. Scénář P. Kosatík. Kamera M. Krejčí. Režie R. Sedláček",
+          "category": "Filmy"
+        },
+        {
+          "title": "Výsledky losování Šťastných 10",
+          "start": "2026-10-28T22:14:00Z",
+          "stop": "2026-10-28T22:15:00Z",
+          "description": null,
+          "category": "Zábava"
+        },
+        {
+          "title": "Karel Gott 1986",
+          "start": "2026-10-28T22:15:00Z",
+          "stop": "2026-10-28T22:59:00Z",
+          "description": "Koncert nejpopulárnějšího československého a českého zpěváka v pražské Sportovní hale (1986). Dále účinkují: J. Zelenková, I. Bartošová, Orchestr Ladislava Štaidla a další. Kamera P. Čepický. Režie E. Sedlář",
+          "category": "Hudba"
+        },
+        {
+          "title": "Me som Josef Gabčo",
+          "start": "2026-10-28T23:00:00Z",
+          "stop": "2026-10-28T23:06:00Z",
+          "description": "Kdo inspiruje známé Romy? Webový pořad o Romech pro Romy. Režie P. Kotrla",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Komisař Dupin",
+          "start": "2026-10-28T23:05:00Z",
+          "stop": "2026-10-29T00:33:00Z",
+          "description": "Špičkový vyšetřovatel je převelen z Paříže do Bretaně, kde vedle zločinu svádí boj i se svérázem místních obyvatel. Německý kriminální seriál podle úspěšné předlohy (2015). Hrají: P. Aleardi, J. G. Schütte, A. Blendlová, L. Blochberger, A. El Sayedová a další. Režie Thomas Roth",
+          "category": "Seriály"
+        },
+        {
+          "title": "Banánové rybičky",
+          "start": "2026-10-29T00:35:00Z",
+          "stop": "2026-10-29T01:03:00Z",
+          "description": "Zábavná talk show Haliny Pawlowské, tentokrát na téma \"jak přežít úspěch\" (2001). Spoluúčinkují M. Kubišová a R. Hladík. Režie P. Sladký a K. Czaban",
+          "category": "Zábava"
+        },
+        {
+          "title": "Zahrada je hra",
+          "start": "2026-10-29T01:20:00Z",
+          "stop": "2026-10-29T01:42:00Z",
+          "description": "Minimalistický plot s maximálním efektem (2008). Fůra nápadů pro vaši zahradu",
+          "category": "Magazíny"
+        },
+        {
+          "title": "Bydlení je hra",
+          "start": "2026-10-29T01:50:00Z",
+          "stop": "2026-10-29T02:15:00Z",
+          "description": "Obývací pokoj na lidovou notu (2012). Magazín o kultuře bydlení",
+          "category": "Magazíny"
+        },
+        {
+          "title": "Chalupa je hra",
+          "start": "2026-10-29T02:20:00Z",
+          "stop": "2026-10-29T02:42:00Z",
+          "description": "Netradiční interiérový prvek – kuchyň a koupelna z betonu (2009). Magazín nejen pro chataře a chalupáře",
+          "category": "Magazíny"
+        },
+        {
+          "title": "Pod pokličkou",
+          "start": "2026-10-29T02:50:00Z",
+          "stop": "2026-10-29T03:12:00Z",
+          "description": "Borůvky i brusinky šup do naší pusinky (2008). Co všechno nevíme a víme o tom, co pijeme a jíme",
+          "category": "Magazíny"
+        },
+        {
+          "title": "Češi v Bosně",
+          "start": "2026-10-29T03:15:00Z",
+          "stop": "2026-10-29T03:35:00Z",
+          "description": "Sarajevo, město těžce zkoušené v průběhu celého minulého století, a české stopy v něm (2017)",
+          "category": "Vzdělávání"
+        },
+        {
+          "title": "Kluci v akci",
+          "start": "2026-10-29T03:35:00Z",
+          "stop": "2026-10-29T04:00:00Z",
+          "description": "Putování s Regionální potravinou tentokrát pokračuje do Lipnice nad Sázavou. Víte, s jakou osobností je toto místo blízko spjaté? Režie M. Froyda",
+          "category": "Magazíny"
+        },
+        {
+          "title": "Paní Olga",
+          "start": "2026-10-29T04:00:00Z",
+          "stop": "2026-10-29T04:52:00Z",
+          "description": "První \"první dáma\" České republiky ve vzpomínkách manžela V. Havla a přátel P. Šustrové, D. Němcové, V. Chramostové, A. Kroba a dalších (2006). Režie M. Dolenský",
+          "category": "Dokumenty"
         }
       ]
     },
@@ -3312,272 +3543,6 @@
       "logo": "https://www.sms.cz/kategorie/televize/bmp/loga/velka/ct2.png",
       "source": "Česká televize (API)",
       "programmes": [
-        {
-          "title": "Dobré ráno",
-          "start": "2026-10-20T03:59:00Z",
-          "stop": "2026-10-20T06:29:00Z",
-          "description": "Startovací dávka pohody. Ranní show České televize",
-          "category": "Zábava"
-        },
-        {
-          "title": "Dynastie II",
-          "start": "2026-10-20T06:30:00Z",
-          "stop": "2026-10-20T07:18:00Z",
-          "description": "Poznejte skutečná životní dramata charismatických zvířat, která bojují o své rodiny, o potravu či území navzdory nepřízni osudu, aby založila své vlastní dynastie. Dokumentární série BBC",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Luštitelé záhad",
-          "start": "2026-10-20T07:20:00Z",
-          "stop": "2026-10-20T08:08:00Z",
-          "description": "Antropoložka Karen Bellingerová, kulturní historička Fern Riddellová, archeolog Mark Altaweel a historik Tony McMahon přibližují současný stav vědění o nejpoutavějších záhadách dějin. Britský dokumentární cyklus",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Pařížská náměstí včera a dnes",
-          "start": "2026-10-20T08:10:00Z",
-          "stop": "2026-10-20T09:15:00Z",
-          "description": "Po staletí se hlavní město Francie vyvíjí jako živý organismus. Jsou-li majestátní avenue tepnami, pak náměstí tvoří skutečná srdce metropole. Francouzský dokument",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Špioni na dvoře Ludvíka XIV.",
-          "start": "2026-10-20T09:20:00Z",
-          "stop": "2026-10-20T10:04:00Z",
-          "description": "Špehování bylo nedílnou součástí života na francouzském dvoru. Všichni věděli vše o všech. O čem krále informoval jeho „cabinet noir“ a co se psalo v bezpočtu šifrovaných dopisů? Druhá, závěrečná část francouzského dokudramatu",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Nedej se",
-          "start": "2026-10-20T10:05:00Z",
-          "stop": "2026-10-20T10:23:00Z",
-          "description": "Blok občanské a ekologické publicistiky",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Občanské noviny",
-          "start": "2026-10-20T10:25:00Z",
-          "stop": "2026-10-20T10:33:00Z",
-          "description": "Představujeme občanské iniciativy, které bdí nad ochranou životního prostředí a dobrou správou věcí ve veřejném zájmu - kdo vám pomůže?",
-          "category": "Publicistika"
-        },
-        {
-          "title": "Diana",
-          "start": "2026-10-20T10:35:00Z",
-          "stop": "2026-10-20T11:16:00Z",
-          "description": "Život legendární princezny lidských srdcí. Britsko-americký dokumentární cyklus",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Abú Simbel, monumentální chrámy starověkého Egypta",
-          "start": "2026-10-20T11:15:00Z",
-          "stop": "2026-10-20T12:07:00Z",
-          "description": "Velkolepé dílo faraona Ramesse II., znovuobjevené v 19. století a zachráněné ze zajetí Nilu, je dnes stejně fascinující jako před třemi tisíci let. Francouzský dokument",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Bílí lvi - zrozeni v divočině",
-          "start": "2026-10-20T12:15:00Z",
-          "stop": "2026-10-20T13:08:00Z",
-          "description": "Příběh dvou velmi vzácných mláďat divokých bílých lvů na jejich cestě k dospělosti. Jihoafrický dvoudílný dokument",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Krásy evropského pobřeží",
-          "start": "2026-10-20T13:10:00Z",
-          "stop": "2026-10-20T13:17:00Z",
-          "description": "Jedinečné letecké pohledy ve francouzském dokumentu",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Jeseníky díky",
-          "start": "2026-10-20T13:20:00Z",
-          "stop": "2026-10-20T13:46:00Z",
-          "description": "Hold přírodním krásám pohoří Jeseníky i lidem, kteří zde našli svůj domov. Dokumentární film v režii J. Štěpánkové a P. Rouska",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Tobruk - písek a kyvadlo války",
-          "start": "2026-10-20T13:45:00Z",
-          "stop": "2026-10-20T14:13:00Z",
-          "description": "Dokument o jedné z největších bitev v poušti za II. světové války, do které zasáhli českoslovenští vojáci. Režie T. Kaucký",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Neznámí hrdinové - Pohnuté osudy",
-          "start": "2026-10-20T14:15:00Z",
-          "stop": "2026-10-20T14:41:00Z",
-          "description": "Leopold Firt, lékař se srdcem bojovníka. Osudy prvorepublikového doktora, jenž léčil Karla Čapka a před 85 lety byl jedním z československých vojáků, kteří se vylodili v Tobruku",
-          "category": "Magazíny"
-        },
-        {
-          "title": "Krásné země z výšky",
-          "start": "2026-10-20T14:45:00Z",
-          "stop": "2026-10-20T15:37:00Z",
-          "description": "Krásné a rozmanité scenérie řídce osídleného státu USA, jehož název byl odvozen od indiánského výrazu pro „Zem rozlehlých plání“. Britský dokument",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Jižní Vietnam, tisíc tváří Asie",
-          "start": "2026-10-20T15:40:00Z",
-          "stop": "2026-10-20T16:32:00Z",
-          "description": "Kouzlo asijského regionu, který se dokázal otevřít okolnímu světu, a přesto si uchovat kulturní, umělecké a náboženské zvyky. Francouzský dokument",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Manu a Matěj na cestě po Toskánsku",
-          "start": "2026-10-20T16:35:00Z",
-          "stop": "2026-10-20T17:01:00Z",
-          "description": "Tradiční moderátorská dvojice Emanuele Ridi a Matěj Ruppert na cestách za osobnostmi italské gastronomie, zajímavými lokálními produkty a recepty prosycenými italským sluncem. Tentokrát navštíví Sienu a okolí. Režie M. Herz",
-          "category": "Zábava"
-        },
-        {
-          "title": "Cyklotoulky",
-          "start": "2026-10-20T17:00:00Z",
-          "stop": "2026-10-20T17:10:00Z",
-          "description": "Vydejte se s námi za těmi nejkrásnějšími místy v České republice. Tentokrát navštívíme Luhačovice, tak neváhejte a pojeďte s námi!",
-          "category": "Sport"
-        },
-        {
-          "title": "Křesťanský magazín",
-          "start": "2026-10-20T17:15:00Z",
-          "stop": "2026-10-20T17:41:00Z",
-          "description": "Zajímavosti ze života víry. Uvádí J. Slomiany",
-          "category": "Náboženské"
-        },
-        {
-          "title": "Postřehy odjinud",
-          "start": "2026-10-20T17:40:00Z",
-          "stop": "2026-10-20T17:45:00Z",
-          "description": "Fenomén idiazabal",
-          "category": "Zábava"
-        },
-        {
-          "title": "Zprávy v českém znakovém jazyce",
-          "start": "2026-10-20T17:50:00Z",
-          "stop": "2026-10-20T18:00:00Z",
-          "description": null,
-          "category": "Zpravodajství"
-        },
-        {
-          "title": "Diana",
-          "start": "2026-10-20T18:00:00Z",
-          "stop": "2026-10-20T18:41:00Z",
-          "description": "Život legendární princezny lidských srdcí. Britsko-americký dokumentární cyklus",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Konec jedné éry",
-          "start": "2026-10-20T18:45:00Z",
-          "stop": "2026-10-20T19:37:00Z",
-          "description": "Po bezmála čtvrt tisíciletí skončila v únoru 2026 těžba černého uhlí v České republice. Unikátní sběrný dokument sleduje poslední tři roky dolování na Ostravsku. Režie M. Petrov",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Letecké katastrofy",
-          "start": "2026-10-20T19:40:00Z",
-          "stop": "2026-10-20T20:23:00Z",
-          "description": "23. února 2019 letěl nad Mexickým zálivem let Atlas 35-91. Šedesátiletý kapitán Ricky Blakely byl pilotem sedmnáct let. Během letu do texaského Houstonu monitoroval přístroje, řídil druhý pilot Conrad Aska. Na palubě byl ještě jeden pilot, který letěl coby pasažér. Kanadský cyklus dokumentárních rekonstrukcí",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Automobil: Vzestup a pád",
-          "start": "2026-10-20T20:30:00Z",
-          "stop": "2026-10-20T21:23:00Z",
-          "description": "Během jednoho století se automobil rozšířil na všechny kontinenty a urychlil růst bohatství do té míry, že ztělesnil i druhou, temnější stranu mince hospodářského rozvoje. Z pýchy lidstva se stal symbolem globální ekologické katastrofy. Francouzský dokumentární cyklus",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Jeden z tisíců kopců",
-          "start": "2026-10-20T21:25:00Z",
-          "stop": "2026-10-20T22:46:00Z",
-          "description": "Netušily, že být Tutsi je zločin. Přesto byly jednoho dne roku 1994 mezi dvěma cypřiši na jednom z tisíců rwandských kopců zavražděny 3 malé děti. Přidaly se k milionu dalších obětí genocidy. Belgický dokument",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Kvarteto",
-          "start": "2026-10-20T22:45:00Z",
-          "stop": "2026-10-20T23:10:00Z",
-          "description": "Mimořádné turistické atrakce v magazínu tvůrců zemí visegrádské čtyřky",
-          "category": "Zábava"
-        },
-        {
-          "title": "Televizní klub neslyšících",
-          "start": "2026-10-20T23:10:00Z",
-          "stop": "2026-10-20T23:36:00Z",
-          "description": "Jak se se sluchovým handicapem vyrovnává s mozkovou obrnou dítěte i s následky vážného úrazu. Pořad pro neslyšící a jejich přátele (2022). Režie A. Lederer",
-          "category": "Magazíny"
-        },
-        {
-          "title": "Vesnická učitelka",
-          "start": "2026-10-20T23:35:00Z",
-          "stop": "2026-10-21T00:01:00Z",
-          "description": "Valtice kreslenýma očima. Portrét obce pohledem malířky (2014). Režie P. Minařík",
-          "category": "Publicistika"
-        },
-        {
-          "title": "Před půlnocí",
-          "start": "2026-10-21T00:05:00Z",
-          "stop": "2026-10-21T00:31:00Z",
-          "description": "Tajemná fauna – téma pro hosta J. Gaislera, zoologa (2011)",
-          "category": "Publicistika"
-        },
-        {
-          "title": "Ateismus",
-          "start": "2026-10-21T00:30:00Z",
-          "stop": "2026-10-21T00:56:00Z",
-          "description": "Vaření mimo náboženské souvislosti (2007). Režie S. Zeman",
-          "category": "Děti a mládež"
-        },
-        {
-          "title": "Žijeme s vírou",
-          "start": "2026-10-21T01:00:00Z",
-          "stop": "2026-10-21T01:26:00Z",
-          "description": "Co je pravda? O svátečních okamžicích všedního života (2011). Režie J. Hanák",
-          "category": "Náboženské"
-        },
-        {
-          "title": "Křesťanský magazín",
-          "start": "2026-10-21T01:25:00Z",
-          "stop": "2026-10-21T01:51:00Z",
-          "description": "Radosti a strasti života víry. Magazín nejen pro věřící (2019). Uvádí P. Oppeltová",
-          "category": "Náboženské"
-        },
-        {
-          "title": "Tovačovské souvislosti",
-          "start": "2026-10-21T01:50:00Z",
-          "stop": "2026-10-21T02:16:00Z",
-          "description": "Hanácká národní buditelka F. T. Emerencie Xavera Běhálková a odkaz jejího díla oživený souborem Hatě z Tovačova (2011). Režie M. Kačor",
-          "category": "Hudba"
-        },
-        {
-          "title": "Rodinné křižovatky",
-          "start": "2026-10-21T02:20:00Z",
-          "stop": "2026-10-21T02:46:00Z",
-          "description": "Své vrcholy i propady v životě má každý, ty Janiny byly ale obzvlášť těžké (2007). Režie J. Vanýsek",
-          "category": "Magazíny"
-        },
-        {
-          "title": "Cesty víry",
-          "start": "2026-10-21T02:50:00Z",
-          "stop": "2026-10-21T03:16:00Z",
-          "description": "Staré kláštery a nová doba s novými výzvami. Dokument J. Fišera",
-          "category": "Dokumenty"
-        },
-        {
-          "title": "Dobrodružství vědy a techniky",
-          "start": "2026-10-21T03:15:00Z",
-          "stop": "2026-10-21T03:43:00Z",
-          "description": "Lidský mozek jako mistr improvizace. Německý dokument z cyklu Tajemství mozku",
-          "category": "Vzdělávání"
-        },
-        {
-          "title": "Zprávy v českém znakovém jazyce",
-          "start": "2026-10-21T03:45:00Z",
-          "stop": "2026-10-21T03:55:00Z",
-          "description": null,
-          "category": "Zpravodajství"
-        },
         {
           "title": "Dobré ráno",
           "start": "2026-10-21T03:59:00Z",
@@ -5155,8 +5120,8 @@
         },
         {
           "title": "Občanské noviny",
-          "start": "2026-10-27T11:38:00Z",
-          "stop": "2026-10-27T11:46:00Z",
+          "start": "2026-10-27T11:39:00Z",
+          "stop": "2026-10-27T11:47:00Z",
           "description": "Představujeme občanské iniciativy, které bdí nad ochranou životního prostředí a dobrou správou věcí ve veřejném zájmu - kdo vám pomůže?",
           "category": "Publicistika"
         },
@@ -5355,6 +5320,300 @@
           "stop": "2026-10-28T04:55:00Z",
           "description": null,
           "category": "Zpravodajství"
+        },
+        {
+          "title": "Blyštivá historie Amalfitánského pobřeží",
+          "start": "2026-10-28T05:00:00Z",
+          "stop": "2026-10-28T05:43:00Z",
+          "description": "Pobřeží na jihozápadě Itálie okouzluje svou jedinečnou atmosférou a uměním žít ve stylu „la dolce vita“. Německý dokument",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "V kůži římského legionáře",
+          "start": "2026-10-28T05:45:00Z",
+          "stop": "2026-10-28T06:37:00Z",
+          "description": "Ačkoliv se legie skládala z 5 000 vojáků, základní jednotkou bylo tzv. contubernium, skupina osmi spolubydlících z kasáren či stanů. Jak probíhal jejich všední den? Závěrečná část dvoudílného francouzského dokumentu",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Jak se dorozumívají zvířata",
+          "start": "2026-10-28T06:40:00Z",
+          "stop": "2026-10-28T07:32:00Z",
+          "description": "Živočichové po celém světě spolu neustále komunikují. Mnohdy ani netušíme, jak důmyslně se mezi sebou dokážou dorozumět. Každý druh má svůj vlastní jedinečný a svébytný jazyk. Co si však zvířata navzájem sdělují? A jakým způsobem si vyměňují informace? Německý dokument",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Postřehy odjinud",
+          "start": "2026-10-28T07:30:00Z",
+          "stop": "2026-10-28T07:35:00Z",
+          "description": "Příběh lipicánů",
+          "category": "Zábava"
+        },
+        {
+          "title": "Tajná nacistická věda",
+          "start": "2026-10-28T07:40:00Z",
+          "stop": "2026-10-28T08:25:00Z",
+          "description": "Obyvatele východolondýnské čtvrti Mile End probudilo 13. 6. 1944 ve 04:25 podivné bzučení. Vzápětí ulicí otřásla ohromná exploze a děsivý výbuch za sebou zanechal šest mrtvých a desítky zraněných nevinných lidí. Kanadský dokumentární cyklus",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Mládí Viléma Dobyvatele",
+          "start": "2026-10-28T08:25:00Z",
+          "stop": "2026-10-28T09:17:00Z",
+          "description": "Jak se z „bastarda“ stal jeden z nejúspěšnějších vojevůdců dějin? Francouzské dokudrama",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Asteroidy, život a smrt z vesmíru",
+          "start": "2026-10-28T09:20:00Z",
+          "stop": "2026-10-28T10:12:00Z",
+          "description": "Proč jsou asteroidy pro nás tak důležité, co nám říkají o Sluneční soustavě a o našem původu? Jak velkou hrozbu pro nás představují, pokud by naši planetu zasáhly? Francouzský dokument",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Loď",
+          "start": "2026-10-28T10:15:00Z",
+          "stop": "2026-10-28T11:17:00Z",
+          "description": "Uljanik, kdysi rodiště stovek impozantních lodí, se stal hřbitovem opuštěných dílen, ocelových vraků a nepojízdných jeřábů. Vítězný snímek Mezinárodního festivalu dokumentárních filmů Ji. hlava 2023",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Půvab rakouských hor II",
+          "start": "2026-10-28T11:20:00Z",
+          "stop": "2026-10-28T12:06:00Z",
+          "description": "Krásu severní části východního Štýrska umocňují malebné vesničky a bujné alpské louky. Rakouský dokumentární cyklus",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Balkánem nahoru a dolů s Adamem Ondrou",
+          "start": "2026-10-28T12:10:00Z",
+          "stop": "2026-10-28T12:36:00Z",
+          "description": "Zátoky, pláže a památky modrého Jadranu zná skoro každý Čech, ale ve skalách těsně nad mořem už byl jen málokdo! Adam opět předvádí výkony na hranici lidských možností (2018). Režie P. Horký",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Tenkrát byl Bůh příliš vysoko...",
+          "start": "2026-10-28T12:35:00Z",
+          "stop": "2026-10-28T13:15:00Z",
+          "description": "Dokumentární snímek s hranými pasážemi připomíná příběhy legionářů v období vzniku Československa a mocenských bojů v Rusku (2008). Připravili H. Všelichová a Z. Všelicha",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Tenkrát byl Bůh příliš vysoko... a neodpovídal",
+          "start": "2026-10-28T13:15:00Z",
+          "stop": "2026-10-28T13:55:00Z",
+          "description": "Pokračování dokumentárního snímku s hranými pasážemi připomíná příběhy legionářů v období vzniku Československa a mocenských bojů v Rusku (2008). Připravili H. Všelichová a Z. Všelicha",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Bohoslužby v České televizi",
+          "start": "2026-10-28T14:00:00Z",
+          "stop": "2026-10-28T15:00:00Z",
+          "description": "Přímý přenos slavnostní ekumenické bohoslužby z Vojenského kostela sv. Jana Nepomuckého v Praze. Představitelé církví v České republice si připomenou vznik samostatného Československa. Režie J. Rásocha",
+          "category": "Náboženské"
+        },
+        {
+          "title": "Vznik Československa",
+          "start": "2026-10-28T15:00:00Z",
+          "stop": "2026-10-28T15:03:00Z",
+          "description": "Vzácné archivní filmové záběry z přelomové události našich dějin (2000). Režie P. Vantuch",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Jak se boří monarchie",
+          "start": "2026-10-28T15:05:00Z",
+          "stop": "2026-10-28T15:57:00Z",
+          "description": "Místa, lidé a dramatické události, které jsou spojené s odbojovou činností T. G. Masaryka za první světové války. Dokumentární road movie historiků Dagmar Hájkové a Pavla Helana uvádíme k výročí vzniku samostatného Československa (2018). Režie Z. Pojman",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Hledání ztraceného času",
+          "start": "2026-10-28T16:00:00Z",
+          "stop": "2026-10-28T16:18:00Z",
+          "description": "Počátky samostatné republiky očima filmových kamer (1998). Režie P. Vantuch",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Delfíni",
+          "start": "2026-10-28T16:20:00Z",
+          "stop": "2026-10-28T16:44:00Z",
+          "description": "Obratní akrobati předvádějí obdivuhodné kousky. Japonský dokumentární cyklus",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Kurt Gödel - logik proti šílenství",
+          "start": "2026-10-28T16:45:00Z",
+          "stop": "2026-10-28T17:37:00Z",
+          "description": "Příběh génia bojujícího s duševní nemocí v šíleném 20. století. Osud muže, který došel až k samotným hranicím rozumu, v dokumentu J. Mudry. Jeden z nejvýznamnějších logiků všech dob se narodil před 120 lety",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Příběhy staveb",
+          "start": "2026-10-28T17:40:00Z",
+          "stop": "2026-10-28T17:48:00Z",
+          "description": "Nejzajímavější stavební projekty realizované na našem území od vzniku samostatné České republiky. Připravili P. Miškejová a S. Schneeweis",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Klima v souvislostech",
+          "start": "2026-10-28T17:50:00Z",
+          "stop": "2026-10-28T18:05:00Z",
+          "description": "Klíčové dopady klimatické změny pod drobnohledem. Jak posílit klimatickou odolnost české krajiny i tuzemských měst a obcí. Premiérový díl nového publicistického cyklu. Připravili M. Žák a D. Tichý",
+          "category": "Vzdělávání"
+        },
+        {
+          "title": "Vltava, naše řeka",
+          "start": "2026-10-28T18:05:00Z",
+          "stop": "2026-10-28T18:14:00Z",
+          "description": "Cyklus s Václavem Cílkem se soustředí na historicky cenné lokality v okolí toku Vltavy. Připravil M. Hrdý",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Vltava, naše řeka",
+          "start": "2026-10-28T18:15:00Z",
+          "stop": "2026-10-28T18:25:00Z",
+          "description": "Cyklus s Václavem Cílkem se soustředí na historicky cenné lokality v okolí toku Vltavy. Připravil M. Hrdý",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Metuzalém",
+          "start": "2026-10-28T18:25:00Z",
+          "stop": "2026-10-28T18:40:00Z",
+          "description": "Jak úspěšně stárnout. Eseje F. Koukolíka (2012). Připravil O. Reif",
+          "category": "Vzdělávání"
+        },
+        {
+          "title": "Postřehy odjinud",
+          "start": "2026-10-28T18:40:00Z",
+          "stop": "2026-10-28T18:45:00Z",
+          "description": "Jak slaví Baskové",
+          "category": "Zábava"
+        },
+        {
+          "title": "Zprávy v českém znakovém jazyce",
+          "start": "2026-10-28T18:50:00Z",
+          "stop": "2026-10-28T19:00:00Z",
+          "description": null,
+          "category": "Zpravodajství"
+        },
+        {
+          "title": "Itálie z výšky",
+          "start": "2026-10-28T19:00:00Z",
+          "stop": "2026-10-28T19:43:00Z",
+          "description": "Ostrovy v okolí Apeninského poloostrova nabízí rozmanitý svět, ve kterém nechybí stopy po pradávné civilizaci, věznice, kde si trest odpykávali nebezpeční mafiáni, nebo nebezpečné sopky. Americký dokumentární cyklus",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Bedekr XII",
+          "start": "2026-10-28T19:50:00Z",
+          "stop": "2026-10-28T20:16:00Z",
+          "description": "Jednu z nejkrásnějších vinařských oblastí v Evropě vám přiblíží Ivana Jirešová a Martin Písařík v nové řadě cestovatelského cyklu",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Tobruk",
+          "start": "2026-10-28T20:20:00Z",
+          "stop": "2026-10-28T21:59:00Z",
+          "description": "O lidské touze přežít a o osudech vojáků 11. československého pěšího praporu na podzim 1941. Koprodukční snímek ČT (2008). Hrají: J. Meduna, P. Vaněk, R. Nebřenský, M. Novotný, P. Stach, P. Lněnička, M. Hádek, A. Polák, K. Rímský, M. Nahálka, R. Fiala, M. Krátký, P. Halberstadt a další. Kamera V. Smutný. Scénář a režie V. Marhoul",
+          "category": "Filmy"
+        },
+        {
+          "title": "Predátoři",
+          "start": "2026-10-28T22:00:00Z",
+          "stop": "2026-10-28T23:33:00Z",
+          "description": "Je sexuální násilí na mladistvých opravdu tím správným tématem pro televizní show? Celovečerní americký dokument uvedený na Mezinárodním festivalu dokumentárních filmů Ji. hlava 2025",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Inženýři budoucnosti",
+          "start": "2026-10-28T23:35:00Z",
+          "stop": "2026-10-29T00:20:00Z",
+          "description": "V jižní části Nizozemska se uvnitř obrovské průmyslové haly montuje mimořádné vozidlo. Mohlo by pomoci zmírnit klimatickou změnu a zároveň revolučním způsobem proměnit dopravu. Vypadá jako běžné rodinné auto, jenže tento vůz je poháněn sluncem. Britský dokumentární cyklus",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Na cestě po novozélandském Te Wahipounamu",
+          "start": "2026-10-29T00:20:00Z",
+          "stop": "2026-10-29T00:46:00Z",
+          "description": "S Jiřím Bartoškou a Miroslavem Donutilem pěšky, lodí, na kajaku i vrtulníkem na cestě po panenské přírodě jihozápadu Nového Zélandu, nad zasněžené vrcholky hor, do věčně zelené džungle i mezi houževnaté farmáře (2022). Režie J. Freiwald",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Japonská dílna",
+          "start": "2026-10-29T00:50:00Z",
+          "stop": "2026-10-29T01:03:00Z",
+          "description": "Manželé Irena a Hirofumi Hirai v dokumentárním cyklu Babylon (2013)",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Lidé na hranici",
+          "start": "2026-10-29T01:00:00Z",
+          "stop": "2026-10-29T01:26:00Z",
+          "description": "Česko-slovenské příhraničí je už po staletí jedinečným prostorem, ve kterém se potkávají dva národy. Pojďme se podívat za lidmi, kteří si v těchto místech vybrali za své povolání a poslání otevírat svět dětem (2023)",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "České zázraky II",
+          "start": "2026-10-29T01:30:00Z",
+          "stop": "2026-10-29T01:56:00Z",
+          "description": "Změnil celý textilní průmysl a nezlomila jej ani komunistická státní bezpečnost. Tryskový stav – převratný vynález Vladimíra Svatého se používá dodnes. Dokumentární cyklus o Češích, kteří změnili svět. Režie P. Všelichová",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Přísně tajné vraždy",
+          "start": "2026-10-29T01:55:00Z",
+          "stop": "2026-10-29T02:09:00Z",
+          "description": "Místo pro svobodu si vězeň František Kulda doběhl pro smrt. Přesně tak, jak si to dozorci v lágru přáli. Odhalujeme viníky případů, které měly zůstat zapomenuty (2010). Režie J. Novák",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Hranice dokořán - Rozmówki polsko-czeskie",
+          "start": "2026-10-29T02:10:00Z",
+          "stop": "2026-10-29T02:35:00Z",
+          "description": "Pořad o problémech, radostech a spolupráci v příhraničních oblastech podél společné česko-polské hranice (2011)",
+          "category": "Publicistika"
+        },
+        {
+          "title": "Folklorní výlety",
+          "start": "2026-10-29T02:35:00Z",
+          "stop": "2026-10-29T03:01:00Z",
+          "description": "Když děti najdou svoji partu ve folklorním souboru, jako jsou chrudimská Kuřátka, a žijí horáckými tradicemi (2013)",
+          "category": "Magazíny"
+        },
+        {
+          "title": "Česká stopa na Istrii",
+          "start": "2026-10-29T03:05:00Z",
+          "stop": "2026-10-29T03:23:00Z",
+          "description": "Pastor Jiří Dohnal a jeho působení v Rovinji (2013)",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Dempír, empír a baroko",
+          "start": "2026-10-29T03:20:00Z",
+          "stop": "2026-10-29T03:46:00Z",
+          "description": "Když kastelánovi Miloši Dempírovi nestačil hrad Svojanov, pořídil si k tomu vlastní barokní zámek v Polákách (2022). Připravila T. Brázdová",
+          "category": "Publicistika"
+        },
+        {
+          "title": "Babylon",
+          "start": "2026-10-29T03:50:00Z",
+          "stop": "2026-10-29T04:17:00Z",
+          "description": "Syrský fotograf a liberecký patriot Ibrahim Al Sulaiman a ostravská herečka Marie Pištěková, kterou životní role Johanky z Arku zavedla do Francie. Dva portréty v dokumentárním cyklu o lidech, kteří žijí jinde, než kde jsou jejich kořeny",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Klenoty příhraničí",
+          "start": "2026-10-29T04:15:00Z",
+          "stop": "2026-10-29T04:41:00Z",
+          "description": "Na východní Moravě a západním Slovensku se do odboje na konci 2. světové války zapojilo mnoho statečných místních obyvatel (2023). Ve společné dokumentární cestopisné sérii se Česká televize a RTVS věnují dávným příběhům, které se odehrály na obou stranách česko-slovenské hranice. Připravil M. Kaboš",
+          "category": "Dokumenty"
+        },
+        {
+          "title": "Zprávy v českém znakovém jazyce",
+          "start": "2026-10-29T04:45:00Z",
+          "stop": "2026-10-29T04:55:00Z",
+          "description": null,
+          "category": "Zpravodajství"
         }
       ]
     },
@@ -5365,198 +5624,9 @@
       "source": "Česká televize (API)",
       "programmes": [
         {
-          "title": "Panorama",
-          "start": "2026-10-20T05:35:00Z",
-          "stop": "2026-10-20T06:05:00Z",
-          "description": "Aktuální povětrnostní zpravodajství pohledem panoramatických kamer",
-          "category": null
-        },
-        {
-          "title": "BBV po 25 letech",
-          "start": "2026-10-20T06:10:00Z",
-          "stop": "2026-10-20T06:23:00Z",
-          "description": "Takové bylo sportovní zpravodajství před čtvrtstoletím...",
-          "category": "Sport"
-        },
-        {
-          "title": "Dostihy ČR 2026",
-          "start": "2026-10-20T06:25:00Z",
-          "stop": "2026-10-20T07:43:00Z",
-          "description": "Záznam z dostihového odpoledne",
-          "category": "Sport"
-        },
-        {
-          "title": "Sokolský zpravodaj",
-          "start": "2026-10-20T07:45:00Z",
-          "stop": "2026-10-20T07:54:00Z",
-          "description": "Aktuality ze sokolského hnutí",
-          "category": "Sport"
-        },
-        {
-          "title": "Volejbalový magazín",
-          "start": "2026-10-20T07:55:00Z",
-          "stop": "2026-10-20T08:11:00Z",
-          "description": "Novinky a aktuální informace",
-          "category": "Sport"
-        },
-        {
-          "title": "Tipsport ELH 2026/2027",
-          "start": "2026-10-20T08:15:00Z",
-          "stop": "2026-10-20T09:58:00Z",
-          "description": "Záznam utkání 12. kola nejvyšší ligy mužů - jen hra",
-          "category": "Sport"
-        },
-        {
-          "title": "Panorama",
-          "start": "2026-10-20T10:05:00Z",
-          "stop": "2026-10-20T10:20:00Z",
-          "description": "Aktuální povětrnostní zpravodajství pohledem panoramatických kamer",
-          "category": null
-        },
-        {
-          "title": "Sportovní zprávy",
-          "start": "2026-10-20T10:25:00Z",
-          "stop": "2026-10-20T10:50:00Z",
-          "description": "Výsledky, informace, aktuality",
-          "category": "Sport"
-        },
-        {
-          "title": "Cyklotoulky",
-          "start": "2026-10-20T10:55:00Z",
-          "stop": "2026-10-20T11:05:00Z",
-          "description": "Vydejte se s námi za těmi nejkrásnějšími místy v České republice. Tentokrát navštívíme Luhačovice, tak neváhejte a pojeďte s námi!",
-          "category": "Sport"
-        },
-        {
-          "title": "FORTUNA LYGA 2026/2027",
-          "start": "2026-10-20T11:05:00Z",
-          "stop": "2026-10-20T12:47:00Z",
-          "description": "Záznam utkání 8. kola nejvyšší ligy žen - jen hra",
-          "category": "Sport"
-        },
-        {
-          "title": "ČT Author Cup 2026",
-          "start": "2026-10-20T12:55:00Z",
-          "stop": "2026-10-20T13:15:00Z",
-          "description": "Souhrn průběhu závodu",
-          "category": "Sport"
-        },
-        {
-          "title": "Sportovní legendy",
-          "start": "2026-10-20T13:20:00Z",
-          "stop": "2026-10-20T13:30:00Z",
-          "description": "Medailon bývalého československého fotbalového reprezentanta, držitele zlaté medaile z OH 1980 a bronzové z ME 1980",
-          "category": "Sport"
-        },
-        {
-          "title": "Chance Národní Liga 2026/2027",
-          "start": "2026-10-20T13:35:00Z",
-          "stop": "2026-10-20T15:10:00Z",
-          "description": "Záznam utkání 11. kola druhé nejvyšší ligy mužů - jen hra",
-          "category": "Sport"
-        },
-        {
-          "title": "ME v korfbalu 2026 Česko",
-          "start": "2026-10-20T15:20:00Z",
-          "stop": "2026-10-20T17:03:00Z",
-          "description": "Přímý přenos utkání čtvrtfinálové skupiny (Prostějov)",
-          "category": "Sport"
-        },
-        {
-          "title": "Sportovní legendy",
-          "start": "2026-10-20T17:10:00Z",
-          "stop": "2026-10-20T17:20:00Z",
-          "description": "Medailon bývalého českého házenkáře a později i trenéra, držitele stříbrné medaile z OH 1972 v Mnichově",
-          "category": "Sport"
-        },
-        {
-          "title": "Chance Extraliga 2026/2027",
-          "start": "2026-10-20T17:20:00Z",
-          "stop": "2026-10-20T19:05:00Z",
-          "description": "Přímý přenos utkání 7. kola nejvyšší ligy mužů",
-          "category": "Sport"
-        },
-        {
-          "title": "The Fish & Egoland - The Great Marmolada",
-          "start": "2026-10-20T19:15:00Z",
-          "stop": "2026-10-20T19:53:00Z",
-          "description": "Dokument sledující Adama Ondru při úspěšném přelezu extrémní cesty v italských Dolomitech",
-          "category": "Sport"
-        },
-        {
-          "title": "MS v beach sprintu 2026",
-          "start": "2026-10-20T20:00:00Z",
-          "stop": "2026-10-20T21:00:00Z",
-          "description": "Záznam finálových závodů (Čching-tao)",
-          "category": "Sport"
-        },
-        {
-          "title": "Liga mistrů UEFA 2026/2027",
-          "start": "2026-10-20T21:00:00Z",
-          "stop": "2026-10-20T21:40:00Z",
-          "description": "Sestřih utkání 3. kola",
-          "category": "Sport"
-        },
-        {
-          "title": "Archiv D",
-          "start": "2026-10-20T21:45:00Z",
-          "stop": "2026-10-20T22:02:00Z",
-          "description": "Sláva vítězům\nDokument z roku 2002 o české rodačce, nejúspěšnější tenistce všech dob",
-          "category": "Sport"
-        },
-        {
-          "title": "Branky, body, vteřiny",
-          "start": "2026-10-20T22:05:00Z",
-          "stop": "2026-10-20T22:15:00Z",
-          "description": null,
-          "category": "Sport"
-        },
-        {
-          "title": "ME v korfbalu 2026 Česko",
-          "start": "2026-10-20T22:20:00Z",
-          "stop": "2026-10-21T00:05:00Z",
-          "description": "Záznam utkání čtvrtfinálové skupiny (Prostějov)",
-          "category": "Sport"
-        },
-        {
-          "title": "Branky, body, vteřiny",
-          "start": "2026-10-21T00:05:00Z",
-          "stop": "2026-10-21T00:15:00Z",
-          "description": null,
-          "category": "Sport"
-        },
-        {
-          "title": "Chance Extraliga 2026/2027",
-          "start": "2026-10-21T00:20:00Z",
-          "stop": "2026-10-21T02:10:00Z",
-          "description": "Záznam utkání 7. kola nejvyšší ligy mužů",
-          "category": "Sport"
-        },
-        {
-          "title": "Dostihy ČR 2026",
-          "start": "2026-10-21T02:10:00Z",
-          "stop": "2026-10-21T03:28:00Z",
-          "description": "Záznam z dostihového odpoledne",
-          "category": "Sport"
-        },
-        {
-          "title": "Cyklotoulky",
-          "start": "2026-10-21T03:35:00Z",
-          "stop": "2026-10-21T03:45:00Z",
-          "description": "Vydejte se s námi za těmi nejkrásnějšími místy v České republice. Tentokrát navštívíme Luhačovice, tak neváhejte a pojeďte s námi!",
-          "category": "Sport"
-        },
-        {
-          "title": "Branky, body, vteřiny",
-          "start": "2026-10-21T03:45:00Z",
-          "stop": "2026-10-21T03:55:00Z",
-          "description": null,
-          "category": "Sport"
-        },
-        {
           "title": "Livesport Superliga 2026/2027",
           "start": "2026-10-21T04:00:00Z",
-          "stop": "2026-10-21T06:09:00Z",
+          "stop": "2026-10-21T05:58:00Z",
           "description": "Záznam utkání 8. kola nejvyšší ligy mužů",
           "category": "Sport"
         },
@@ -5626,28 +5696,28 @@
         {
           "title": "ME v korfbalu 2026 Česko",
           "start": "2026-10-21T10:55:00Z",
-          "stop": "2026-10-21T12:40:00Z",
+          "stop": "2026-10-21T12:31:00Z",
           "description": "Záznam utkání čtvrtfinálové skupiny (Prostějov)",
           "category": "Sport"
         },
         {
           "title": "Chance Extraliga 2026/2027",
           "start": "2026-10-21T12:40:00Z",
-          "stop": "2026-10-21T14:30:00Z",
+          "stop": "2026-10-21T14:37:00Z",
           "description": "Záznam utkání 7. kola nejvyšší ligy mužů",
           "category": "Sport"
         },
         {
           "title": "Liga mistrů UEFA 2026/2027",
           "start": "2026-10-21T14:30:00Z",
-          "stop": "2026-10-21T15:10:00Z",
+          "stop": "2026-10-21T15:16:00Z",
           "description": "Sestřih utkání 3. kola",
           "category": "Sport"
         },
         {
           "title": "Maxa liga 2026/2027",
           "start": "2026-10-21T15:15:00Z",
-          "stop": "2026-10-21T17:56:00Z",
+          "stop": "2026-10-21T17:49:00Z",
           "description": "Přímý přenos utkání 15. kola druhé nejvyšší ligy mužů",
           "category": "Sport"
         },
@@ -5766,7 +5836,7 @@
         {
           "title": "Chance Extraliga 2026/2027",
           "start": "2026-10-22T07:05:00Z",
-          "stop": "2026-10-22T08:55:00Z",
+          "stop": "2026-10-22T09:02:00Z",
           "description": "Záznam utkání 7. kola nejvyšší ligy mužů",
           "category": "Sport"
         },
@@ -5850,7 +5920,7 @@
         {
           "title": "ČEZ Extraliga muži 2026/2027",
           "start": "2026-10-22T15:50:00Z",
-          "stop": "2026-10-22T18:49:00Z",
+          "stop": "2026-10-22T18:44:00Z",
           "description": "Přímý přenos utkání 2. kola nejvyšší ligy",
           "category": "Sport"
         },
@@ -6046,14 +6116,14 @@
         {
           "title": "Chance Národní Liga 2026/2027",
           "start": "2026-10-23T15:20:00Z",
-          "stop": "2026-10-23T17:45:00Z",
+          "stop": "2026-10-23T17:44:00Z",
           "description": "Přímý přenos utkání 12. kola druhé nejvyšší ligy mužů",
           "category": "Sport"
         },
         {
           "title": "Přípravné utkání žen 2026",
           "start": "2026-10-23T17:50:00Z",
-          "stop": "2026-10-23T19:20:00Z",
+          "stop": "2026-10-23T19:15:00Z",
           "description": "Záznam (Most)",
           "category": "Sport"
         },
@@ -6263,7 +6333,7 @@
         {
           "title": "ME tackle mužů 2026/2027",
           "start": "2026-10-24T19:25:00Z",
-          "stop": "2026-10-24T21:45:00Z",
+          "stop": "2026-10-24T21:44:00Z",
           "description": "Záznam utkání (Přerov)",
           "category": "Sport"
         },
@@ -6368,7 +6438,7 @@
         {
           "title": "FORTUNA LYGA 2026/2027",
           "start": "2026-10-25T09:50:00Z",
-          "stop": "2026-10-25T12:10:00Z",
+          "stop": "2026-10-25T12:05:00Z",
           "description": "Přímý přenos utkání 9. kola nejvyšší ligy žen",
           "category": "Sport"
         },
@@ -6396,7 +6466,7 @@
         {
           "title": "Tipsport ELH 2026/2027",
           "start": "2026-10-25T15:30:00Z",
-          "stop": "2026-10-25T18:43:00Z",
+          "stop": "2026-10-25T18:50:00Z",
           "description": "Přímý přenos utkání 14. kola nejvyšší ligy mužů",
           "category": "Sport"
         },
@@ -6845,6 +6915,181 @@
           "title": "Branky, body, vteřiny",
           "start": "2026-10-28T04:45:00Z",
           "stop": "2026-10-28T04:55:00Z",
+          "description": null,
+          "category": "Sport"
+        },
+        {
+          "title": "ME v curlingu žen 2026 Česko",
+          "start": "2026-10-28T05:00:00Z",
+          "stop": "2026-10-28T07:00:00Z",
+          "description": "Záznam utkání základní skupiny (Ostrava)",
+          "category": "Sport"
+        },
+        {
+          "title": "Panorama",
+          "start": "2026-10-28T07:05:00Z",
+          "stop": "2026-10-28T07:35:00Z",
+          "description": "Aktuální povětrnostní zpravodajství pohledem panoramatických kamer",
+          "category": null
+        },
+        {
+          "title": "BBV po 25 letech",
+          "start": "2026-10-28T07:40:00Z",
+          "stop": "2026-10-28T07:55:00Z",
+          "description": "Takové bylo sportovní zpravodajství před čtvrtstoletím...",
+          "category": "Sport"
+        },
+        {
+          "title": "Tipsport ELH 2026/2027",
+          "start": "2026-10-28T07:55:00Z",
+          "stop": "2026-10-28T09:05:00Z",
+          "description": "Podrobně o dění v nejvyšší lize mužů",
+          "category": "Sport"
+        },
+        {
+          "title": "Sokolský běh republiky 2026",
+          "start": "2026-10-28T09:10:00Z",
+          "stop": "2026-10-28T09:20:00Z",
+          "description": "Aktuální informace z oslav vzniku Československa",
+          "category": "Sport"
+        },
+        {
+          "title": "Sportovní aerobik ČR 2026",
+          "start": "2026-10-28T09:20:00Z",
+          "stop": "2026-10-28T10:20:00Z",
+          "description": "Ohlédnutí za domácím šampionátem",
+          "category": "Sport"
+        },
+        {
+          "title": "Ironman 2026 USA",
+          "start": "2026-10-28T10:20:00Z",
+          "stop": "2026-10-28T10:40:00Z",
+          "description": "Ohlédnutí za závodem",
+          "category": "Sport"
+        },
+        {
+          "title": "Sokolský běh republiky 2026",
+          "start": "2026-10-28T10:45:00Z",
+          "stop": "2026-10-28T10:55:00Z",
+          "description": "Aktuální informace z oslav vzniku Československa",
+          "category": "Sport"
+        },
+        {
+          "title": "ME v curlingu mužů 2026 Česko",
+          "start": "2026-10-28T11:00:00Z",
+          "stop": "2026-10-28T13:00:00Z",
+          "description": "Přímý přenos utkání základní skupiny (Ostrava)",
+          "category": "Sport"
+        },
+        {
+          "title": "Dostihy ČR 2026",
+          "start": "2026-10-28T13:00:00Z",
+          "stop": "2026-10-28T14:00:00Z",
+          "description": "Přímý přenos z dostihového odpoledne",
+          "category": "Sport"
+        },
+        {
+          "title": "Sokolský běh republiky 2026",
+          "start": "2026-10-28T14:00:00Z",
+          "stop": "2026-10-28T14:05:00Z",
+          "description": "Aktuální informace z oslav vzniku Československa",
+          "category": "Sport"
+        },
+        {
+          "title": "Maxa liga 2026/2027",
+          "start": "2026-10-28T14:05:00Z",
+          "stop": "2026-10-28T16:42:00Z",
+          "description": "Přímý přenos utkání 18. kola druhé nejvyšší ligy mužů",
+          "category": "Sport"
+        },
+        {
+          "title": "Sokolský běh republiky 2026",
+          "start": "2026-10-28T16:45:00Z",
+          "stop": "2026-10-28T16:50:00Z",
+          "description": "Aktuální informace z oslav vzniku Československa",
+          "category": "Sport"
+        },
+        {
+          "title": "Euro Hockey Tour žen 2026/2027",
+          "start": "2026-10-28T16:50:00Z",
+          "stop": "2026-10-28T19:25:00Z",
+          "description": "Přímý přenos utkání Lidl Hockey Games (Švédsko, Södertälje)",
+          "category": "Sport"
+        },
+        {
+          "title": "ME v curlingu mužů 2026 Česko",
+          "start": "2026-10-28T19:30:00Z",
+          "stop": "2026-10-28T21:30:00Z",
+          "description": "Přenos utkání základní skupiny (Ostrava)",
+          "category": "Sport"
+        },
+        {
+          "title": "Svět motorů",
+          "start": "2026-10-28T21:35:00Z",
+          "stop": "2026-10-28T22:35:00Z",
+          "description": "Aktuality z domácího i světového motorsportu",
+          "category": "Sport"
+        },
+        {
+          "title": "Maxa liga 2026/2027",
+          "start": "2026-10-28T22:40:00Z",
+          "stop": "2026-10-28T23:00:00Z",
+          "description": "Sestřih utkání druhé nejvyšší ligy mužů",
+          "category": "Sport"
+        },
+        {
+          "title": "Branky, body, vteřiny",
+          "start": "2026-10-28T23:00:00Z",
+          "stop": "2026-10-28T23:10:00Z",
+          "description": null,
+          "category": "Sport"
+        },
+        {
+          "title": "Maxa liga 2026/2027",
+          "start": "2026-10-28T23:15:00Z",
+          "stop": "2026-10-29T01:09:00Z",
+          "description": "Záznam utkání 18. kola druhé nejvyšší ligy mužů - jen hra",
+          "category": "Sport"
+        },
+        {
+          "title": "Branky, body, vteřiny",
+          "start": "2026-10-29T01:10:00Z",
+          "stop": "2026-10-29T01:20:00Z",
+          "description": null,
+          "category": "Sport"
+        },
+        {
+          "title": "Euro Hockey Tour žen 2026/2027",
+          "start": "2026-10-29T01:25:00Z",
+          "stop": "2026-10-29T03:20:00Z",
+          "description": "Záznam utkání Lidl Hockey Games (Švédsko, Södertälje) - jen hra",
+          "category": "Sport"
+        },
+        {
+          "title": "Svět motorů",
+          "start": "2026-10-29T03:20:00Z",
+          "stop": "2026-10-29T04:20:00Z",
+          "description": "Aktuality z domácího i světového motorsportu",
+          "category": "Sport"
+        },
+        {
+          "title": "Cyklotoulky",
+          "start": "2026-10-29T04:25:00Z",
+          "stop": "2026-10-29T04:35:00Z",
+          "description": "Vydejte se s námi za těmi nejkrásnějšími místy v České republice. Tentokrát navštívíme obec Lipová-lázně, tak neváhejte a pojeďte s námi!",
+          "category": "Sport"
+        },
+        {
+          "title": "Sokolský zpravodaj",
+          "start": "2026-10-29T04:35:00Z",
+          "stop": "2026-10-29T04:44:00Z",
+          "description": "Aktuality ze sokolského hnutí",
+          "category": "Sport"
+        },
+        {
+          "title": "Branky, body, vteřiny",
+          "start": "2026-10-29T04:45:00Z",
+          "stop": "2026-10-29T04:55:00Z",
           "description": null,
           "category": "Sport"
         }
